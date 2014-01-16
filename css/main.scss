@@ -1,0 +1,15 @@
+$teal: #4aa0aa;
+
+body{
+  background: $teal;
+}
+
+.logo{
+  margin: 0 auto;
+  text-align: center;
+  img{
+  min-width: 320px;
+  max-width: 50%;
+  }
+
+}
