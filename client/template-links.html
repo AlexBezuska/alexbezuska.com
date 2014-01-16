@@ -1,0 +1,15 @@
+
+<template name="links">
+  <div class="links">
+    {{> externalLinks}}
+  </div>
+</template>
+
+
+<template name="externalLinks">
+  <div class="externalLinks">
+  {{#each externalLink}}
+    <a href="{{url}}" target="_blank"><span class='symbol'>{{iconfont}}</span></a>
+  {{/each}}
+</template>
+
