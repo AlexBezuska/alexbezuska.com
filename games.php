@@ -1,19 +1,8 @@
  <html>
 <head>
   <title>Alex Bezuska</title>
-  <link rel="stylesheet" href="css/main.css"/>
-</head>
 
-<body>
-
-<div class="logo normal"><a href="index.html"><img src="img/glasses.png"></a></div>
-
-  <nav class="normal">
-    <a href="http://blog.alexbezuska.com">Blog</a>
-    <a href="games.html">Games</a>
-   <!--<a href="http://portfolio.alexbezuska.com">Web Design</a>--> 
-   <a href="http://blog.alexbezuska.com/experiments/">Experiments</a>
-  </nav>
+  <? php include('header.php'); ?>
 
   <div class="games grid">
 
@@ -34,6 +23,6 @@
 
   </div>
 
+  <? php include('footer.php'); ?>
 
-  </body>
 </html>

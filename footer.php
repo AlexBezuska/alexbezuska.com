@@ -1,19 +1,3 @@
-<html>
-<head>
-  <title>Alex Bezuska</title>
-  <link rel="stylesheet" href="css/main.css"/>
-</head>
-
-<body>
-
-<div class="logo"><img src="img/glasses.png"></div>
-
-  <nav>
-    <a href="http://blog.alexbezuska.com">Blog</a>
-    <a href="games.html">Games</a>
-   <!--<a href="http://portfolio.alexbezuska.com">Web Design</a>--> 
-   <a href="http://blog.alexbezuska.com/experiments/">Experiments</a>
-  </nav>
 
 <div class="links">
     <div class="externalLinks">
@@ -28,7 +12,14 @@
   </div> <!--  .externalLinks -->
   </div> <!-- .links -->
 
+
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    window._gaq = [['_setAccount','UA-16421229-1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+  
 </body>
-</html>
-
-
