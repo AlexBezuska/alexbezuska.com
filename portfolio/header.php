@@ -70,7 +70,7 @@
 
 
 		<div id="phone" class="grid_3">
-			<a href="contact.php" title="Contact Alex Bezuska for a web design quote!">714.473.1337</a>
+			<a href="contact.php" title="Contact Alex Bezuska for a web design quote!">714.423.7411</a>
 		</div><!-- end #phone -->
 
 

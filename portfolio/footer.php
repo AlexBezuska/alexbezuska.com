@@ -15,8 +15,8 @@
    	<ul>
    		<li><a href="index.php">home</a></li>
    		<li><a href="webdesign.php">web design</a></li>
+      <li><a href="video_production.php">video production</a></li>
    		<li><a href="animation.php">animation</a></li>
-   		<li><a href="hosting.php">hosting</a></li>
    		<li><a href="contact.php">contact</a></li>
    	</ul>
    </nav> 
@@ -33,6 +33,6 @@
     });
   </script>
 
-  
+
 </body>
 </html>

@@ -66,15 +66,20 @@ Web Hosting - Simplified.
 <br>
     <h1>Who is this guy?</h1><br>
 
-    <p class="justify">I am a freelance web designer who works on a project-by-project basis.
+    <p class="justify">Hi, I'm Alex and I'm a web designer and independant game designer/developer.
 
-I live with my wife Melissa, and our dogs Cairo and Greg in Louisville, KY.
-I am originally from Orange County, CA and I still have many clients from that area.
-I do work both local and remote, and I am very comfortable working over the phone and via eMail.
+I live with my wife Melissa, and our dogs Cairo and Greg in Louisville, KY, but we are originally from Orange County, CA.
 
+I have a passion for art and design in many forms, and I am really excited when technology and art come together.
 
-I utilize  the latest in HTML, CSS, jQuery and Perch CMS. I do what is considered front-end web development, creating sites and making them look great.</p>
-<p class="centerinside">I am very adaptable, and can meet your needs!</p>
+That must be why I love making games, check out the independant game studio I started with my friend Eric: <a href="http://twoscoopgames.com" target="_blank"> Two Scoop Games </a>.
+
+I am self taught in every aspect of what I do, and I belive strongly that with passion and time I can learn jsut about anything.
+
+In order to motivate myself to continue to learn code, I started a JavaScript meetup group <a href="http://jslou.org" target="_blank">JSLou</a>, and it is really fun to watch this little community grow.
+
+I utilize the latest in HTML, CSS, JavaScript, jQuery and Wordpress. I do what is considered front-end web development, creating sites and making them look great.</p>
+<p class="centerinside">I am always open to new opportunities...!</p>
 
 <h3 class="centerinside"><img src="img/trusttheglasses.png" alt="Looking for a Reliable Freelance Web Designer?"></h3>
 </div><!-- end grid 8 -->

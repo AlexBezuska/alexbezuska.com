@@ -53,7 +53,7 @@ function phpfmg_form( $sErr = false ){
             <div class='col_label'>&nbsp;</div>
             <div class='form_submit_block col_field'>
 
-                <input type='image' src="http://www.alexbezuska.com/img/submit_btn.png"  class='form_button'>
+                <input type='image' src="../img/submit_btn.png"  class='form_button'>
                 <span id='phpfmg_processing' style='display:none;'>
                     <img id='phpfmg_processing_gif' src='<?php echo PHPFMG_ADMIN_URL . '?mod=image&amp;func=processing' ;?>' border=0 alt='Processing...'> 
                     <label id='phpfmg_processing_dots'></label>
