@@ -6,4 +6,4 @@
 
 <div class="logo normal"><a href="index.html"><img src="img/glasses.png"></a></div>
 
-<? php inlcude('nav.php'); ?>
+<?php inlcude('nav.php'); ?>

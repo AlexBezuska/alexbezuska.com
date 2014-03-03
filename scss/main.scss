@@ -1,0 +1,275 @@
+// colors
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+$teal: #4aa0aa;
+$grey: rgba(120,120,120, 1);
+$greyout: rgba(120,120,120, 0);
+
+// fonts
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body{
+  &.pageHome{ 
+    background: $teal; 
+    color: white;
+    a{
+      color: white;
+    }
+  }
+  &.pageAbout{ 
+    background: white;
+    color: $grey;
+    a{
+      color: $grey;
+    }
+  }
+  font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+}
+
+.logo{
+  &.normal{
+    margin: 20px auto;
+    text-align: center;
+    img{
+    width: 200px;
+    }
+  }
+  margin: 100px auto 20px auto;
+  text-align: center;
+  img{
+    min-width: 370px;
+    max-width: 50%;
+  }
+}
+
+
+  nav{
+    
+    text-align: center;
+
+    a{
+    text-transform: uppercase;
+
+    text-decoration: none;
+    padding: 2px 5px;
+    font-size: .8rem;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    line-height: 3.692307692;
+    text-transform: uppercase;
+    margin: 0 25px 0 25px; 
+    display: inline-block;
+    
+   }
+   
+  }
+
+
+.links{
+  text-align: center;
+  .externalLinks{
+    a{
+      margin: 0 10px;
+      text-decoration: none;
+      position: relative;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -ms-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out; 
+      transition: all .2s ease-in-out;
+      &:hover{
+         top: -5px; 
+         text-shadow: 0 10px 0px rgba(0,0,0,.2);    
+      }
+      .symbol{
+          font-family: 'Mono Social Icons Font';
+          -webkit-text-rendering: optimizeLegibility;
+          -moz-text-rendering: optimizeLegibility;
+          -ms-text-rendering: optimizeLegibility;
+          -o-text-rendering: optimizeLegibility;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+          -moz-font-smoothing: antialiased;
+          -ms-font-smoothing: antialiased;
+          -o-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+          font-size: 3.8rem;
+      } 
+    }
+  }
+}
+
+
+@mixin bp($point) {
+  @if $point == papa-bear {
+    @media (max-width: 1600px) { @content; }
+  }
+  @else if $point == mama-bear {
+    @media (max-width: 1250px) { @content; }
+  }
+  @else if $point == baby-bear {
+    @media (max-width: 600px)  { @content; }
+  }
+}
+
+
+/* Start Don't Overthink it Grids  */
+
+.grid{
+border: 1px dashed $greyout;
+  
+}
+
+.grid:after{
+  clear: both;
+  display: table;
+  content:"";
+}
+.module{
+  img{
+    max-width: 100%;
+  }
+  margin: 5px;
+  border: 1px dashed $greyout;
+}
+
+[class*='col'] { 
+  display: inline-block; 
+  float: left; 
+  padding-left: 5px; 
+  padding-right: 5px;
+  border: 1px dashed $greyout;
+}
+
+.col1-1{ width: 100%; }
+.col1-2{ width: 50%;  @include bp(mama-bear) {
+    width: 100%;
+  }}
+.col1-3{ width: 33.333%; 
+ @include bp(mama-bear) {
+    width: 100%;
+  }
+  }
+.col2-3{ width: 66.666%;  @include bp(mama-bear) {
+    width: 100%;
+  }}
+.col1-4{ width: 25%;  @include bp(mama-bear) {
+    width: 100%;
+  }}
+.col1-5{ width: 20%;  @include bp(mama-bear) {
+    width: 100%;
+  }}
+.col1-6{ width: 16.6666666667%;  @include bp(mama-bear) {
+    width: 100%;
+  }}
+
+/* End Don't Overthink it Grids  */
+           
+
+.page{
+  border: 1px dashed $greyout;
+  margin: 0 auto;
+  width: 90%;
+}
+
+p{
+  font-size: 1.1rem;
+}
+.callout{
+  font-style: italic;
+  font-size: 1.6rem;
+  margin: 0 8px 0 0;
+}
+.logo.module{
+  img{
+    max-width: 29%;
+    min-width: 200px;
+  }
+  h1{
+   font-weight: 100;
+   letter-spacing: .2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.social.module{
+  padding: 25px 0 0 0;
+}
+
+.interests.grid{
+  h3{
+    text-align: center;
+  }
+}
+
+.photo.module{
+  img{
+    margin: 1.2rem 0 0 0;
+  }
+}
+
+.chart.grid{
+  canvas{
+    margin: 0 auto;
+    display: inline-block;
+  
+  }
+   img{
+    margin: 0 auto;
+    display: block;
+  
+  }
+}
+
+// .dounutChart{
+//   width: 100px !important;
+//   height: 100px !important;
+// }
+
+// .softwareChart{
+// width: 450 !important; 
+// height: 200 !important;
+// }
+
+
+.connect.grid{
+  text-align: center;
+  .col1-3{
+  h2{
+    text-align: left;
+    width: intrinsic;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    em{
+      font-size: 22px;
+      margin: 0 
+    }
+  }
+    text-align: left;
+  }
+  h2{
+    text-align: left;
+    width: intrinsic;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    em{
+      font-size: 22px;
+      margin: 0 
+    }
+  }
+}

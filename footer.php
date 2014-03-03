@@ -1,16 +1,7 @@
 
-<div class="links">
-    <div class="externalLinks">
-  
-    <a href="http://www.twitter.com/alexbezuska" target="_blank"><span class="symbol">circletwitterbird</span></a>
-  
-    <a href="https://plus.google.com/110462190963356291926" target="_blank"><span class="symbol">circlegoogleplus</span></a>
-  
-    <a href="https://github.com/alexbezuska" target="_blank"><span class="symbol">circlegithubalt</span></a>
-  
-    <a href="https://youtube.com/abezuska" target="_blank"><span class="symbol">circleyoutube</span></a>
-  </div> <!--  .externalLinks -->
-  </div> <!-- .links -->
+<footer>
+ 
+</footer>
 
 
 
