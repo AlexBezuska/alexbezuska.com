@@ -1,8 +1,10 @@
 // colors
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300);
 $teal: #4aa0aa;
-$grey: rgba(120,120,120, 1);
+$grey: rgba(100,100,100, 1);
 $greyout: rgba(120,120,120, 0);
+
+@import"flexslider";
 
 // fonts
 @font-face {
@@ -120,7 +122,7 @@ body{
     @media (max-width: 1250px) { @content; }
   }
   @else if $point == baby-bear {
-    @media (max-width: 600px)  { @content; }
+    @media (max-width: 730px)  { @content; }
   }
 }
 
@@ -153,12 +155,15 @@ border: 1px dashed $greyout;
   border: 1px dashed $greyout;
 }
 
-.col1-1{ width: 100%; }
+.col1-1{ width: 100%; min-wdith: 450px; }
 .col1-2{ width: 50%;  @include bp(mama-bear) {
     width: 100%;
   }}
-.col1-3{ width: 33.333%; 
+.col1-3{ width: 33.333%;
  @include bp(mama-bear) {
+    width: 50%;
+  } 
+ @include bp(baby-bear) {
     width: 100%;
   }
   }
@@ -182,6 +187,12 @@ border: 1px dashed $greyout;
   border: 1px dashed $greyout;
   margin: 0 auto;
   width: 90%;
+   @include bp(mama-bear) {
+    width: 100%;
+  } 
+ @include bp(baby-bear) {
+    width: 100%;
+  }
 }
 
 p{
@@ -271,5 +282,34 @@ p{
       font-size: 22px;
       margin: 0 
     }
+  }
+}
+
+
+.sitebox{
+  text-align: center;
+  img.site{
+    margin: 0 auto;
+    max-width: 420px;
+    width: 100%;
+    border: 1px solid lighten($grey, 50%);
+     @include bp(baby-bear) {
+    max-width: 512px;
+  }
+  }
+  .featured{
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.youtube{
+  margin: 0 auto 25px auto;
+  display: block;
+}
+
+.fitvids{
+  .col1-2{
+    padding: 15px;
   }
 }
