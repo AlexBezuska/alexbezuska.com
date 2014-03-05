@@ -1,0 +1,30 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+  font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+  color: $grey;
+  &.home{
+    a{
+      color: white;
+    }
+  }
+}
+
+a{
+  color: $grey;
+}

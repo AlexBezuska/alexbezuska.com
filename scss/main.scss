@@ -1,43 +1,21 @@
-// colors
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
-$teal: #4aa0aa;
-$grey: rgba(100,100,100, 1);
-$greyout: rgba(120,120,120, 0);
 
+
+@import"colors";
+@import"typography";
 @import"flexslider";
+@import"home";
+@import"structure";
 
-// fonts
-@font-face {
-    font-family: 'Mono Social Icons Font';
-    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
-    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
-         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-* {-webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+
+
+
+
 
 body{
-  &.pageHome{ 
-    background: $teal; 
-    color: white;
-    a{
-      color: white;
-    }
+  &.home{
+    background: $dark-blue;
   }
-  &.pageAbout{ 
-    background: white;
-    color: $grey;
-    a{
-      color: $grey;
-    }
-  }
-  font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+    background: white; 
 }
 
 .logo{
@@ -56,26 +34,27 @@ body{
   }
 }
 
+p{
+    @include bp(baby-bear) {
+    text-align: justify;
+  }
+}
+
 
   nav{
-    
     text-align: center;
-
     a{
-    text-transform: uppercase;
-
-    text-decoration: none;
-    padding: 2px 5px;
-    font-size: .8rem;
-    font-weight: 200;
-    letter-spacing: .1rem;
-    line-height: 3.692307692;
-    text-transform: uppercase;
-    margin: 0 25px 0 25px; 
-    display: inline-block;
-    
-   }
-   
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 2px 5px;
+      font-size: .8rem;
+      font-weight: 200;
+      letter-spacing: .1rem;
+      line-height: 3.692307692;
+      text-transform: uppercase;
+      margin: 0 25px 0 25px; 
+      display: inline-block;
+    }
   }
 
 
@@ -114,95 +93,34 @@ body{
 }
 
 
-@mixin bp($point) {
-  @if $point == papa-bear {
-    @media (max-width: 1600px) { @content; }
-  }
-  @else if $point == mama-bear {
-    @media (max-width: 1250px) { @content; }
-  }
-  @else if $point == baby-bear {
-    @media (max-width: 730px)  { @content; }
-  }
-}
 
-
-/* Start Don't Overthink it Grids  */
-
-.grid{
-border: 1px dashed $greyout;
-  
-}
-
-.grid:after{
-  clear: both;
-  display: table;
-  content:"";
-}
-.module{
-  img{
-    max-width: 100%;
-  }
-  margin: 5px;
-  border: 1px dashed $greyout;
-}
-
-[class*='col'] { 
-  display: inline-block; 
-  float: left; 
-  padding-left: 5px; 
-  padding-right: 5px;
-  border: 1px dashed $greyout;
-}
-
-.col1-1{ width: 100%; min-wdith: 450px; }
-.col1-2{ width: 50%;  @include bp(mama-bear) {
-    width: 100%;
-  }}
-.col1-3{ width: 33.333%;
- @include bp(mama-bear) {
-    width: 50%;
-  } 
- @include bp(baby-bear) {
-    width: 100%;
-  }
-  }
-.col2-3{ width: 66.666%;  @include bp(mama-bear) {
-    width: 100%;
-  }}
-.col1-4{ width: 25%;  @include bp(mama-bear) {
-    width: 100%;
-  }}
-.col1-5{ width: 20%;  @include bp(mama-bear) {
-    width: 100%;
-  }}
-.col1-6{ width: 16.6666666667%;  @include bp(mama-bear) {
-    width: 100%;
-  }}
-
-/* End Don't Overthink it Grids  */
            
 
 .page{
   border: 1px dashed $greyout;
   margin: 0 auto;
   width: 90%;
-   @include bp(mama-bear) {
+  @include bp(mama-bear) {
     width: 100%;
   } 
- @include bp(baby-bear) {
+  @include bp(baby-bear) {
     width: 100%;
   }
 }
 
+
+
+
 p{
   font-size: 1.1rem;
 }
+
 .callout{
   font-style: italic;
   font-size: 1.6rem;
   margin: 0 8px 0 0;
 }
+
 .logo.module{
   img{
     max-width: 29%;
@@ -216,6 +134,8 @@ p{
   }
 }
 
+
+
 .social.module{
   padding: 25px 0 0 0;
 }
@@ -227,21 +147,25 @@ p{
 }
 
 .photo.module{
+  @include bp(papa-bear) {
+    overflow: hidden;
+  }
   img{
-    margin: 1.2rem 0 0 0;
+    margin: 1.2rem auto 0 auto;
+    display: block;
+   
   }
 }
+
 
 .chart.grid{
   canvas{
     margin: 0 auto;
     display: inline-block;
-  
   }
    img{
     margin: 0 auto;
     display: block;
-  
   }
 }
 
@@ -259,19 +183,19 @@ p{
 .connect.grid{
   text-align: center;
   .col1-3{
-  h2{
     text-align: left;
-    width: intrinsic;
-    display: block;
-    margin: 0 auto;
-    font-size: 18px;
-    em{
-      font-size: 22px;
-      margin: 0 
+    h2{
+      text-align: left;
+      width: intrinsic;
+      display: block;
+      margin: 0 auto;
+      font-size: 18px;
+      em{
+        font-size: 22px;
+        margin: 0 
+      }
     }
-  }
-    text-align: left;
-  }
+    }
   h2{
     text-align: left;
     width: intrinsic;
@@ -293,9 +217,9 @@ p{
     max-width: 420px;
     width: 100%;
     border: 1px solid lighten($grey, 50%);
-     @include bp(baby-bear) {
-    max-width: 512px;
-  }
+    @include bp(baby-bear) {
+      max-width: 512px;
+    }
   }
   .featured{
     margin: 0 auto;
@@ -308,8 +232,12 @@ p{
   display: block;
 }
 
+
 .fitvids{
   .col1-2{
     padding: 15px;
   }
 }
+
+
+
