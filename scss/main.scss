@@ -12,6 +12,7 @@
 
 
 body{
+
   &.home{
     background: $dark-blue;
   }
@@ -26,7 +27,7 @@ body{
     width: 200px;
     }
   }
-  margin: 100px auto 20px auto;
+  margin: 50px auto 20px auto;
   text-align: center;
   img{
     min-width: 370px;
@@ -59,6 +60,7 @@ p{
 
 
 .links{
+
   text-align: center;
   .externalLinks{
     a{
@@ -100,6 +102,7 @@ p{
   border: 1px dashed $greyout;
   margin: 0 auto;
   width: 90%;
+    min-width: 450px;
   @include bp(mama-bear) {
     width: 100%;
   } 
@@ -137,8 +140,19 @@ p{
 
 
 .social.module{
-  padding: 25px 0 0 0;
+
+  padding: 50px 0 0 0;
+  @include bp(mama-bear) {
+    padding: 0;
+  }
 }
+
+.flexslider{
+  @include bp(baby-bear) {
+    display: none;
+  }
+}
+
 
 .interests.grid{
   h3{
@@ -153,7 +167,7 @@ p{
   img{
     margin: 1.2rem auto 0 auto;
     display: block;
-   
+   background: $dark-blue;
   }
 }
 
@@ -211,6 +225,7 @@ p{
 
 
 .sitebox{
+  padding: 20px 10px;
   text-align: center;
   img.site{
     margin: 0 auto;
