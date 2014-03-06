@@ -28,3 +28,24 @@ body{
 a{
   color: $grey;
 }
+
+p{
+  margin: 6px auto;
+}
+h3{
+  margin: 20px auto 6px auto;
+}
+
+h2{
+  font-family: Lato, helvetica, sans-serif;
+  text-transform: uppercase;
+  color: $dark-blue;
+  font-size: 1.8rem;
+}
+
+
+.experience{
+  h3{
+    text-transform: uppercase;
+  }
+}

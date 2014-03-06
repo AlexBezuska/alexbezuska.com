@@ -210,17 +210,7 @@ p{
       }
     }
     }
-  h2{
-    text-align: left;
-    width: intrinsic;
-    display: block;
-    margin: 0 auto;
-    font-size: 18px;
-    em{
-      font-size: 22px;
-      margin: 0 
-    }
-  }
+  text-align: left;
 }
 
 
@@ -254,5 +244,77 @@ p{
   }
 }
 
+.connect.grid{
+  h3{
+    text-align: left;
+  }
+}
+
+.contact.module{
+
+  .row{
+
+    @include bp(papa-bear) {
+    
+      width: 50%;
+      position: relative;
+      display: block ;
+      margin: 0 auto 5px auto;  
+      &:after{
+        clear: both;
+        display: table;
+        content:"";
+      }
+    }
+  
+    @include bp(mama-bear) {
+      width: 33.33%;
+      float: left;
+      display: inline-block;
+    }
+      @include bp(baby-bear) {
+ 
+      width: 100%;
+      display: block;
+      margin: 0 auto 5px auto; 
+    }
+
+    .image{
+      padding-right: 5px;
+      float: left;
+      display: inline-block;
+      @include bp(mama-bear) {
+      width: 33.33%;
+    }
+      img{
+        width: 100%;
+        max-width: 75px;
+        float: right;
+      }
+    }
+    .text{
+      float: left;
+      display: inline-block;
+      @include bp(mama-bear) {
+      width: 66.66%;
+    }
+      text-align: left;
+      padding: 2% 0 0 0;
+      span{
+
+        //text-transform: uppercase;
+        font-size: 20px;
+      }
+      em{
+        display: block;
+        font-size: 15px;
+        color: lighten($grey, 30%);
+      }
+    }
+  }
+}
 
 
+.form{
+  border: 0px;
+}

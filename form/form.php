@@ -30,20 +30,23 @@ function phpfmg_form( $sErr = false ){
             
 <ol class='phpfmg_form' >
 
-<li class='field_block' id='field_0_div'><div class='col_label'>
+<li class='field_block grid' id='field_0_div'>
+    <div class="col1-2">
+    <div class='col_label'>
 	<label class='form_field'>YOUR EMAIL</label> <label class='form_required' >*</label> </div>
 	<div class='col_field'>
 	<input type="text" name="field_0"  id="field_0" value="<?php  phpfmg_hsc("field_0", ""); ?>" class='text_box'>
 	<div id='field_0_tip' class='instruction'></div>
 	</div>
-</li>
-
-<li class='field_block' id='field_1_div'><div class='col_label'>
+    </div>
+<div class="col1-2">
+    <div class='col_label'>
 	<label class='form_field'>YOUR NAME</label> <label class='form_required' >*</label> </div>
 	<div class='col_field'>
 	<input type="text" name="field_1"  id="field_1" value="<?php  phpfmg_hsc("field_1", ""); ?>" class='text_box'>
 	<div id='field_1_tip' class='instruction'></div>
 	</div>
+    </div>
 </li>
 
 <li class='field_block' id='field_2_div'><div class='col_label'>
@@ -111,15 +114,9 @@ function phpfmg_form_css(){
     $formOnly = isset($GLOBALS['formOnly']) && true === $GLOBALS['formOnly'];
 ?>
 <style type='text/css'>
-<?php 
-if( !$formOnly ){
-    echo"
-body{
-    margin-left: 18px;
-    margin-top: 18px;
-}
 
 body{
+
     font-family : 'helvetica neue', helvetica, Verdana, sans-serif;
     font-size : 14px;
     letter-spacing: .1rem;
@@ -130,22 +127,64 @@ body{
 select, option{
     font-size:13px;
 }
-";
-}; // if
-?>
+
+
+/* Start Don't Overthink it Grids  */
+* {-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.grid{
+  
+}
+
+.grid:after{
+  clear: both;
+  display: table;
+  content:"";
+}
+
+[class*='col1'] { 
+  display: inline-block; 
+  float: left; 
+
+}
+
+.col1-1{ width: 100%; }
+.col1-2{ width: 50%; }
+.col1-3{ width: 33.333%; }
+.col2-3{ width: 66.666%; }
+.col1-4{ width: 25%; }
+.col1-5{ width: 20%; }
+.col1-6{ width: 16.6666666667%; }
+
+/* End Don't Overthink it Grids  */
+
 body{
     color: rgba(100,100,100, 1);
-    width: 100%;
+    width: 98%;
+    margin: 20px auto;
 }
 input[type=text]{
+    outline: none;
     margin-top: 4px;
     height: 32px;
-    width: 99%;
+    border: 1px solid rgba(100,100,100, .4);
+    padding: 4px;
+    font-size: 14px;
+    color: rgba(100,100,100, .8);
+    font-family : 'helvetica neue', helvetica, Verdana, sans-serif;
+    width: 99%!important;
 }
 textarea{
+        outline: none;
     margin-top: 4px;
     resize: none;
-    width: 99%!important;
+    padding: 4px;
+    font-size: 14px;
+      border: 1px solid rgba(100,100,100, .4);
+       color: rgba(100,100,100, .8);
+      font-family : 'helvetica neue', helvetica, Verdana, sans-serif;
+    width: 99.5%!important;
 }
 ol.phpfmg_form{
     list-style-type:none;
@@ -192,20 +231,20 @@ ol.phpfmg_form li{
 }
 
 .form_error_title{
-    font-weight: bold;
-    color: red;
+    color: white;
 }
 
 .form_error{
-    background-color: #ef574a;
-    color: white;
+    
+  
     padding: 10px;
     margin-bottom: 10px;
     padding: 15px;
+    width: 99%;
 }
 
 .form_error_highlight{
-    background-color: #ef574a;
+   color: #ef574a;
  
 }
 
@@ -228,7 +267,10 @@ hr.sectionbreak{
 
 
 #frmFormMailContainer input[type="submit"]{
+    outline: none;
+    float: right;
     border: 0px;
+    cursor: pointer;
     -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
     -ms-border-radius: 0px;
@@ -243,9 +285,11 @@ hr.sectionbreak{
     margin-bottom: 10px;
     background-color: #a6c9c2;
 }
-
 #frmFormMailContainer input[type="submit"]:hover{
-    background-color: #a6c9c2;
+    background-color: #acded4;
+}
+#frmFormMailContainer input[type="submit"]:active{
+    background-color: #85a7a0;
 }
 
 <?php phpfmg_text_align();?>    
