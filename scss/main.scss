@@ -1,18 +1,19 @@
-
-
 @import"colors";
-@import"typography";
-@import"flexslider";
-@import"home";
 @import"structure";
 
+@import"typography";
+@import"flexslider";
+
+
+@import"home";
 
 
 
 
 
 body{
-
+margin: 0px;
+padding: 0px;
   &.home{
     background: $dark-blue;
   }
@@ -20,20 +21,51 @@ body{
 }
 
 .logo{
+//  border: 1px dashed blue;
+  text-align: center;
+
   &.normal{
-    margin: 20px auto;
-    text-align: center;
-    img{
-    width: 200px;
+    @include bp(papa-bear) {
+      margin: 20px auto;
+      img{
+      width: 200px;
+      }
+    }
+    @include bp(mama-bear){
+      font-size: 25px;
+    }
+
+    @include bp(baby-bear) {
+      margin: 20px auto;
+      img{
+        width: 100%;
+      }
+      font-size: 30px;
     }
   }
-  margin: 50px auto 20px auto;
-  text-align: center;
-  img{
-    min-width: 370px;
-    max-width: 50%;
-  }
+
 }
+
+
+.logo  img{
+  //border: 1px dashed red;
+    @include bp(mama-bear) {
+      //min-width: 370px;
+      max-width: 50%;
+    }
+    @include bp(papa-bear) {
+      //min-width: 370px;
+      max-width: 50%;
+    }
+    @include bp(baby-bear) {
+      width: 100%;
+      //max-width: 200px;
+     margin: 20px auto;
+    }
+  }
+
+
+
 
 p{
     @include bp(baby-bear) {
@@ -55,6 +87,29 @@ p{
       text-transform: uppercase;
       margin: 0 25px 0 25px; 
       display: inline-block;
+      @include bp(baby-bear) {
+        font-size: 18px;
+      }
+    }
+  }
+
+
+
+nav{
+    a{
+      @include bp(mama-bear) {
+        font-size: 25px;
+      }
+      @include bp(baby-bear) {
+        background: rgba($dark-blue, .6);
+       color: white;
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        font-weight: normal !important;
+        margin: 4px auto;
+        padding: 0px;
+      }
     }
   }
 
@@ -95,17 +150,18 @@ p{
 }
 
 
-
            
 
 .page{
   border: 1px dashed $greyout;
   margin: 0 auto;
-  width: 90%;
+  @include bp(mama-bear) {
+    width: 90%;
     min-width: 450px;
+  } 
   @include bp(mama-bear) {
     width: 100%;
-  } 
+  }
   @include bp(baby-bear) {
     width: 100%;
   }
@@ -161,12 +217,14 @@ p{
 }
 
 .photo.module{
+
   @include bp(papa-bear) {
     overflow: hidden;
   }
   img{
     margin: 1.2rem auto 0 auto;
     display: block;
+   padding-bottom: 0px !important;
    background: $dark-blue;
   }
 }
@@ -272,11 +330,16 @@ p{
       float: left;
       display: inline-block;
     }
-      @include bp(baby-bear) {
- 
+    @include bp(baby-bear) {
+
       width: 100%;
       display: block;
       margin: 0 auto 5px auto; 
+       &:after{
+    clear: both;
+    display: table;
+    content:"";
+    }
     }
 
     .image{
@@ -284,6 +347,10 @@ p{
       float: left;
       display: inline-block;
       @include bp(mama-bear) {
+      width: 33.33%;
+      
+    }
+     @include bp(baby-bear) {
       width: 33.33%;
     }
       img{
@@ -297,12 +364,16 @@ p{
       display: inline-block;
       @include bp(mama-bear) {
       width: 66.66%;
+span{
+font-size: 17px !important;
+}
+    }
+    @include bp(baby-bear) {
+      width: 66.66%;
     }
       text-align: left;
       padding: 2% 0 0 0;
       span{
-
-        //text-transform: uppercase;
         font-size: 20px;
       }
       em{
@@ -316,5 +387,44 @@ p{
 
 
 .form{
-  border: 0px;
+border:none;
+overflow:hidden;
+margin:0;
+height:290px;
+width:100%;
+ @include bp(baby-bear) {
+      display: none;
+    } 
+}
+
+
+
+.charts.grid{
+  .module{
+    text-align: center;
+h2{
+  text-align: left;
+}
+ }
+  img{
+    margin: 0 auto; 
+  }
+}
+
+
+
+.mobile{
+    @include bp(papa-bear) {
+      display: none;
+    }
+     @include bp(mama-bear) {
+      display: none;
+    }
+}
+
+
+.full{
+    @include bp(baby-bear) {
+      display: none;
+    }
 }

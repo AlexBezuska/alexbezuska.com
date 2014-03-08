@@ -1,0 +1,47 @@
+.home{
+  @include bp(papa-bear) {
+margin-top: 100px;
+   }
+   @include bp(mama-bear) {
+margin-top: 100px;
+   }
+
+  nav{
+    @include bp(baby-bear) {
+      margin-bottom: 25px;
+    }
+
+    a{
+
+      @include bp(papa-bear) {
+
+      }
+      @include bp(mama-bear) {
+        font-size: 22px;
+        font-weight: 200 !important;
+      }
+      @include bp(baby-bear) {
+        background: rgba(255,255,255, .4);
+        color: $dark-blue;
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        font-weight: normal !important;
+        margin: 4px auto;
+      }
+
+    }
+  }
+
+  .symbol{
+    @include bp(baby-bear) {
+      font-size: 80px !important;
+    }
+  }
+
+  .drop{
+    @include bp(baby-bear) {
+      display: block;
+    }
+  }
+}
