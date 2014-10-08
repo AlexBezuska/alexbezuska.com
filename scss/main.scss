@@ -1,241 +1,220 @@
-@import"colors";
-@import"structure";
+@import "colors";
+@import "structure";
 
-@import"typography";
-@import"flexslider";
+@import "typography";
+@import "flexslider";
 
+@import "home";
 
-@import"home";
-
-
-
-
-
-body{
-margin: 0px;
-padding: 0px;
-  &.home{
+body {
+  margin: 0px;
+  padding: 0px;
+  &.home {
     background: $dark-blue;
   }
-    background: white; 
+  background: white;
 }
 
-.logo{
-//  border: 1px dashed blue;
+.logo {
+  //  border: 1px dashed blue;
   text-align: center;
-
-  &.normal{
+  &.normal {
     @include bp(papa-bear) {
       margin: 20px auto;
-      img{
-      width: 200px;
+      img {
+        width: 200px;
       }
     }
-    @include bp(mama-bear){
+
+    @include bp(mama-bear) {
       font-size: 25px;
     }
 
     @include bp(baby-bear) {
       margin: 20px auto;
-      img{
+      img {
         width: 100%;
       }
       font-size: 30px;
     }
   }
-
 }
 
-
-.logo  img{
+.logo  img {
   //border: 1px dashed red;
-    @include bp(mama-bear) {
-      //min-width: 370px;
-      max-width: 50%;
-    }
-    @include bp(papa-bear) {
-      //min-width: 370px;
-      max-width: 50%;
-    }
-    @include bp(baby-bear) {
-      width: 100%;
-      //max-width: 200px;
-     margin: 20px auto;
-    }
+  @include bp(mama-bear) {
+    //min-width: 370px;
+    max-width: 50%;
   }
 
+  @include bp(papa-bear) {
+    //min-width: 370px;
+    max-width: 50%;
+  }
 
+  @include bp(baby-bear) {
+    width: 100%;
+    //max-width: 200px;
+    margin: 20px auto;
+  }
+}
 
-
-p{
-    @include bp(baby-bear) {
+p {
+  @include bp(baby-bear) {
     text-align: justify;
   }
 }
 
-
-  nav{
-    text-align: center;
-    a{
-      text-transform: uppercase;
-      text-decoration: none;
-      padding: 2px 5px;
-      font-size: .8rem;
-      font-weight: 200;
-      letter-spacing: .1rem;
-      line-height: 3.692307692;
-      text-transform: uppercase;
-      margin: 0 25px 0 25px; 
-      display: inline-block;
-      @include bp(baby-bear) {
-        font-size: 18px;
-      }
-    }
-  }
-
-
-
-nav{
-    a{
-      @include bp(mama-bear) {
-        font-size: 25px;
-      }
-      @include bp(baby-bear) {
-        background: rgba($dark-blue, .6);
-       color: white;
-        display: block;
-        font-size: 25px;
-        text-align: center;
-        font-weight: normal !important;
-        margin: 4px auto;
-        padding: 0px;
-      }
-    }
-  }
-
-
-.links{
-
+nav {
   text-align: center;
-  .externalLinks{
-    a{
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2px 5px;
+    font-size: .8rem;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    line-height: 3.692307692;
+    text-transform: uppercase;
+    margin: 0 25px 0 25px;
+    display: inline-block;
+    @include bp(baby-bear) {
+      font-size: 18px;
+    }
+  }
+}
+
+nav {
+  a {
+    @include bp(mama-bear) {
+      font-size: 25px;
+    }
+
+    @include bp(baby-bear) {
+      background: rgba($dark-blue, 0.6);
+      color: white;
+      display: block;
+      font-size: 25px;
+      text-align: center;
+      font-weight: normal !important;
+      margin: 4px auto;
+      padding: 0px;
+    }
+  }
+}
+
+.links {
+  text-align: center;
+  .externalLinks {
+    a {
       margin: 0 10px;
       text-decoration: none;
       position: relative;
       -webkit-transition: all .2s ease-in-out;
       -moz-transition: all .2s ease-in-out;
       -ms-transition: all .2s ease-in-out;
-      -o-transition: all .2s ease-in-out; 
+      -o-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out;
-      &:hover{
-         top: -5px; 
-         text-shadow: 0 10px 0px rgba(0,0,0,.2);    
+      &:hover {
+        top: -5px;
+        text-shadow: 0 10px 0px rgba(0, 0, 0, 0.2);
       }
-      .symbol{
-          font-family: 'Mono Social Icons Font';
-          -webkit-text-rendering: optimizeLegibility;
-          -moz-text-rendering: optimizeLegibility;
-          -ms-text-rendering: optimizeLegibility;
-          -o-text-rendering: optimizeLegibility;
-          text-rendering: optimizeLegibility;
-          -webkit-font-smoothing: antialiased;
-          -moz-font-smoothing: antialiased;
-          -ms-font-smoothing: antialiased;
-          -o-font-smoothing: antialiased;
-          font-smoothing: antialiased;
-          font-size: 3.8rem;
-      } 
+      .symbol {
+        font-family: 'Mono Social Icons Font';
+        -webkit-text-rendering: optimizeLegibility;
+        -moz-text-rendering: optimizeLegibility;
+        -ms-text-rendering: optimizeLegibility;
+        -o-text-rendering: optimizeLegibility;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -ms-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        font-size: 3.8rem;
+      }
     }
   }
 }
 
-
-           
-
-.page{
+.page {
   border: 1px dashed $greyout;
   margin: 0 auto;
   @include bp(mama-bear) {
     width: 90%;
     min-width: 450px;
-  } 
+  }
+
   @include bp(mama-bear) {
     width: 100%;
   }
+
   @include bp(baby-bear) {
     width: 100%;
   }
 }
 
-
-
-
-p{
+p {
   font-size: 1.1rem;
 }
 
-.callout{
+.callout {
   font-style: italic;
   font-size: 1.6rem;
   margin: 0 8px 0 0;
 }
 
-.logo.module{
-  img{
+.logo.module {
+  img {
     max-width: 29%;
     min-width: 200px;
   }
-  h1{
-   font-weight: 100;
-   letter-spacing: .2rem;
+  h1 {
+    font-weight: 100;
+    letter-spacing: .2rem;
     text-align: center;
     text-transform: uppercase;
   }
 }
 
-
-
-.social.module{
-
+.social.module {
   padding: 50px 0 0 0;
   @include bp(mama-bear) {
     padding: 0;
   }
 }
 
-.flexslider{
+.flexslider {
   @include bp(baby-bear) {
     display: none;
   }
 }
 
-
-.interests.grid{
-  h3{
+.interests.grid {
+  h3 {
     text-align: center;
   }
 }
 
-.photo.module{
-
+.photo.module {
   @include bp(papa-bear) {
     overflow: hidden;
   }
-  img{
+
+  img {
     margin: 1.2rem auto 0 auto;
     display: block;
-   padding-bottom: 0px !important;
-   background: $dark-blue;
+    padding-bottom: 0px !important;
+    background: $dark-blue;
   }
 }
 
-
-.chart.grid{
-  canvas{
+.chart.grid {
+  canvas {
     margin: 0 auto;
     display: inline-block;
   }
-   img{
+  img {
     margin: 0 auto;
     display: block;
   }
@@ -251,31 +230,29 @@ p{
 // height: 200 !important;
 // }
 
-
-.connect.grid{
+.connect.grid {
   text-align: center;
-  .col1-3{
+  .col1-3 {
     text-align: left;
-    h2{
+    h2 {
       text-align: left;
       width: intrinsic;
       display: block;
       margin: 0 auto;
       font-size: 18px;
-      em{
+      em {
         font-size: 22px;
-        margin: 0 
+        margin: 0;
       }
     }
-    }
+  }
   text-align: left;
 }
 
-
-.sitebox{
+.sitebox {
   padding: 20px 10px;
   text-align: center;
-  img.site{
+  img.site {
     margin: 0 auto;
     max-width: 420px;
     width: 100%;
@@ -284,99 +261,98 @@ p{
       max-width: 512px;
     }
   }
-  .featured{
+  .featured {
     margin: 0 auto;
     display: block;
   }
 }
 
-.youtube{
+.youtube {
   margin: 0 auto 25px auto;
   display: block;
 }
 
-
-.fitvids{
-  .col1-2{
+.fitvids {
+  .col1-2 {
     padding: 15px;
   }
 }
 
-.connect.grid{
-  h3{
+.connect.grid {
+  h3 {
     text-align: left;
   }
 }
 
-.contact.module{
-
-  .row{
-
+.contact.module {
+  .row {
     @include bp(papa-bear) {
-    
       width: 50%;
       position: relative;
-      display: block ;
-      margin: 0 auto 5px auto;  
-      &:after{
+      display: block;
+      margin: 0 auto 5px auto;
+      &:after {
         clear: both;
         display: table;
-        content:"";
+        content: "";
       }
     }
-  
+
     @include bp(mama-bear) {
       width: 33.33%;
       float: left;
       display: inline-block;
     }
-    @include bp(baby-bear) {
 
+    @include bp(baby-bear) {
       width: 100%;
       display: block;
-      margin: 0 auto 5px auto; 
-       &:after{
-    clear: both;
-    display: table;
-    content:"";
-    }
+      margin: 0 auto 5px auto;
+      &:after {
+        clear: both;
+        display: table;
+        content: "";
+      }
     }
 
-    .image{
+    .image {
       padding-right: 5px;
       float: left;
       display: inline-block;
       @include bp(mama-bear) {
-      width: 33.33%;
-      
-    }
-     @include bp(baby-bear) {
-      width: 33.33%;
-    }
-      img{
+        width: 33.33%;
+      }
+
+      @include bp(baby-bear) {
+        width: 33.33%;
+      }
+
+      img {
         width: 100%;
         max-width: 75px;
         float: right;
       }
     }
-    .text{
+    .text {
       float: left;
       display: inline-block;
       @include bp(mama-bear) {
-      width: 66.66%;
-span{
-font-size: 17px !important;
-}
-    }
-    @include bp(baby-bear) {
-      width: 66.66%;
-    }
+        width: 66.66%;
+        span {
+          font-size: 17px !important;
+        }
+      }
+
+      @include bp(baby-bear) {
+        width: 66.66%;
+      }
+
       text-align: left;
       padding: 2% 0 0 0;
-      span{
+      span {
         font-size: 20px;
       }
-      em{
+      em {
         display: block;
         font-size: 15px;
         color: lighten($grey, 30%);
@@ -385,46 +361,54 @@ font-size: 17px !important;
   }
 }
 
-
-.form{
-border:none;
-overflow:hidden;
-margin:0;
-height:290px;
-width:100%;
- @include bp(baby-bear) {
-      display: none;
-    } 
-}
-
-
-
-.charts.grid{
-  .module{
-    text-align: center;
-h2{
-  text-align: left;
-}
- }
-  img{
-    margin: 0 auto; 
+.form {
+  border: none;
+  overflow: hidden;
+  margin: 0;
+  height: 290px;
+  width: 100%;
+  @include bp(baby-bear) {
+    display: none;
   }
 }
 
-
-
-.mobile{
-    @include bp(papa-bear) {
-      display: none;
+.charts.grid {
+  .module {
+    text-align: center;
+    h2 {
+      text-align: left;
     }
-     @include bp(mama-bear) {
-      display: none;
-    }
+  }
+  img {
+    margin: 0 auto;
+  }
 }
 
+.mobile {
+  @include bp(papa-bear) {
+    display: none;
+  }
 
-.full{
-    @include bp(baby-bear) {
-      display: none;
+  @include bp(mama-bear) {
+    display: none;
+  }
+}
+
+.full {
+  @include bp(baby-bear) {
+    display: none;
+  }
+}
+
+.githubLink {
+  img {
+    margin-left: 5px;
+    opacity: .8;
+    vertical-align: middle;
+    width: 32px !important;
+    height: 32px !important;
+    &:hover {
+      opacity: 1;
     }
+  }
 }
