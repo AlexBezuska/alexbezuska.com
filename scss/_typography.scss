@@ -1,55 +1,18 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:100,200,300);
 
-
-@font-face {
-    font-family: 'Mono Social Icons Font';
-    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
-    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
-         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
+@import "font-awesome/font-awesome";
 
 body{
   font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
-  color: $grey;
   &.home{
     a{
-      color: white;
+      color: black;
     }
   }
 }
 
 a{
-  color: $grey;
+  color: black;
 }
 
-p{
-  margin: 6px auto;
-  @include bp(baby-bear) {
-        font-size: 18px;
-      }
-}
-h3{
-  margin: 20px auto 6px auto;
-}
-
-h2{
-  font-family: Lato, helvetica, sans-serif;
- // font-weight: 200;
-  text-transform: uppercase;
-  color: $dark-blue;
-  font-size: 1.8rem;
-}
-
-
-.experience{
-  h3{
-    text-transform: uppercase;
-  }
-}
