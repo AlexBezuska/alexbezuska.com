@@ -7,8 +7,69 @@
 body {
   margin: 0px;
   padding: 0px;
-  color: black;
-  background: white;
+  color: $text;
+  background: $background;
+}
+.fixed-header{
+	margin: 0 auto;
+	background: rgba(255,255,255,.9);
+	position: fixed;
+	width: 100%;
+	padding: 10px 0;
+	color: $background;
+	font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 3.2rem;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+	&.show{
+		opacity: 1;
+		-webkit-transition: all 500ms ease-in-out;
+		-moz-transition: all 500ms ease-in-out;
+		-ms-transition: all 500ms ease-in-out;
+		-o-transition: all 500ms ease-in-out;
+		transition: all 500ms ease-in-out;
+
+	}
+}
+
+.biopic{
+	img{
+		width: 100%;
+	}
+	h1{
+		width: 100%;
+		color: white;
+		font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		font-size: 3.2rem;
+		letter-spacing: .1rem;
+		text-transform: uppercase;
+		position: absolute;
+		text-align: center;
+		top: 0px;
+		opacity: 0;
+		-webkit-transition: all 500ms ease-in-out;
+		-moz-transition: all 500ms ease-in-out;
+		-ms-transition: all 500ms ease-in-out;
+		-o-transition: all 500ms ease-in-out;
+		transition: all 500ms ease-in-out;
+		&.show{
+			opacity: 1;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+			-ms-transition: all 500ms ease-in-out;
+			-o-transition: all 500ms ease-in-out;
+			transition: all 500ms ease-in-out;
+		}
+	}
 }
 
 p {
@@ -17,6 +78,38 @@ p {
     text-align: justify;
   }
 }
+
+.mobile-only{
+	@include bp(mama-bear) {
+    display: none;
+  } 
+  @include bp(papa-bear) {
+    display: none;
+  } 
+}
+
+.hide-on-mobile{
+@include bp(baby-bear) {
+    display: none;
+  } 
+}
+
+.work-experience{
+	background: white;
+	color: $background;
+	a{
+		color: $background !important;
+	}
+}
+
+.personal-experience{
+	background: #f7f7f3;
+	color: $background;
+	a{
+		color: $background !important;
+	}
+}
+
 
 @import "footer";
 

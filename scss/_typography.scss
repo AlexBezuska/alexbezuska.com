@@ -7,12 +7,32 @@ body{
   font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
   &.home{
     a{
-      color: black;
+      color: $text;
     }
   }
 }
 
-a{
-  color: black;
+h2{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: "helvetica neue", Helvetica, Arial, sans-serif;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased;
 }
+
+h3{
+	a{
+	  color: $text;
+	}
+}
+
+a{
+  color: $text;
+}
+
+
 
