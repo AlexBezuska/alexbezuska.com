@@ -1899,7 +1899,10 @@ body {
   color: white;
   background: #3d4951; }
 
-.fixed-header {
+.header-offset {
+  height: 100px; }
+
+.fixed-header, .logo {
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
@@ -1918,7 +1921,7 @@ body {
   -ms-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out; }
-  .fixed-header.show {
+  .fixed-header.show, .logo.show {
     opacity: 1;
     -webkit-transition: all 500ms ease-in-out;
     -moz-transition: all 500ms ease-in-out;
@@ -1970,17 +1973,47 @@ p {
   .hide-on-mobile {
     display: none; } }
 
-.work-experience {
+.bg-white {
   background: white;
   color: #3d4951; }
-  .work-experience a {
+  .bg-white a {
     color: #3d4951 !important; }
 
-.personal-experience {
+.bg-cream {
   background: #f7f7f3;
   color: #3d4951; }
-  .personal-experience a {
+  .bg-cream a {
     color: #3d4951 !important; }
+
+.experience.content-section {
+  background: white; }
+  @media (min-width: 731px) and (max-width: 1024px) {
+    .experience.content-section {
+      color: #3d4951; }
+      .experience.content-section a {
+        color: #3d4951 !important; } }
+  @media (min-width: 1025px) {
+    .experience.content-section {
+      color: #3d4951; }
+      .experience.content-section a {
+        color: #3d4951 !important; } }
+
+@media (min-width: 320px) and (max-width: 730px) {
+  .work-experience {
+    background: white;
+    color: #3d4951; }
+    .work-experience a {
+      color: #3d4951 !important; } }
+
+@media (min-width: 320px) and (max-width: 730px) {
+  .personal-experience {
+    background: #f7f7f3;
+    color: #3d4951; }
+    .personal-experience a {
+      color: #3d4951 !important; } }
+
+.content-section img {
+  width: 100%; }
 
 .footer-offset {
   height: 68px; }

@@ -10,7 +10,12 @@ body {
   color: $text;
   background: $background;
 }
-.fixed-header{
+
+.header-offset{
+    height:  100px;
+}
+
+.fixed-header, .logo{
 	margin: 0 auto;
 	background: rgba(255,255,255,.9);
 	position: fixed;
@@ -94,7 +99,7 @@ p {
   } 
 }
 
-.work-experience{
+.bg-white{
 	background: white;
 	color: $background;
 	a{
@@ -102,7 +107,7 @@ p {
 	}
 }
 
-.personal-experience{
+.bg-cream{
 	background: #f7f7f3;
 	color: $background;
 	a{
@@ -110,6 +115,47 @@ p {
 	}
 }
 
+.experience.content-section{
+	background: white;
+	@include bp(mama-bear) {
+		color: $background;
+		a{
+			color: $background !important;
+		}
+	}
+	@include bp(papa-bear) {
+		color: $background;
+		a{
+			color: $background !important;
+		}
+	}
+}
+
+.work-experience{
+	@include bp(baby-bear) {
+		background: white;
+		color: $background;
+		a{
+			color: $background !important;
+		}
+	}	
+}
+
+.personal-experience{
+	@include bp(baby-bear) {
+		background: #f7f7f3;
+		color: $background;
+		a{
+			color: $background !important;
+		}
+	}	
+}
+
+.content-section{
+	img{
+		width: 100%;
+	}
+}
 
 @import "footer";
 
