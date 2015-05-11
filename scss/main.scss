@@ -12,9 +12,7 @@ body {
   background: $background;
 }
 
-.header-offset{
-    height:  100px;
-}
+
 
 
 .picmax{
@@ -22,20 +20,7 @@ body {
 	max-height: 500px;
 }
 
-.logo{
-	margin: 0 auto;
-	background: rgba(255,255,255,.9);
-	position: fixed;
-	width: 100%;
-	padding: 10px 0;
-	color: $background;
-	font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
-	font-weight: 100;
-	font-size: 3.2rem;
-	letter-spacing: .1rem;
-	text-transform: uppercase;
-	text-align: center;
-}
+@import "header";
 
 .biopic{
 	img{

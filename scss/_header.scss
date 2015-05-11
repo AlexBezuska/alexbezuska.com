@@ -1,0 +1,39 @@
+.main-header{
+	background: $background;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 56px;
+	nav{
+		a{
+			font-size: 1.4rem;
+ 			text-decoration: none;
+			display: inline-block;
+			padding: 15px 20px;
+			color: $text;
+			&:hover{
+				color: $background;
+				background: $text;
+			}
+		}
+	}
+}
+
+
+.logo{
+	margin: 5px;
+	color: $text;
+	font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 2.2rem;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.header-offset{
+    height:  56px;
+}
