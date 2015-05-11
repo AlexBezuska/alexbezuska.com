@@ -1,21 +1,35 @@
 .main-header{
-	background: $background;
+	background: $darkglass;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 56px;
+	@include bp(papa-bear) {
+		height: $bar-height;
+	}
+	.col1-2{
+		@include bp(mama-bear) {
+			width: 100%;
+		}
+	}
 	nav{
+		@include bp(mama-bear) {
+			text-align: center;
+		}
 		a{
-			font-size: 1.4rem;
+			font-size: 1.2rem;
+			letter-spacing: .1rem;
  			text-decoration: none;
 			display: inline-block;
-			padding: 15px 20px;
-			color: $text;
+			padding: 16px 20px;
+			color: white;
+			text-transform: uppercase;
+			font-family:"helvetica neue", Helvetica, Arial, sans-serif;
+			font-weight: 400;
 			&:hover{
-				color: $background;
-				background: $text;
+				color: black;
+				background: white;
 			}
 		}
 	}
@@ -24,16 +38,20 @@
 
 .logo{
 	margin: 5px;
-	color: $text;
+	color: white;
 	font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 	font-size: 2.2rem;
 	letter-spacing: .1rem;
 	text-transform: uppercase;
 	text-align: center;
 }
 
-
 .header-offset{
-    height:  56px;
+	@include bp(papa-bear) {
+		height:  $bar-height;
+	}
+	@include bp(mama-bear) {
+		height:  $bar-height * 2;
+	}
 }

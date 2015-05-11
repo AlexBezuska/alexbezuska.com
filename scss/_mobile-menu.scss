@@ -1,9 +1,9 @@
 .mobile-header{
-	background: rgba(255,255,255,.9);
+	background: $darkglass;
 	position: fixed;
-	height:  $footer-height;
+	height:  $bar-height;
 	width: 100%;
-	padding: 10px 0;
+	
 	top: 0;
 	left: 0;
 	right: 0;
@@ -13,18 +13,15 @@
 .mobile-menu-button{
 	outline: none;
 	float: right;
-	color: $background;
-
-	padding: 10px;
+	color: white;
+	padding: 16px 24px;
 	border: 0;
+	margin: 0;
 	background: transparent;
 	font-size: 1.8rem;
-	i{
-		margin-left: 5px;
-	}
 	&:hover{
 		cursor: pointer;
-opacity: .8;
+		opacity: .8;
 	}
 }
 
@@ -33,27 +30,25 @@ opacity: .8;
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: $background;
-	color: $text;
+	background: darken($slate, 6%);
+	color: white;
 
 	header{
-		padding: 10px;
+		border-bottom: 1px solid white;
 		.close-icon{
 			outline: none;
 			float: right;
-			color: $text;
-			border: 3px solid $text;
-			height: 60px;
-			width: 60px;
-			border-radius: 48px;
+			color: white;
+			padding: 16px 24px;
+			border: 0;
+			margin: 0;
 			background: transparent;
 			font-size: 1.8rem;
 			&:hover{
 				cursor: pointer;
-				color: $background;
-				border: 3px solid $background;
-				background: $text;
+				opacity: .8;
 			}
+
 		}
 		&:after{
 			clear: both;
@@ -63,16 +58,16 @@ opacity: .8;
 	}
 
 	a{
+		background: $slate;
 		width: 100%;
 		font-size: 1.6rem;
 		padding: 19px 0 26px 15%;
 		display: block;
-		border-top: 1px solid $text;
-		border-bottom: 1px solid $text;
+		border-bottom: 1px solid white;
 		text-decoration: none;
 		&:hover{
-			color: $background;
-			background: $text;
+			color: $slate;
+			background: white;
 		}
 	}
 }

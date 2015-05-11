@@ -1,12 +1,12 @@
- $footer-height: 68px;
+
 .footer-offset{
-    height:  $footer-height;
+    height:  $bar-height;
 }
 
  footer { 
-  background: rgba(255,255,255,.9);
+  background: $milkyglass;
   position: fixed;
-  height:  $footer-height;
+  height:  $bar-height;
   width: 100%;
   padding: 10px 0;
   bottom: 0;
@@ -22,7 +22,7 @@
     position: relative;
 
     .fa {
-      color: $background;
+      color: $slate;
       margin: .2rem auto;
       font-size: 2.5rem;
       display: block;
@@ -31,7 +31,7 @@
     @include bp(mama-bear) {
       &:hover {
         .fa{
-          color: lighten($background, 10%);
+          color: lighten($slate, 10%);
         }
       }
     }
@@ -39,7 +39,7 @@
     @include bp(papa-bear) {
       &:hover {
         .fa{
-          color: lighten($background, 10%);
+          color: lighten($slate, 10%);
         }
       }
     }

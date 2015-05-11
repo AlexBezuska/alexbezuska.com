@@ -1,19 +1,21 @@
 @import "colors";
+@import "defaults";
 @import "structure";
 @import "typography";
 @import "icons";
 
-
+$bar-height: 68px;
 
 body {
   margin: 0px;
   padding: 0px;
-  color: $text;
-  background: $background;
+  color: white;
+  background: $slate;
 }
 
-
-
+.page{
+	margin-top: $bar-height;
+}
 
 .picmax{
 	max-width: 887px;
@@ -36,21 +38,7 @@ body {
 		text-transform: uppercase;
 		position: absolute;
 		text-align: center;
-		top: 0px;
-		opacity: 0;
-		-webkit-transition: all 500ms ease-in-out;
-		-moz-transition: all 500ms ease-in-out;
-		-ms-transition: all 500ms ease-in-out;
-		-o-transition: all 500ms ease-in-out;
-		transition: all 500ms ease-in-out;
-		&.show{
-			opacity: 1;
-			-webkit-transition: all 500ms ease-in-out;
-			-moz-transition: all 500ms ease-in-out;
-			-ms-transition: all 500ms ease-in-out;
-			-o-transition: all 500ms ease-in-out;
-			transition: all 500ms ease-in-out;
-		}
+		top: $bar-height * .8;
 	}
 }
 
@@ -78,32 +66,32 @@ p {
 
 .bg-white{
 	background: white;
-	color: $background;
+	color: $slate;
 	a{
-		color: $background !important;
+		color: $slate !important;
 	}
 }
 
 .bg-cream{
 	background: #f7f7f3;
-	color: $background;
+	color: $slate;
 	a{
-		color: $background !important;
+		color: $slate !important;
 	}
 }
 
 .experience.content-section{
 	background: white;
 	@include bp(mama-bear) {
-		color: $background;
+		color: $slate;
 		a{
-			color: $background !important;
+			color: $slate !important;
 		}
 	}
 	@include bp(papa-bear) {
-		color: $background;
+		color: $slate;
 		a{
-			color: $background !important;
+			color: $slate !important;
 		}
 	}
 }
@@ -111,9 +99,9 @@ p {
 .work-experience{
 	@include bp(baby-bear) {
 		background: white;
-		color: $background;
+		color: $slate;
 		a{
-			color: $background !important;
+			color: $slate !important;
 		}
 	}	
 }
@@ -121,9 +109,9 @@ p {
 .personal-experience{
 	@include bp(baby-bear) {
 		background: #f7f7f3;
-		color: $background;
+		color: $slate;
 		a{
-			color: $background !important;
+			color: $slate !important;
 		}
 	}	
 }

@@ -1,13 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; 
-}
-
-.hidden{
-  display: none;
-}
-
 @mixin bp($point) {
   @if $point == papa-bear {
     @media (min-width: 1025px)  { @content; }
@@ -66,7 +56,7 @@
 .col1-2{ 
   width: 50%;  
   @include bp(mama-bear) {
-    width: 100%;
+    width: 50%;
   }
    @include bp(baby-bear) {
     width: 100%;
