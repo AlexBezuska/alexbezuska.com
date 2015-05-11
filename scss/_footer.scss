@@ -17,8 +17,6 @@
     display: inline-block;
     width: 4rem;
     height: 4rem;
-    background: transparent;
-    border-radius: 4rem;
     margin: 0 2px;
     text-decoration: none;
     position: relative;
@@ -32,18 +30,16 @@
 
     @include bp(mama-bear) {
       &:hover {
-        background: white;
         .fa{
-          color: $background;
+          color: lighten($background, 10%);
         }
       }
     }
 
     @include bp(papa-bear) {
       &:hover {
-        background: white;
         .fa{
-          color: $background;
+          color: lighten($background, 10%);
         }
       }
     }

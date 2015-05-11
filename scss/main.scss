@@ -1,6 +1,7 @@
 @import "colors";
 @import "structure";
 @import "typography";
+@import "icons";
 
 
 
@@ -15,7 +16,13 @@ body {
     height:  100px;
 }
 
-.fixed-header, .logo{
+
+.picmax{
+	max-width: 887px;
+	max-height: 500px;
+}
+
+.logo{
 	margin: 0 auto;
 	background: rgba(255,255,255,.9);
 	position: fixed;
@@ -28,21 +35,6 @@ body {
 	letter-spacing: .1rem;
 	text-transform: uppercase;
 	text-align: center;
-	opacity: 0;
-	-webkit-transition: all 500ms ease-in-out;
-	-moz-transition: all 500ms ease-in-out;
-	-ms-transition: all 500ms ease-in-out;
-	-o-transition: all 500ms ease-in-out;
-	transition: all 500ms ease-in-out;
-	&.show{
-		opacity: 1;
-		-webkit-transition: all 500ms ease-in-out;
-		-moz-transition: all 500ms ease-in-out;
-		-ms-transition: all 500ms ease-in-out;
-		-o-transition: all 500ms ease-in-out;
-		transition: all 500ms ease-in-out;
-
-	}
 }
 
 .biopic{
@@ -160,3 +152,28 @@ p {
 @import "footer";
 
 
+
+
+
+	 @media (max-width: 1400px)   { 
+		.if-large{
+			display:none;
+		}
+	  }
+
+
+.sitebox{
+	
+	margin-bottom: 20px;
+	@include bp(baby-bear) {
+
+	}	
+	@include bp(mama-bear) {
+	height: 500px;
+	}	
+	@include bp(papa-bear) {
+	height: 400px;
+	}	
+}
+
+@import "mobile-menu";
