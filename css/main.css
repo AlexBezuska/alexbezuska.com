@@ -1,11 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,200,300);
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+.bg-white {
+  background: white;
+  color: #3d4951; }
+  .bg-white a {
+    color: #3d4951 !important; }
 
-.hidden {
-  display: none; }
+.bg-cream {
+  background: #f7f7f3;
+  color: #3d4951; }
+  .bg-cream a {
+    color: #3d4951 !important; }
 
 .container {
   display: block;
@@ -94,6 +98,39 @@
   @media (min-width: 320px) and (max-width: 730px) {
     .col1-6 {
       width: 100%; } }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #3d4951; }
+
+.page {
+  margin-top: 68px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.hidden {
+  display: none; }
+
+@media (min-width: 731px) and (max-width: 1024px) {
+  .mobile-only {
+    display: none; } }
+@media (min-width: 1025px) {
+  .mobile-only {
+    display: none; } }
+
+@media (min-width: 320px) and (max-width: 730px) {
+  .hide-on-mobile {
+    display: none; } }
+
+@media (max-width: 1400px) {
+  .if-large {
+    display: none; } }
+.content-section img {
+  width: 100%; }
 
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -1909,22 +1946,15 @@ h3 a {
 a {
   color: white; }
 
+p {
+  font-size: 1.1rem; }
+  @media (min-width: 320px) and (max-width: 730px) {
+    p {
+      text-align: justify; } }
+
 .githubLink img {
   max-width: 32px;
   height: 32px; }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  color: white;
-  background: #3d4951; }
-
-.page {
-  margin-top: 68px; }
-
-.picmax {
-  max-width: 887px;
-  max-height: 500px; }
 
 .main-header {
   background: rgba(61, 73, 81, 0.9);
@@ -1935,7 +1965,7 @@ body {
   right: 0; }
   @media (min-width: 1025px) {
     .main-header {
-      height: 68px; } }
+      height: 54.4px; } }
   @media (min-width: 731px) and (max-width: 1024px) {
     .main-header .col1-2 {
       width: 100%; } }
@@ -1955,6 +1985,10 @@ body {
     .main-header nav a:hover {
       color: black;
       background: white; }
+    .main-header nav a.active {
+      cursor: normal;
+      color: black;
+      background: white; }
 
 .logo {
   margin: 5px;
@@ -1972,123 +2006,6 @@ body {
 @media (min-width: 731px) and (max-width: 1024px) {
   .header-offset {
     height: 136px; } }
-
-.biopic img {
-  width: 100%; }
-.biopic h1 {
-  width: 100%;
-  color: white;
-  font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 3.2rem;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  position: absolute;
-  text-align: center;
-  top: 54.4px; }
-
-p {
-  font-size: 1.1rem; }
-  @media (min-width: 320px) and (max-width: 730px) {
-    p {
-      text-align: justify; } }
-
-@media (min-width: 731px) and (max-width: 1024px) {
-  .mobile-only {
-    display: none; } }
-@media (min-width: 1025px) {
-  .mobile-only {
-    display: none; } }
-
-@media (min-width: 320px) and (max-width: 730px) {
-  .hide-on-mobile {
-    display: none; } }
-
-.bg-white {
-  background: white;
-  color: #3d4951; }
-  .bg-white a {
-    color: #3d4951 !important; }
-
-.bg-cream {
-  background: #f7f7f3;
-  color: #3d4951; }
-  .bg-cream a {
-    color: #3d4951 !important; }
-
-.experience.content-section {
-  background: white; }
-  @media (min-width: 731px) and (max-width: 1024px) {
-    .experience.content-section {
-      color: #3d4951; }
-      .experience.content-section a {
-        color: #3d4951 !important; } }
-  @media (min-width: 1025px) {
-    .experience.content-section {
-      color: #3d4951; }
-      .experience.content-section a {
-        color: #3d4951 !important; } }
-
-@media (min-width: 320px) and (max-width: 730px) {
-  .work-experience {
-    background: white;
-    color: #3d4951; }
-    .work-experience a {
-      color: #3d4951 !important; } }
-
-@media (min-width: 320px) and (max-width: 730px) {
-  .personal-experience {
-    background: #f7f7f3;
-    color: #3d4951; }
-    .personal-experience a {
-      color: #3d4951 !important; } }
-
-.content-section img {
-  width: 100%; }
-
-.footer-offset {
-  height: 68px; }
-
-footer {
-  background: rgba(255, 255, 255, 0.9);
-  position: fixed;
-  height: 68px;
-  width: 100%;
-  padding: 10px 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center; }
-  footer a {
-    display: inline-block;
-    width: 4rem;
-    height: 4rem;
-    margin: 0 2px;
-    text-decoration: none;
-    position: relative; }
-    footer a .fa {
-      color: #3d4951;
-      margin: .2rem auto;
-      font-size: 2.5rem;
-      display: block; }
-    @media (min-width: 731px) and (max-width: 1024px) {
-      footer a:hover .fa {
-        color: #53636e; } }
-    @media (min-width: 1025px) {
-      footer a:hover .fa {
-        color: #53636e; } }
-
-@media (max-width: 1400px) {
-  .if-large {
-    display: none; } }
-.sitebox {
-  margin-bottom: 20px; }
-  @media (min-width: 731px) and (max-width: 1024px) {
-    .sitebox {
-      height: 500px; } }
-  @media (min-width: 1025px) {
-    .sitebox {
-      height: 400px; } }
 
 .mobile-header {
   background: rgba(61, 73, 81, 0.9);
@@ -2149,3 +2066,89 @@ footer {
     .mobile-menu a:hover {
       color: #3d4951;
       background: white; }
+
+.picmax {
+  max-width: 887px;
+  max-height: 500px; }
+
+.biopic img {
+  width: 100%; }
+.biopic h1 {
+  width: 100%;
+  color: white;
+  font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 3.2rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  position: absolute;
+  text-align: center;
+  top: 54.4px; }
+
+.experience.content-section {
+  background: white; }
+  @media (min-width: 731px) and (max-width: 1024px) {
+    .experience.content-section {
+      color: #3d4951; }
+      .experience.content-section a {
+        color: #3d4951 !important; } }
+  @media (min-width: 1025px) {
+    .experience.content-section {
+      color: #3d4951; }
+      .experience.content-section a {
+        color: #3d4951 !important; } }
+
+@media (min-width: 320px) and (max-width: 730px) {
+  .work-experience {
+    background: white;
+    color: #3d4951; }
+    .work-experience a {
+      color: #3d4951 !important; } }
+
+@media (min-width: 320px) and (max-width: 730px) {
+  .personal-experience {
+    background: #f7f7f3;
+    color: #3d4951; }
+    .personal-experience a {
+      color: #3d4951 !important; } }
+
+.sitebox {
+  margin-bottom: 20px; }
+  @media (min-width: 731px) and (max-width: 1024px) {
+    .sitebox {
+      height: 500px; } }
+  @media (min-width: 1025px) {
+    .sitebox {
+      height: 400px; } }
+
+.footer-offset {
+  height: 68px; }
+
+footer {
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  height: 68px;
+  width: 100%;
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center; }
+  footer a {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 2px;
+    text-decoration: none;
+    position: relative; }
+    footer a .fa {
+      color: #3d4951;
+      margin: .2rem auto;
+      font-size: 2.5rem;
+      display: block; }
+    @media (min-width: 731px) and (max-width: 1024px) {
+      footer a:hover .fa {
+        color: #53636e; } }
+    @media (min-width: 1025px) {
+      footer a:hover .fa {
+        color: #53636e; } }

@@ -1,4 +1,3 @@
-
 @import url(http://fonts.googleapis.com/css?family=Lato:100,200,300);
 
 @import "font-awesome/font-awesome";
@@ -34,5 +33,10 @@ a{
   color: white;
 }
 
-
+p {
+  font-size: 1.1rem;
+  @include bp(baby-bear) {
+    text-align: justify;
+  }
+}
 

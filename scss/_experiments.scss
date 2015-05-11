@@ -1,0 +1,10 @@
+
+.sitebox{
+	margin-bottom: 20px;	
+	@include bp(mama-bear) {
+		height: 500px;
+	}	
+	@include bp(papa-bear) {
+		height: 400px;
+	}	
+}

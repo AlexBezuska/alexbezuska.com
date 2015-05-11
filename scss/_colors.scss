@@ -3,3 +3,19 @@ $coral: #FF8B52;
 $purple: #AB1F52;
 $milkyglass: rgba(255,255,255,.9);
 $darkglass: rgba(61,73,81,0.9);
+
+.bg-white{
+	background: white;
+	color: $slate;
+	a{
+		color: $slate !important;
+	}
+}
+
+.bg-cream{
+	background: #f7f7f3;
+	color: $slate;
+	a{
+		color: $slate !important;
+	}
+}

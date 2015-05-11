@@ -1,47 +1,58 @@
-.home{
-  @include bp(papa-bear) {
-margin-top: 100px;
-   }
-   @include bp(mama-bear) {
-margin-top: 100px;
-   }
+.picmax{
+  max-width: 887px;
+  max-height: 500px;
+}
 
-  nav{
-    @include bp(baby-bear) {
-      margin-bottom: 25px;
-    }
+.biopic{
+  img{
+    width: 100%;
+  }
+  h1{
+    width: 100%;
+    color: white;
+    font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 3.2rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: $bar-height * .8;
+  }
+}
 
+.experience.content-section{
+  background: white;
+  @include bp(mama-bear) {
+    color: $slate;
     a{
-
-      @include bp(papa-bear) {
-
-      }
-      @include bp(mama-bear) {
-        font-size: 22px;
-        font-weight: 200 !important;
-      }
-      @include bp(baby-bear) {
-        background: rgba(255,255,255, .4);
-        color: $dark-blue;
-        display: block;
-        font-size: 25px;
-        text-align: center;
-        font-weight: normal !important;
-        margin: 4px auto;
-      }
-
+      color: $slate !important;
     }
   }
-
-  .symbol{
-    @include bp(baby-bear) {
-      font-size: 80px !important;
+  @include bp(papa-bear) {
+    color: $slate;
+    a{
+      color: $slate !important;
     }
   }
+}
 
-  .drop{
-    @include bp(baby-bear) {
-      display: block;
+.work-experience{
+  @include bp(baby-bear) {
+    background: white;
+    color: $slate;
+    a{
+      color: $slate !important;
     }
-  }
+  } 
+}
+
+.personal-experience{
+  @include bp(baby-bear) {
+    background: #f7f7f3;
+    color: $slate;
+    a{
+      color: $slate !important;
+    }
+  } 
 }
