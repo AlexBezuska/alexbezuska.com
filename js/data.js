@@ -4,7 +4,8 @@ var data = [
         "category": "portfolio",
         "date":"10-06-15",
         "img": "img/portfolio/html5controller.gif",
-        "description": "I created an html, CSS, and SVG diagram of the XBox 360 controller for use with an HTML5 Gamepad library project on github.",
+        "hover": "I created an html, CSS, and SVG diagram of the XBox 360 controller for use with an HTML5 Gamepad library project on github.",
+        "hoverbutton":"View the project on Github",
         "link": "https://github.com/ericlathrop/html5-gamepad",
         "show": true
     },
@@ -14,7 +15,8 @@ var data = [
         "date": "06-13-15",
         "category": "experiment",
         "img": "img/experiments/bees.gif",
-        "description": "Game Jam Game created for the #6HourGameJam 2015. The theme was 'Bees'.",
+        "hover": "Game Jam Game created for the #6HourGameJam 2015. The theme was 'Bees'.",
+        "hoverbutton":"Click to play game",
         "link": "http://two-scoop-games.itch.io/vectrix-bee-shooter-concept",
         "github": "https://github.com/AlexBezuska/6HourGameJam2",
         "show": true
@@ -23,7 +25,8 @@ var data = [
         "name": "Intro to game Programming with SplatJS",
         "category": "portfolio",
         "img": "img/portfolio/introtogameprogramming.png",
-        "description": "I developed an open source lesson plan and small game concept to accompany it for teaching introductory web game programming classes.",
+        "hover": "I developed an open source lesson plan and small game concept to accompany it for teaching introductory web game programming classes.",
+        "hoverbutton":"View the entire lesson plan on Github",
         "link": "https://github.com/AlexBezuska/Intro-to-Gamedev-using-SplatJS",
         "show": true
     },
@@ -31,7 +34,8 @@ var data = [
         "name": "SyRUSH",
         "category": "portfolio",
         "img": "img/portfolio/syrush.png",
-        "description": "",
+        "hover": "For SyRUSH I did Game design, artwork, and animation.",
+        "hoverbutton":"Download game on the iOS app store",
         "link": "https://itunes.apple.com/us/app/syrush/id903688443?mt=8",
         "show": true
     },
@@ -39,7 +43,8 @@ var data = [
         "name": "Apartment 213",
         "category": "portfolio",
         "img": "img/portfolio/apartment213.png",
-        "description": "",
+        "hover": "I did all of the character design, art, and animation for this Global Game Jam 2014 entry.",
+        "hoverbutton":"Click to play game",
         "link": "http://twoscoopgames.com/apartment213/",
         "show": true
     },
@@ -47,12 +52,16 @@ var data = [
         "name": "Original Character Design",
         "category": "portfolio",
         "img": "img/portfolio/Day-33.png",
+        "hover": "Original character design and animation has been a hobby of mine for over 15 years",
+        "hoverbutton":"View samples of my artwork on tumblr",
         "link": "http://alexbezuska.tumblr.com",
         "show": true
     },
     {
         "name": "Louisville Makes Games! Logo design & branding",
         "category": "portfolio",
+        "hover": "I created the logo, color pallete, and branding for the non profit Louiville Makes Game, Inc.",
+        "hoverbutton":"Click to view the website",
         "img": "img/portfolio/lmg-logos.jpg",
         "link":"http://louisvillemakesgames.org",
         "show": true
@@ -60,6 +69,8 @@ var data = [
     {
         "name": "Scurry",
         "category": "portfolio",
+        "hover": "I did all of the art and animation for the first Two Scoop Games title.",
+        "hoverbutton":"Download game on the iOS app store",
         "img": "img/portfolio/scurry.png",
         "link":"https://itunes.apple.com/us/app/scurry/id892274154?mt=8",
         "show": true
@@ -67,6 +78,8 @@ var data = [
     {
         "name": "Overworld Web Game Editor/engine",
         "category": "portfolio",
+        "hover": "Web-based HTML5 / JavaScript game creator and editor. Log in like gMail and start building games in the browser. This project is our main focus right now at Two Scoop Games and we have to have a working version up and ready by the end of 2015. Stay tuned!",
+        "hoverbutton":"Sign up for email updates",
         "img": "img/portfolio/overworld.png",
         "link":"http://overworld.io",
         "show": true
@@ -74,6 +87,8 @@ var data = [
     {
         "name": "Glazing Lasers",
         "category": "portfolio",
+        "hover": "I worked solor on this project to create a game for the 'Let's Cook Jam'. I am proud to have recieved 4th place.",
+        "hoverbutton":"Click to play game",
         "img": "img/portfolio/glazinglasers.png",
         "link":"http://jams.gamejolt.io/letscookjam/games",
         "show": false
@@ -81,6 +96,8 @@ var data = [
     {
         "name": "Stanley Squeaks",
         "category": "portfolio",
+        "hover": "I did all of the art and animation for this game.",
+        "hoverbutton":"Click to play demo",
         "img": "img/portfolio/stanleysqueaks.png",
         "link":"http://twoscoopgames.com/stanleysqueaks/",
         "show": true
@@ -88,6 +105,8 @@ var data = [
     {
         "name": "Uprooted",
         "category": "portfolio",
+        "hover": "I did all of the art and animation for this game jam game.",
+        "hoverbutton":"Click to play game",
         "img": "img/portfolio/uprooted.png",
         "link":"http://twoscoopgames.com/uprooted/",
         "show": false
@@ -95,6 +114,8 @@ var data = [
     {
         "name": "ThermoKnight website",
         "category": "portfolio",
+        "hover": "Website design for a thermal clothing seller.",
+        "hoverbutton":"Click to view the site",
         "img": "img/portfolio/thermoknight.png",
         "link":"http://thermoknight.com",
         "show": true
@@ -103,7 +124,7 @@ var data = [
         "name": "GameDevLou website",
         "img": "img/portfolio/gamedevlou-site.png",
         "category": "portfolio",
-        "description": "For the local game developer meetup I help run I created the overall look and branding as well as backend solutions that integrate with Wordpress to display directories of both members and the games which they have created.",
+        "hover": "For the local game developer meetup I help run I created the overall look and branding as well as backend solutions that integrate with Wordpress to display directories of both members and the games which they have created.",
         "tags": "Logo Design, Branding, Html, CSS, Wordpress, PHP",
         "link":"http://gamedevlou.org",
         "show": false
@@ -125,6 +146,8 @@ var data = [
     {
         "name": "Kick Bot",
         "category": "portfolio",
+        "hover": "I did all of the art and animation for this game we created for the Flappy Jam",
+        "hoverbutton":"Download game on the iOS app store",
         "img": "img/portfolio/kickbot.png",
         "link":"https://itunes.apple.com/us/app/kick-bot/id869188877?mt=8&ign-mpt=uo%3D4",
         "show": true
@@ -138,6 +161,8 @@ var data = [
     {
         "name": "Two Scoop Games website",
         "category": "portfolio",
+        "hover": "Website I created and maintain for my game development studio, Two Scoop Games, LLC.",
+        "hoverbutton":"Click to play game",
         "img": "img/portfolio/twoscoopgameswebsite.png",
         "link":"http://twoscoopgames.com",
         "show": true
@@ -153,7 +178,8 @@ var data = [
         "date": "2015-04-26",
         "category": "experiment",
         "img": "img/experiments/samamy.jpg",
-        "description": "35-minute Game Jam collab with <a href='http://t.co/k5CljnoqM6' target='_blank'>Allen-Michael Brower</a>",
+        "hover": "35-minute Game Jam collab with <a href='http://t.co/k5CljnoqM6' target='_blank'>Allen-Michael Brower</a>",
+        "hoverbutton":"Click to play game",
         "link": "http://alexbezuska.com/experiments/samamy/index.html",
         "show": false
     },
@@ -162,7 +188,8 @@ var data = [
         "date": "10-07-14",
         "category": "experiment",
         "img": "img/experiments/ngen.png",
-        "description": "Game development tool",
+        "hover": "Game development tool",
+        "hoverbutton":"Click to try",
         "link": "http://alexbezuska.com/experiments/ngen/index.html?heat=1&moisture=0",
         "show": true
     },
@@ -171,7 +198,8 @@ var data = [
         "date": "10-06-14",
         "category": "experiment",
         "img": "img/experiments/disconnect.png",
-        "description": "Game Experiment with lighting in HTML5 Canvas",
+        "hover": "Game Experiment with lighting in HTML5 Canvas",
+        "hoverbutton":"Click to play game",
         "link": "http://alexbezuska.com/experiments/disconnect/",
         "github": "https://github.com/AlexBezuska/disconnect",
         "show": false
@@ -181,7 +209,8 @@ var data = [
         "date": "10-01-14",
         "category": "experiment",
         "img": "img/experiments/alchemy.png",
-        "description": "Game Jam Game created for the #6HourGameJam 2014. The theme was 'Alchemy'.",
+        "hover": "Game Jam Game created for the #6HourGameJam 2014. The theme was 'Alchemy'.",
+        "hoverbutton":"Click to play game",
         "link": "https://rawgit.com/AlexBezuska/6HourGameJam---Alchemy/master/index.html",
         "github": "https://github.com/AlexBezuska/6HourGameJam---Alchemy",
         "show": true
@@ -191,7 +220,8 @@ var data = [
         "date": "06-04-14",
         "category": "experiment",
         "img": "img/experiments/nudge.png",
-        "description": "JavaScript/HTML5 Canvas photo scale & rotate for touch devices.",
+        "hover": "JavaScript/HTML5 Canvas photo scale & rotate for touch devices.",
+        "hoverbutton":"Click to  try",
         "link": "http://alexbezuska.com/experiments/nudge/",
         "github": "https://github.com/AlexBezuska/Nudge.js",
         "show": true
@@ -201,7 +231,8 @@ var data = [
         "date": "04-12-14",
         "category": "experiment",
         "img": "img/experiments/hnmobile.png",
-        "description": "Like HackerNews, hate that it's not responsive, fixed it. Learning to scrape a webpage with PHP",
+        "hover": "Like HackerNews, hate that it's not responsive, fixed it. Learning to scrape a webpage with PHP",
+        "hoverbutton":"Click to view the site",
         "link": "http://hn.alexbezuska.com",
         "github": "https://github.com/AlexBezuska/HN-mobile",
         "show": true
@@ -211,7 +242,8 @@ var data = [
         "date": "03-21-14",
         "category": "experiment",
         "img": "img/experiments/rockspidersquirrel.png",
-        "description": "My first finished JavaScript game",
+        "hover": "My first finished JavaScript game",
+        "hoverbutton":"Click to play game",
         "link": "http://alexbezuska.com/experiments/rockspidersquirrel/",
         "github": "https://github.com/AlexBezuska/Rock-Spider-Squirrel",
         "show": true
@@ -222,7 +254,8 @@ var data = [
         "img": "img/experiments/hickorystock.png",
         "name": "Hickory Stock",
         "github": "",
-        "decription": "My first 'completed' Unity3D game",
+        "hover": "My first 'completed' Unity3D game",
+        "hoverbutton":"Click to play game",
         "category": "experiment",
         "show": true
     },
@@ -232,8 +265,9 @@ var data = [
         "img": "img/experiments/mariojs.png",
         "name": "MarioJS",
         "github": "",
-        "decription": "Unfinished Mario Bros clone in canvas",
+        "hover": "Unfinished Mario Bros clone in canvas",
         "category": "experiment",
+        "hoverbutton":"Click to play game",
         "show": false
     },
     {
@@ -242,7 +276,8 @@ var data = [
         "img": "img/experiments/pathunity.png",
         "name": "Path",
         "github": "",
-        "decription": "Unfinished Unity3D project",
+        "hover": "Unfinished Unity3D project",
+        "hoverbutton":"Click to play game",
         "category": "experiment",
         "show": true
     },
@@ -252,7 +287,8 @@ var data = [
         "img": "img/experiments/awayunity.png",
         "name": "Away",
         "github": "",
-        "decription": "Unfinished Unity3D project",
+        "hover": "Unfinished Unity3D project",
+        "hoverbutton":"Click to play game",
         "category": "experiment",
         "show": true
     },
@@ -262,7 +298,8 @@ var data = [
         "img": "img/experiments/baloonchasevehicle.png",
         "name": "Baloon Chase Vehicle",
         "github": "",
-        "decription": "Unfinished Unity3D project with <a href='http://anthonyquisenberry.com/'' target='_blank'>Anthony Quisenberry</a>",
+        "hover": "Unfinished Unity3D project with Anthony Quisenberry",
+        "hoverbutton":"Click to play game",
         "category": "experiment",
         "show": true
     },
@@ -272,7 +309,8 @@ var data = [
         "img": "img/experiments/squidunity.png",
         "name": "Sleepy Mr. Squiddingtons",
         "github": "",
-        "decription": "My first in a string of unfinished Unity3D projects",
+        "hover": "My first in a string of unfinished Unity3D projects",
+        "hoverbutton":"Click to play game",
         "category": "experiment",
         "show": true
     },
@@ -282,7 +320,8 @@ var data = [
         "img": "img/experiments/squidmelon.png",
         "name": "Sleepy Mr. Squiddingtons: Melon JS",
         "github": "",
-        "decription": "First game project after being inspired by Indie Game: The Movie",
+        "hover": "First game project after being inspired by Indie Game: The Movie",
+        "hoverbutton":"Click to play game",
         "category": "experiment",
         "show": true
     }

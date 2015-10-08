@@ -2,7 +2,8 @@
     height:  $bar-height;
 }
 
- footer { 
+ footer {
+  z-index: 4;
   background: $milkyglass;
   position: fixed;
   height:  $bar-height;
