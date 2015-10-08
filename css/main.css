@@ -1,15 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,200,300);
 .bg-white {
   background: white;
-  color: #3d4951; }
+  color: black; }
   .bg-white a {
-    color: #3d4951 !important; }
+    color: black !important; }
 
 .bg-cream {
   background: #f7f7f3;
-  color: #3d4951; }
+  color: black; }
   .bg-cream a {
-    color: #3d4951 !important; }
+    color: black !important; }
 
 .container {
   display: block;
@@ -102,7 +102,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  color: #3d4951; }
+  color: black; }
 
 .page {
   margin-top: 68px; }
@@ -140,8 +140,8 @@ body {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  src: url("/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -1958,7 +1958,7 @@ p {
 
 .main-header {
   z-index: 20;
-  background: rgba(61, 73, 81, 0.9);
+  background: #070e0d;
   width: 100%;
   position: fixed;
   top: 0;
@@ -2007,9 +2007,12 @@ p {
 @media (min-width: 731px) and (max-width: 1024px) {
   .header-offset {
     height: 136px; } }
+@media (min-width: 320px) and (max-width: 730px) {
+  .header-offset {
+    height: 0px; } }
 
 .mobile-header {
-  background: rgba(61, 73, 81, 0.9);
+  background: #070e0d;
   position: fixed;
   height: 68px;
   width: 100%;
@@ -2036,7 +2039,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #303940;
+  background: black;
   color: white; }
   .mobile-menu header {
     border-bottom: 1px solid white; }
@@ -2057,7 +2060,7 @@ p {
       display: table;
       content: ""; }
   .mobile-menu a {
-    background: #3d4951;
+    background: black;
     width: 100%;
     font-size: 1.6rem;
     padding: 19px 0 26px 15%;
@@ -2065,7 +2068,7 @@ p {
     border-bottom: 1px solid white;
     text-decoration: none; }
     .mobile-menu a:hover {
-      color: #3d4951;
+      color: black;
       background: white; }
 
 /*
@@ -2324,6 +2327,34 @@ html[xmlns] .slides {
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px; } }
+.portfolio-content .item {
+  position: relative;
+  height: 360px;
+  margin-bottom: 20px; }
+  .portfolio-content .item:hover {
+    opacity: .9; }
+  .portfolio-content .item a {
+    text-decoration: none; }
+  .portfolio-content .item .img-box {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #070e0d; }
+    .portfolio-content .item .img-box img {
+      max-height: 360px;
+      max-width: 360px;
+      margin: 0 auto;
+      display: block; }
+  .portfolio-content .item .caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background: rgba(17, 13, 14, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 0; }
+
 .picmax {
   max-width: 887px;
   max-height: 500px; }
@@ -2335,39 +2366,45 @@ html[xmlns] .slides {
   color: white;
   font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  font-size: 3.2rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
   position: absolute;
-  text-align: center;
-  top: 54.4px; }
+  text-align: center; }
+  @media (min-width: 731px) and (max-width: 1024px) {
+    .biopic h1 {
+      font-size: 3.2rem;
+      top: 34px; } }
+  @media (min-width: 320px) and (max-width: 730px) {
+    .biopic h1 {
+      font-size: 2rem;
+      top: 54.4px; } }
 
 .experience.content-section {
   background: white; }
   @media (min-width: 731px) and (max-width: 1024px) {
     .experience.content-section {
-      color: #3d4951; }
+      color: black; }
       .experience.content-section a {
-        color: #3d4951 !important; } }
+        color: black !important; } }
   @media (min-width: 1025px) {
     .experience.content-section {
-      color: #3d4951; }
+      color: black; }
       .experience.content-section a {
-        color: #3d4951 !important; } }
+        color: black !important; } }
 
 @media (min-width: 320px) and (max-width: 730px) {
   .work-experience {
     background: white;
-    color: #3d4951; }
+    color: black; }
     .work-experience a {
-      color: #3d4951 !important; } }
+      color: black !important; } }
 
 @media (min-width: 320px) and (max-width: 730px) {
   .personal-experience {
     background: #f7f7f3;
-    color: #3d4951; }
+    color: black; }
     .personal-experience a {
-      color: #3d4951 !important; } }
+      color: black !important; } }
 
 .sitebox {
   margin-bottom: 20px; }
@@ -2399,13 +2436,13 @@ footer {
     text-decoration: none;
     position: relative; }
     footer a .fa {
-      color: #3d4951;
+      color: black;
       margin: .2rem auto;
       font-size: 2.5rem;
       display: block; }
     @media (min-width: 731px) and (max-width: 1024px) {
       footer a:hover .fa {
-        color: #53636e; } }
+        color: #1a1a1a; } }
     @media (min-width: 1025px) {
       footer a:hover .fa {
-        color: #53636e; } }
+        color: #1a1a1a; } }

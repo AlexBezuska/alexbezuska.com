@@ -60,4 +60,7 @@
 	@include bp(mama-bear) {
 		height:  $bar-height * 2;
 	}
+	@include bp(baby-bear) {
+		height: 0px;
+	}
 }

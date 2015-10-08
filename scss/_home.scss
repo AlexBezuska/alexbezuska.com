@@ -12,12 +12,23 @@
     color: white;
     font-family: "Lato", "helvetica neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    font-size: 3.2rem;
+
     letter-spacing: .1rem;
     text-transform: uppercase;
     position: absolute;
     text-align: center;
-    top: $bar-height * .8;
+
+
+    @include bp(mama-bear) {
+      font-size: 3.2rem;
+        top: $bar-height * .5;
+    }
+      @include bp(baby-bear) {
+        font-size: 2rem;
+          top: $bar-height * .8;
+      }
+
+
   }
 }
 
@@ -44,7 +55,7 @@
     a{
       color: $slate !important;
     }
-  } 
+  }
 }
 
 .personal-experience{
@@ -54,5 +65,5 @@
     a{
       color: $slate !important;
     }
-  } 
+  }
 }

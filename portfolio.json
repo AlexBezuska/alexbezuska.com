@@ -1,0 +1,49 @@
+var data = [
+    {
+        "name": "Intro to game Programming with SplatJS",
+        "img": "img/portfolio/intro-to-game-programming.jpg",
+        "description": "I developed an open source lesson plan and small game concept to accompany it for teaching introductory web game programming classes.",
+        "link": {
+            "url": "https://github.com/AlexBezuska/Intro-to-Gamedev-using-SplatJS",
+            "text": "View the full lesson on github"
+        }
+    },
+    {
+        "name": "SyRUSH",
+        "img": "img/portfolio/BsNu-xICEAAGtFU.png",
+        "description": ""
+    },
+    {
+        "name": "Apartment 213",
+        "img": "img/portfolio/Apartment213-Promo.png",
+        "description": ""
+    },
+    {
+        "name": "Original Character Design",
+        "img": "img/portfolio/Day-33.png"
+    },
+    {
+        "name": "Logo design & branding",
+        "img": "img/portfolio/IMG_0118.png"
+    },
+    {
+        "name": "Scurry Game",
+        "img": "img/portfolio/IMG_2913.PNG"
+    },
+    {
+        "name": "Overworld Web Game Editor/engine",
+        "img": "img/portfolio/overworld.png"
+    },
+    {
+        "name": "Glazing Lasers",
+        "img": "img/portfolio/ss-3.png"
+    },
+    {
+        "name": "Glazing Lasers",
+        "img": "img/portfolio/StanleySqueaks-screenshotsaturday-04-11-15.png"
+    },
+    {
+        "name": "Web Design",
+        "img": "img/portfolio/thermoknight.png"
+    }
+];
