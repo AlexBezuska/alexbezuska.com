@@ -4,7 +4,7 @@ var data = [
         "category": "portfolio",
         "date":"10-06-15",
         "img": "img/portfolio/html5controller.gif",
-        "hover": "I created an html, CSS, and SVG diagram of the XBox 360 controller for use with an HTML5 Gamepad library project on github.",
+        "hover": "I created an HTML, CSS, and SVG diagram of the XBox 360 controller for use with an HTML5 Gamepad library project on github.",
         "hoverbutton":"View the project on Github",
         "link": "https://github.com/ericlathrop/html5-gamepad",
         "show": true
@@ -34,7 +34,7 @@ var data = [
         "name": "SyRUSH",
         "category": "portfolio",
         "img": "img/portfolio/syrush.png",
-        "hover": "For SyRUSH I did Game design, artwork, and animation.",
+        "hover": "For SyRUSH I did game design, artwork, and animation.",
         "hoverbutton":"Download game on the iOS app store",
         "link": "https://itunes.apple.com/us/app/syrush/id903688443?mt=8",
         "show": true
@@ -43,7 +43,7 @@ var data = [
         "name": "Apartment 213",
         "category": "portfolio",
         "img": "img/portfolio/apartment213.png",
-        "hover": "I did all of the character design, art, and animation for this Global Game Jam 2014 entry.",
+        "hover": "For Apartment 213 I did all of the character design, art, and animation for this Global Game Jam 2014 entry. This was the result of my first game jam, and I have continued to participate in jams since.",
         "hoverbutton":"Click to play game",
         "link": "http://twoscoopgames.com/apartment213/",
         "show": true
@@ -296,7 +296,7 @@ var data = [
         "date": "06-24-13",
         "link": "http://alexbezuska.com/experiments/balloonchasevehicle/",
         "img": "img/experiments/baloonchasevehicle.png",
-        "name": "Baloon Chase Vehicle",
+        "name": "Balloon Chase Vehicle",
         "github": "",
         "hover": "Unfinished Unity3D project with Anthony Quisenberry",
         "hoverbutton":"Click to play game",
@@ -323,6 +323,89 @@ var data = [
         "hover": "First game project after being inspired by Indie Game: The Movie",
         "hoverbutton":"Click to play game",
         "category": "experiment",
+        "show": true
+    },
+
+    {
+
+        "link": "img/portfolio/bash-full.png",
+        "img": "img/portfolio/bash.jpg",
+        "name": "Mobile First Responsive Web Design",
+        "hover": "For this T-Shirt group buy site I created a mobile-first responsive website, branding and logo design, php backend, and UX for the admin tools.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
+        "show": true
+    },
+
+    {
+
+        "link": "img/portfolio/abe-full.png",
+        "img": "img/portfolio/abe.jpg",
+        "name": "Web Design & ecommerce",
+        "hover": "For this ATM parts refurbisher and reseller I designed a full solution including web design, blogging system, and inventory platform using Perch CMS.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
+        "show": true
+    },
+
+    {
+
+        "link": "img/portfolio/greatretirementresources-full.png",
+        "img": "img/portfolio/greatretirementresources.jpg",
+        "name": "Web Design & Branding",
+        "hover": "I created a cohesive design based around the client's needs for a bold, informative, and inviting appearance. Logo design, brand palette, web design, and original artwork.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
+        "show": true
+    },
+
+    {
+
+        "link": "img/portfolio/jslou-full.png",
+        "img": "img/portfolio/jslou.jpg",
+        "name": "Logo Design",
+        "hover": "Inspired by downtown Louisville mural artwork I created this logo and brand pallete for the JavaScript meetup I founded.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
+        "show": true
+    },
+{
+      "link": "img/portfolio/ncsf-full.png",
+        "img": "img/portfolio/ncsf.jpg",
+        "name": "Web Design",
+        "hover": "I was tasked to create a clean, simple, modern look for this San Fransico-based organization.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
+        "show": true
+    },
+{
+
+        "link": "img/portfolio/marvel-full.png",
+        "img": "img/portfolio/marvel.jpg",
+        "name": "Landing Page Design",
+        "hover": "For CafePress much of my duty was landing page crewation & maintenance, this Marvel landign page is to promote holiday-specific items and is fully responsive.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
+        "show": true
+    },
+{
+
+        "link": "img/portfolio/tcc-full.png",
+        "img": "img/portfolio/tcc.jpg",
+        "name": "Web Design",
+        "hover": "In the process of creating a unique and inviting web presence for this author, I created and maintained several book-specific landing pages.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
+        "show": true
+    },
+{
+
+        "link": "img/portfolio/overworld-logos-full.png",
+        "img": "img/portfolio/overworld-logos.jpg",
+        "name": "Logo Design Concepts",
+        "hover": "Logo design & branding is often an iterative process, this shows the versions of the Overworld.io logo I created before settling on the final design.",
+        "hoverbutton":"Click to view fullsize",
+        "category": "web",
         "show": true
     }
 ];
