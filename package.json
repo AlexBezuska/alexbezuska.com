@@ -1,0 +1,22 @@
+{
+  "name": "alexbezuska.com",
+  "version": "6.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm run clean && npm run copy-fonts && npm run copy-images && npm run build-css && npm run build-pages",
+
+    "clean": "rm -rf build/*",
+    "copy-fonts": "rsync -avP source/fonts/ build/fonts/",
+    "copy-images": "rsync -avP source/img/ build/img/",
+
+    "build-css": "node-sass --include-path scss source/scss/main.scss build/css/main.css",
+
+    "build-pages": "node build.js"
+  },
+  "author": "",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "node-sass": "^4.5.0"
+  }
+}

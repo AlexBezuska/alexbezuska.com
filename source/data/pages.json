@@ -1,0 +1,19 @@
+[
+  {
+    "fileName": "index.html",
+    "parts": [
+      {
+        "template": "header",
+        "data": ""
+      },
+      {
+        "template": "portfolio",
+        "data": "portfolio"
+      },
+      {
+        "template": "footer",
+        "data": ""
+      }
+    ]
+  }
+]

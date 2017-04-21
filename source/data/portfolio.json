@@ -1,0 +1,22 @@
+[
+
+  {
+    "title": "item 1",
+    "screenshot":"http://placehold.it/512/512",
+    "url": "http://google.com",
+    "description": "This is a description 1"
+  },
+  {
+    "title": "item 2",
+    "screenshot":"http://placehold.it/512/512",
+    "url": "http://google.com",
+    "description": "This is a description 2."
+  },
+  {
+    "title": "item 3",
+    "screenshot":"http://placehold.it/512/512",
+    "url": "http://google.com",
+    "description": "This is a description 3"
+  }
+
+]

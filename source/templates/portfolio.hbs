@@ -1,0 +1,29 @@
+<div class="page container">
+
+  <h1 class="page-heading">heading</h1>
+
+  <div class="portfolio row">
+
+    {{#each this}}
+    <div class="portfolio-item col-sm-4">
+
+      {{#if title}}
+      <a href='{{url}}'><h2>"{{title}}"</h2></a>
+      {{/if}}
+
+      <a href='{{url}}'>
+        <img src='{{screenshot}}'/>
+      </a>
+
+      <p>{{{description}}}</p>
+
+      {{#if title}}
+      <a href="{{url}}">{{title}}</a>
+      {{/if}}
+
+    </div>
+    {{/each}}
+
+  </div>
+
+</div>

@@ -2,3 +2,4 @@
 upload.sh
 html/
 .DS_Store
+node_modules
