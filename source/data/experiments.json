@@ -1,0 +1,144 @@
+[
+  {
+    "title": "6HourGameJam - Bees",
+    "date": "06-13-15",
+    "category": "experiment",
+    "img": "img/bees.gif",
+    "description": "Game Jam Game created for the #6HourGameJam 2015. The theme was 'Bees'.",
+    "hoverbutton": "Click to play game",
+    "link": "http://two-scoop-games.itch.io/vectrix-bee-shooter-concept",
+    "github": "https://github.com/AlexBezuska/6HourGameJam2",
+    "show": false
+  },
+  {
+    "title": "Samamy Sname",
+    "date": "2015-04-26",
+    "category": "experiment",
+    "img": "img/samamy.jpg",
+    "description": "35-minute Game Jam collab with <a href='http://t.co/k5CljnoqM6' target='_blank'>Allen-Michael Brower</a>",
+    "hoverbutton": "Click to play game",
+    "link": "http://alexbezuska.com/samamy/index.html",
+    "show": false
+  },
+  {
+    "title": "SplatJS procedural biome generator",
+    "date": "10-07-14",
+    "category": "experiment",
+    "img": "img/ngen.png",
+    "description": "Game development tool",
+    "hoverbutton": "Click to try",
+    "link": "http://alexbezuska.com/ngen/index.html?heat=1&moisture=0",
+    "show": false
+  },
+  {
+    "title": "Disconnect",
+    "date": "10-06-14",
+    "category": "experiment",
+    "img": "img/disconnect.png",
+    "description": "Game Experiment with lighting in HTML5 Canvas",
+    "hoverbutton": "Click to play game",
+    "link": "http://alexbezuska.com/disconnect/",
+    "github": "https://github.com/AlexBezuska/disconnect",
+    "show": false
+  },
+  {
+    "title": "6HourGameJam - Alchemy",
+    "date": "10-01-14",
+    "category": "experiment",
+    "img": "img/alchemy.png",
+    "description": "Game Jam Game created for the #6HourGameJam 2014. The theme was 'Alchemy'.",
+    "hoverbutton": "Click to play game",
+    "link": "https://rawgit.com/AlexBezuska/6HourGameJam---Alchemy/master/index.html",
+    "github": "https://github.com/AlexBezuska/6HourGameJam---Alchemy",
+    "show": false
+  },
+  {
+    "title": "Rock Spider Squirrel",
+    "date": "03-21-14",
+    "category": "experiment",
+    "img": "img/rockspidersquirrel.png",
+    "description": "My first finished JavaScript game",
+    "hoverbutton": "Click to play game",
+    "link": "http://alexbezuska.com/rockspidersquirrel/",
+    "github": "https://github.com/AlexBezuska/Rock-Spider-Squirrel",
+    "show": false
+  },
+  {
+    "date": "12-06-13",
+    "link": "http://alexbezuska.com/hickorystock/",
+    "img": "img/hickorystock.png",
+    "title": "Hickory Stock",
+    "github": "",
+    "description": "My first 'completed' Unity3D game",
+    "hoverbutton": "Click to play game",
+    "category": "experiment",
+    "show": false
+  },
+  {
+    "date": "09-24-13",
+    "link": "http://alexbezuska.com/mariojs/",
+    "img": "img/mariojs.png",
+    "title": "MarioJS",
+    "github": "",
+    "description": "Unfinished Mario Bros clone in canvas",
+    "category": "experiment",
+    "hoverbutton": "Click to play game",
+    "show": false
+  },
+  {
+    "date": "11-22-13",
+    "link": "http://alexbezuska.com/pathunity/",
+    "img": "img/pathunity.png",
+    "title": "Path",
+    "github": "",
+    "description": "Unfinished Unity3D project",
+    "hoverbutton": "Click to play game",
+    "category": "experiment",
+    "show": false
+  },
+  {
+    "date": "11-16-13",
+    "link": "http://alexbezuska.com/awayunity/",
+    "img": "img/awayunity.png",
+    "title": "Away",
+    "github": "",
+    "description": "Unfinished Unity3D project",
+    "hoverbutton": "Click to play game",
+    "category": "experiment",
+    "show": false
+  },
+  {
+    "date": "06-24-13",
+    "link": "http://alexbezuska.com/balloonchasevehicle/",
+    "img": "img/baloonchasevehicle.png",
+    "title": "Balloon Chase Vehicle",
+    "github": "",
+    "description": "Unfinished Unity3D project with Anthony Quisenberry",
+    "hoverbutton": "Click to play game",
+    "category": "experiment",
+    "show": false
+  },
+  {
+    "date": "11-11-12",
+    "link": "http://alexbezuska.com/squidunity/",
+    "img": "img/squidunity.png",
+    "title": "Sleepy Mr. Squiddingtons",
+    "github": "",
+    "description": "My first in a string of unfinished Unity3D projects",
+    "hoverbutton": "Click to play game",
+    "category": "experiment",
+    "show": false
+  },
+  {
+    "date": "11-11-12",
+    "link": "http://alexbezuska.com/squidmelon/",
+    "img": "img/squidmelon.png",
+    "title": "Sleepy Mr. Squiddingtons: Melon JS",
+    "github": "",
+    "description": "First game project after being inspired by Indie Game: The Movie",
+    "hoverbutton": "Click to play game",
+    "category": "experiment",
+    "show": false
+  }
+
+]

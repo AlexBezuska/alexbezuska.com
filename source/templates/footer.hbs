@@ -1,2 +1,24 @@
 </body>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
+<script>
+$('.portfolio').masonry({
+  itemSelector: '.portfolio-item',
+  gutter: 10
+});
+
+$( ".portfolio-item img" )
+.mouseover(function() {
+  if ( $(this).data('gif') ) {
+    var gif = $(this).data('gif');
+    $( this ).attr( "src", gif );
+  }
+})
+.mouseout(function() {
+  var img = $(this).data('img');
+  $( this ).attr( "src", img );
+});
+
+</script>
 </html>

@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,700");
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -5447,5 +5448,24 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
-.portfolio-item img {
-  max-width: 100%; }
+.portfolio-item {
+  margin: 0 auto 10px auto; }
+  .portfolio-item img {
+    max-width: 370px; }
+
+h1 {
+  font-size: 60px;
+  line-height: 120%;
+  font-family: 'Oswald';
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0px; }
+
+h2 {
+  margin-top: 0;
+  font-family: 'Oswald';
+  font-weight: 300;
+  margin-bottom: 20px; }
+
+body {
+  font-family: 'Open Sans'; }

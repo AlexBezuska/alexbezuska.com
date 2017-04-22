@@ -1,22 +1,122 @@
 [
-
   {
-    "title": "item 1",
-    "screenshot":"http://placehold.it/512/512",
-    "url": "http://google.com",
-    "description": "This is a description 1"
+    "title": "Duolastic",
+    "description": "",
+    "img": "img/duolastic.png",
+    "gif": "img/duolastic.gif",
+    "link": "http://twoscoopgames.com/duolastic/",
+    "show": true
   },
   {
-    "title": "item 2",
-    "screenshot":"http://placehold.it/512/512",
-    "url": "http://google.com",
-    "description": "This is a description 2."
+    "title": "Finding Home",
+    "description": "",
+    "img": "img/findinghome.png",
+    "gif": "img/findinghome.gif",
+    "link": "https://alexbezuska.itch.io/finding-home",
+    "show": true
   },
   {
-    "title": "item 3",
-    "screenshot":"http://placehold.it/512/512",
-    "url": "http://google.com",
-    "description": "This is a description 3"
-  }
+    "title": "Electropolis",
+    "description": "",
+    "img": "img/electropolis.png",
+    "gif": "img/electropolis.gif",
+    "link": "https://two-scoop-games.itch.io/electropolis",
+    "show": true
+  },
+  {
+		"title": "Morning Ritual",
+		"description": "",
+		"img": "img/morningritual.jpg",
+		"link": "http://twoscoopgames.com/morningritual/",
+		"show": true
+	},
+	{
+		"title": "Cluster Junk",
+		"description": "",
+		"img": "img/clusterjunk.png",
+    "gif": "img/clusterjunk.gif",
+		"link": "http://twoscoopgames.com/clusterjunk",
+		"show": true
+	},
+	{
+		"title": "Glazing Lasers",
+		"description": "I worked solor on this project to create a game for the 'Let's Cook Jam'. I am proud to have recieved 4th place.",
+		"img": "img/glazinglasers.png",
+		"link": "http://jams.gamejolt.io/letscookjam/games",
+		"show": true
+	},
+	{
+		"title": "Treatment and Control",
+		"description": "",
+		"img": "img/treatmentandcontrol.png",
+		"link": "http://twoscoopgames.com/http://twoscoopgames.com/treatmentandcontrol/",
+		"show": true
+	},
+	{
+		"title": "Stanley Squeaks",
+		"description": "I did all of the art and animation for this game.",
+		"hoverbutton": "Click to play demo",
+		"img": "img/stanleysqueaks.png",
+		"link": "http://twoscoopgames.com/stanleysqueaks/",
+		"show": true
+	},
+	{
+		"title": "Uprooted",
+		"description": "I did all of the art and animation for this game jam game.",
+		"img": "img/uprooted.png",
+		"link": "http://twoscoopgames.com/uprooted/",
+		"show": true
+	},
 
+	{
+		"title": "The Day The World Changed",
+		"description": "",
+		"img": "img/thedaytheworldchanged.png",
+		"link": "http://twoscoopgames.com/thedaytheworldchanged/",
+		"show": true
+	},
+	{
+		"title": "Desserts Killed Your Daddy",
+		"description": "",
+		"img": "img/desserts.png",
+		"link": "http://twoscoopgames.com/desserts/",
+		"show": false
+	},
+	{
+		"title": "SyRUSH",
+		"description": "For SyRUSH I did game design, artwork, and animation.",
+		"img": "img/syrush.png",
+		"hoverbutton": "Download game on the iOS app store",
+		"link": "http://twoscoopgames.com/syrush",
+		"show": true
+	},
+	{
+		"title": "Mr. Fluffykin's Great Sorting Adventure",
+		"description": "",
+		"img": "img/mrfluffykins.png",
+    "link": "http://twoscoopgames.com/fluffykins/",
+		"show": false
+	},
+	{
+		"title": "Kick Bot",
+		"description": "I did all of the art and animation for this game we created for the Flappy Jam",
+		"hoverbutton": "Download game on the iOS app store",
+		"img": "img/kickbot.png",
+		"link": "http://twoscoopgames.com/kickbot",
+		"show": true
+	},
+	{
+		"title": "Scurry",
+		"description": "I did all of the art and animation for the first Two Scoop Games title.",
+		"img": "img/scurry.png",
+		"link": "http://twoscoopgames.com/scurry",
+		"show": true
+	},
+	{
+		"title": "Apartment 213",
+		"description": "For Apartment 213 I did all of the character design, art, and animation for this Global Game Jam 2014 entry. This was the result of my first game jam, and I have continued to participate in jams since.",
+		"img": "img/apartment213.png",
+		"link": "http://twoscoopgames.com/apartment213",
+		"show": true
+	}
 ]
