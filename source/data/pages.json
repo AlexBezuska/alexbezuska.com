@@ -1,6 +1,7 @@
 [
   {
     "fileName": "index.html",
+    "pageName": "Portfolio",
     "parts": [
       {
         "template": "header",
@@ -9,6 +10,24 @@
       {
         "template": "portfolio",
         "data": "portfolio"
+      },
+      {
+        "template": "footer",
+        "data": ""
+      }
+    ]
+  },
+  {
+    "fileName": "resume.html",
+    "pageName": "Resume",
+    "parts": [
+      {
+        "template": "header",
+        "data": ""
+      },
+      {
+        "template": "resume",
+        "data": "resume"
       },
       {
         "template": "footer",

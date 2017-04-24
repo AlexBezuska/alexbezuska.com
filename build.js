@@ -16,11 +16,19 @@ function createPage(page) {
   var html = "";
   var parts = page.parts;
   for (var i = 0; i < parts.length; i++) {
+    var data = [];
     if (parts[i].data) {
-      var data = require("./source/data/" + parts[i].data + ".json");
+      data = require("./source/data/" + parts[i].data + ".json");
       var templateFile = "./source/templates/" + parts[i].template + ".hbs";
       html += renderFromExternalTemplate(templateFile, data);
-    } else {
+    } else if (parts[i].template === "header"){
+      var templateFile = "./source/templates/" + parts[i].template + ".hbs";
+      data = {
+        meta: require("./source/data/meta.json"),
+        pages: getPageLinks(pages)
+      };
+      html += renderFromExternalTemplate(templateFile, data);
+    }else {
       var template = fs.readFileSync("./source/templates/" + parts[i].template + ".hbs", "utf8");
       html += template;
     }
@@ -32,6 +40,16 @@ function createPage(page) {
 }
 
 
+function getPageLinks(pages) {
+  var data = [];
+    for (var i = 0; i < pages.length; i++) {
+      data.push({
+        "fileName": pages[i].fileName,
+        "pageName": pages[i].pageName
+      });
+    }
+    return data;
+}
 
 function renderFromExternalTemplate(templateFile, data){
   var file = fs.readFileSync(templateFile, "utf8");

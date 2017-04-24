@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Alex Bezuska, Game Artist &amp; Developer. 1/2 of Independant game studio Two Scoop Games. Co-founder and board member of game creation career and education advocate and 501(c)3 non profit Louisville Makes Games. Community organizer of JSLou, Louisville Kentucky&#x27;s JavaScript community. Loving parent of many cats and chickens.">
+  <meta name="author" content="Alex Bezuska">
+  <title>Alex Bezuska - Game Artist &amp; Developer</title>
+
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="container">
+  <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#">Project name</a> -->
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">Portfolio</a></li>
+                <li ><a href="resume.html">Resume</a></li>
+            </ul>
+
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+  <h1>Alex Bezuska</h1>
+  <h2 class="subtitle">Game Artist &amp; Developer</h2>
+
+</div>
+<div class="page container">
+
+  <div class="resume row">
+
+        <div class="col-xs-12">
+          <h3>Creator/Designer/Artist |  <a href="http://twoscoopgames.com" target="_blank">Two Scoop Games</a></h3>
+          <em>November 2013 &ndash; Present</em>
+            <p>To keep my skills current and to sustain my passion for designing and programming, my business partner and I develop HTML5/JavaScript games. In doing this I am able to combine my passion for art and technology to create games for all to enjoy. We have currently completed ten game projects, three of which are on the iOS app store. We also take on contract game development work for businesses and organizations.</p>
+        </div>
+        <div class="col-xs-12">
+          <h3>UX Engineer |  <a href="http://www.platformq.com/" target="_blank">Platform Q</a></h3>
+          <em>Jan 2016 &ndash; Present</em>
+            <p>As a UX Engneer and frontend web developer I work to create visually appealing and user friendly experiences, while improving on existing ones. I work closely with design, business, and development teams on a variety of projects to ensure the best user experience possible.</p>
+        </div>
+        <div class="col-xs-12">
+          <h3>Web Developer |  <a href="http://cafepress.com" target="_blank">cafepress</a></h3>
+          <em>May 2014 &ndash; Dec 2015</em>
+            <p>I started my career at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. Since then I have moved to the front end team on the main cafepress website, where I manage pages seen by tens of thousands of users a day. I primarily work in JavaScript, HTML and CSS.</p>
+        </div>
+        <div class="col-xs-12">
+          <h3>Front End Web Developer  |  <a href="http://mortensondentalpartners.com/" target="_blank">Mortenson Dental Partners</a></h3>
+          <em>April 2013 &ndash; May 2014</em>
+            <p>I designed and developed internal use web apps and internal/external websites. While I specialized in the design and UI/UX of each project, I also gained a lot of useful experience with C# and SQL. I was the UX watchdog on the team, and fought for the users in any way I could.</p>
+        </div>
+        <div class="col-xs-12">
+          <h3>Independent Web Designer |  <a href="http://AlexBezuska.com" target="_blank">AlexBezuska.com</a></h3>
+          <em>January 2008 &ndash; April 2013</em>
+            <p>I worked one-on-one with clients to bring their vision and purpose to life on each custom website. To do this I worked to balance the end user’s needs and the client’s requests.</p>
+        </div>
+
+  </div>
+
+</div>
+</body>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
+<script>
+$('.portfolio').masonry({
+  itemSelector: '.portfolio-item',
+  gutter: 10
+});
+
+$( ".portfolio-item img" )
+.mouseover(function() {
+  if ( $(this).data('gif') ) {
+    var gif = $(this).data('gif');
+    $( this ).attr( "src", gif );
+  }
+})
+.mouseout(function() {
+  var img = $(this).data('img');
+  $( this ).attr( "src", img );
+});
+
+</script>
+</html>

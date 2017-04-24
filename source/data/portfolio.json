@@ -26,7 +26,8 @@
   {
 		"title": "Morning Ritual",
 		"description": "",
-		"img": "img/morningritual.jpg",
+		"img": "img/morningritual.png",
+    "gif": "img/morningritual.gif",
 		"link": "http://twoscoopgames.com/morningritual/",
 		"show": true
 	},
@@ -41,7 +42,8 @@
 	{
 		"title": "Glazing Lasers",
 		"description": "I worked solor on this project to create a game for the 'Let's Cook Jam'. I am proud to have recieved 4th place.",
-		"img": "img/glazinglasers.png",
+		"img": "img/glazinglazers.png",
+    "gif": "img/glazinglazers.gif",
 		"link": "http://jams.gamejolt.io/letscookjam/games",
 		"show": true
 	},

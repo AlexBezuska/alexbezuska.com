@@ -1,0 +1,58 @@
+[
+  {
+    "job": "Two Scoop Games",
+    "job-url": "http://twoscoopgames.com",
+    "title": "Creator/Designer/Artist",
+    "date-start": "November 2013",
+    "date-end": "Present",
+    "description": [
+    "To keep my skills current and to sustain my passion for designing and programming, my business partner and I develop HTML5/JavaScript games. In doing this I am able to combine my passion for art and technology to create games for all to enjoy. We have currently completed ten game projects, three of which are on the iOS app store. We also take on contract game development work for businesses and organizations."
+  ],
+    "show": true
+  },
+  {
+    "job": "Platform Q",
+    "job-url": "http://www.platformq.com/",
+    "title": "UX Engineer",
+    "date-start": "Jan 2016",
+    "date-end": "Present",
+    "description": [
+    "As a UX Engneer and frontend web developer I work to create visually appealing and user friendly experiences, while improving on existing ones. I work closely with design, business, and development teams on a variety of projects to ensure the best user experience possible."
+  ],
+    "show": true
+  },
+  {
+    "job": "cafepress",
+    "job-url": "http://cafepress.com",
+    "title": "Web Developer",
+    "date-start": "May 2014",
+    "date-end": "Dec 2015",
+    "description": [
+    "I started my career at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. Since then I have moved to the front end team on the main cafepress website, where I manage pages seen by tens of thousands of users a day. I primarily work in JavaScript, HTML and CSS."
+  ],
+    "show": true
+  },
+  {
+    "job": "Mortenson Dental Partners",
+    "job-url": "http://mortensondentalpartners.com/",
+    "title": "Front End Web Developer ",
+    "date-start": "April 2013",
+    "date-end": "May 2014",
+    "description": [
+    "I designed and developed internal use web apps and internal/external websites. While I specialized in the design and UI/UX of each project, I also gained a lot of useful experience with C# and SQL. I was the UX watchdog on the team, and fought for the users in any way I could."
+  ],
+    "show": true
+  },
+  {
+    "job": "AlexBezuska.com",
+    "job-url": "http://AlexBezuska.com",
+    "title": "Independent Web Designer",
+    "date-start": "January 2008",
+    "date-end": "April 2013",
+    "description": [
+    "I worked one-on-one with clients to bring their vision and purpose to life on each custom website. To do this I worked to balance the end user’s needs and the client’s requests."
+  ],
+    "show": true
+  }
+
+]

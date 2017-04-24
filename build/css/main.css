@@ -5469,3 +5469,11 @@ h2 {
 
 body {
   font-family: 'Open Sans'; }
+
+.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important; }
+
+.nav li:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1); }

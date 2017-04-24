@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Alex Bezuska">
-  <title></title>
+  <meta name="description" content="{{meta.description}}">
+  <meta name="author" content="{{meta.author}}">
+  <title>{{meta.title}} - {{meta.subtitle}}</title>
 
 
   <link rel="stylesheet" href="css/main.css">
@@ -13,6 +13,29 @@
 
 <body>
 <div class="container">
-  <h1> Alex Bezuska</h1>
-  <h2 class="subtitle">Game Artist & Developer</h2>
+  <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#">Project name</a> -->
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              {{#each pages}}
+                <li {{#if active}}class="active"{{/if}}><a href="{{fileName}}">{{pageName}}</a></li>
+              {{/each}}
+            </ul>
+
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+  <h1>{{meta.title}}</h1>
+  <h2 class="subtitle">{{meta.subtitle}}</h2>
+
 </div>
