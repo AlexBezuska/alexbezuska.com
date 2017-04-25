@@ -50,15 +50,18 @@
 	{
 		"title": "Treatment and Control",
 		"description": "",
+    "date-start": "August 2015",
+    "date-end": "August 2015",
 		"img": "img/treatmentandcontrol.png",
+    "gif": "img/treatmentandcontrol.gif",
 		"link": "http://twoscoopgames.com/http://twoscoopgames.com/treatmentandcontrol/",
 		"show": true
 	},
 	{
 		"title": "Stanley Squeaks",
 		"description": "I did all of the art and animation for this game.",
-		"hoverbutton": "Click to play demo",
 		"img": "img/stanleysqueaks.png",
+    "gif": "img/stanleysqueaks.gif",
 		"link": "http://twoscoopgames.com/stanleysqueaks/",
 		"show": true
 	},
@@ -66,6 +69,7 @@
 		"title": "Uprooted",
 		"description": "I did all of the art and animation for this game jam game.",
 		"img": "img/uprooted.png",
+    "gif": "img/uprooted.gif",
 		"link": "http://twoscoopgames.com/uprooted/",
 		"show": true
 	},
@@ -74,6 +78,7 @@
 		"title": "The Day The World Changed",
 		"description": "",
 		"img": "img/thedaytheworldchanged.png",
+    "gif": "img/thedaytheworldchanged.gif",
 		"link": "http://twoscoopgames.com/thedaytheworldchanged/",
 		"show": true
 	},
@@ -88,7 +93,7 @@
 		"title": "SyRUSH",
 		"description": "For SyRUSH I did game design, artwork, and animation.",
 		"img": "img/syrush.png",
-		"hoverbutton": "Download game on the iOS app store",
+    "gif": "img/syrush.gif",
 		"link": "http://twoscoopgames.com/syrush",
 		"show": true
 	},
@@ -102,8 +107,8 @@
 	{
 		"title": "Kick Bot",
 		"description": "I did all of the art and animation for this game we created for the Flappy Jam",
-		"hoverbutton": "Download game on the iOS app store",
 		"img": "img/kickbot.png",
+    "gif": "img/kickbot.gif",
 		"link": "http://twoscoopgames.com/kickbot",
 		"show": true
 	},
@@ -111,6 +116,7 @@
 		"title": "Scurry",
 		"description": "I did all of the art and animation for the first Two Scoop Games title.",
 		"img": "img/scurry.png",
+    "gif": "img/scurry.gif",
 		"link": "http://twoscoopgames.com/scurry",
 		"show": true
 	},
@@ -118,6 +124,7 @@
 		"title": "Apartment 213",
 		"description": "For Apartment 213 I did all of the character design, art, and animation for this Global Game Jam 2014 entry. This was the result of my first game jam, and I have continued to participate in jams since.",
 		"img": "img/apartment213.png",
+    "gif": "img/apartment213.gif",
 		"link": "http://twoscoopgames.com/apartment213",
 		"show": true
 	}

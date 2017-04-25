@@ -2,5 +2,16 @@
   "title": "Alex Bezuska",
   "subtitle": "Game Artist & Developer",
   "author": "Alex Bezuska",
-  "description": "Alex Bezuska, Game Artist & Developer. 1/2 of Independant game studio Two Scoop Games. Co-founder and board member of game creation career and education advocate and 501(c)3 non profit Louisville Makes Games. Community organizer of JSLou, Louisville Kentucky's JavaScript community. Loving parent of many cats and chickens."
+  "description": "Alex Bezuska, Game Artist & Developer. 1/2 of Independant game studio Two Scoop Games. Co-founder and board member of game creation career and education advocate and 501(c)3 non profit Louisville Makes Games. Community organizer of JSLou, Louisville Kentucky's JavaScript community. Loving parent of many cats and chickens.",
+  "bio": [
+    "I am a Game Developer, UX/UI Designer, and JavaScript Developer with a passion for when art and technology work together for a purpose.",
+
+    "I believe that design is much more than a coat of paint. Design and user experience must create a seamless flow from the creator to the user in order to clearly convey the intended message.",
+
+    "I am a web & game developer and advocate. I organize meetups, create events, and help direct a non-profit to promote and advance the Louisville tech scene and ensure viable and relevant technology careers in our city.",
+
+    "I believe that technology, but more specifically code literacy, is hugely important to our collective future and I strive to help further programming education in Louisville.",
+    
+    "Please take some time to read about my experience and feel free to contact me with any questions."
+  ]
 }

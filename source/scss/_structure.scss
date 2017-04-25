@@ -4,3 +4,17 @@
     max-width: 370px;
   }
 }
+
+
+
+.resume, .community{
+  margin-top: 25px;
+  // max-width: 800px;
+  // margin: 0 auto;
+  .item{
+    margin-bottom: 25px;
+    .description{
+      max-width: 800px;
+    }
+  }
+}

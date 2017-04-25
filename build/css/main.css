@@ -5453,6 +5453,13 @@ button.close {
   .portfolio-item img {
     max-width: 370px; }
 
+.resume, .community {
+  margin-top: 25px; }
+  .resume .item, .community .item {
+    margin-bottom: 25px; }
+    .resume .item .description, .community .item .description {
+      max-width: 800px; }
+
 h1 {
   font-size: 60px;
   line-height: 120%;
@@ -5461,7 +5468,7 @@ h1 {
   text-transform: uppercase;
   margin-bottom: 0px; }
 
-h2 {
+h2, h3, h4, h5 {
   margin-top: 0;
   font-family: 'Oswald';
   font-weight: 300;

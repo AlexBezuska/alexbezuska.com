@@ -34,5 +34,23 @@
         "data": ""
       }
     ]
+  },
+  {
+    "fileName": "community.html",
+    "pageName": "Community",
+    "parts": [
+      {
+        "template": "header",
+        "data": ""
+      },
+      {
+        "template": "community",
+        "data": "community"
+      },
+      {
+        "template": "footer",
+        "data": ""
+      }
+    ]
   }
 ]
