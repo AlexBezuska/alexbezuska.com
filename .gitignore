@@ -1,5 +1,15 @@
 .sass-cache
-upload.sh
-build
 .DS_Store
+
 node_modules
+npm-debug.log
+
+
+# exclude everything
+build/*
+
+# exception to the rule
+!build/.gitkeep
+
+
+upload.sh
