@@ -1,6 +1,6 @@
 .navbar-default {
-    background-color: transparent !important;
-    border-color: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
 
@@ -12,3 +12,14 @@
     }
   }
 }
+
+.nav.navbar-nav.navbar-right.social{
+  li{
+    a{
+      i{
+        font-size: 30px;
+      }
+    }
+  }
+}
+

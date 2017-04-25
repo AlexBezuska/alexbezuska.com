@@ -31,6 +31,16 @@
               {{/each}}
             </ul>
 
+            <ul class="nav navbar-nav navbar-right social">
+              {{#each meta.socialLinks}}
+                <li>
+                  <a href="{{url}}" {{#if openInNewTab}}target="_blank"{{/if}} title="{{title}}">
+                    <i class="{{icon}}"></i>
+                  </a>
+                </li>
+              {{/each}}
+            </ul>
+
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
