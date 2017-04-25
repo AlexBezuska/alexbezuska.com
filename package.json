@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"npm run clean && npm run copy-fonts && npm run copy-images && npm run build-css && npm run build-pages",
-
+    "build":"npm run clean && npm run copy-fonts && npm run copy-images && npm run build-css && npm run build-pages && npm run mac-open",
+    "mac-open": "Open ./build/index.html",
     "clean": "rm -rf build/*",
     "copy-fonts": "rsync -avP source/fonts/ build/fonts/",
     "copy-images": "rsync -avP source/img/ build/img/",
