@@ -18,16 +18,16 @@
     ]
   },
   {
-    "fileName": "resume.html",
-    "pageName": "Resume",
+    "fileName": "experience.html",
+    "pageName": "Experience",
     "parts": [
       {
         "template": "header",
         "data": ""
       },
       {
-        "template": "resume",
-        "data": "resume"
+        "template": "experience",
+        "data": "experience"
       },
       {
         "template": "footer",

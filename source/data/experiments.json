@@ -21,6 +21,20 @@
     "show": false
   },
   {
+    "title": "Mr. Fluffykin's Great Sorting Adventure",
+    "description": "",
+    "img": "img/mrfluffykins.png",
+    "link": "http://twoscoopgames.com/fluffykins/",
+    "show": false
+  },
+  {
+    "title": "Desserts Killed Your Daddy",
+    "description": "",
+    "img": "img/desserts.png",
+    "link": "http://twoscoopgames.com/desserts/",
+    "show": false
+  },
+  {
     "title": "SplatJS procedural biome generator",
     "date": "10-07-14",
     "category": "experiment",
