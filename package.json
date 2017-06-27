@@ -14,7 +14,9 @@
 
     "build-pages": "node build.js"
   },
-  "author": "",
+  "author": "Alex Bezuska",
+  "repository": "https://github.com/AlexBezuska/alexbezuska.com",
+  "license":"MIT",
   "dependencies": {
     "handlebars": "^4.0.6",
     "node-sass": "^4.5.0"
