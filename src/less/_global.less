@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.container *{
+  box-sizing: border-box;
+}
+
+.page-width{
+  max-width: @page-width;
+  width: 100%;
+  margin: auto;
+}
+
+img{
+  width: 100%;
+}
+
+.full-height{
+  height: 100vh;
+}
+
+.hero-image{
+  .paralax (@hero-image-url);
+}
+
+.paralax (@image) {
+  background: @image;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.button{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  background: @accent;
+  height: 45px;
+  width: 160px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  appearance: none;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.logo-image{
+ width: 300px;
+}

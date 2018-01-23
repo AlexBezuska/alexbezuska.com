@@ -1,0 +1,54 @@
+{
+  "name": "alexbezuska.com-2018",
+  "version": "0.0.1",
+  "description": "Website of Alex Bezuska - UX/UI Designer, Front End Developer, and Indie Game Developer",
+  "main": "build.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-inject": "^4.3.0",
+    "gulp-less": "^3.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "handlebars": "^4.0.11",
+    "stream-series": "^0.1.1"
+  },
+  "scripts": {
+    "build": "gulp",
+    "upload": "sh upload.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBezuska/alexbezuska.com.git"
+  },
+  "keywords": [
+    "game",
+    "designer",
+    "game",
+    "developer",
+    "front-end",
+    "developer",
+    "web",
+    "developer",
+    "web",
+    "designer",
+    "personal",
+    "site",
+    "static",
+    "site",
+    "single",
+    "page",
+    "site",
+    "portfolio",
+    "site"
+  ],
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexBezuska/alexbezuska.com/issues"
+  },
+  "homepage": "https://github.com/AlexBezuska/alexbezuska.com#readme"
+}
