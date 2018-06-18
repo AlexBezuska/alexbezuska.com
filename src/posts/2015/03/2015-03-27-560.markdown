@@ -1,0 +1,33 @@
+---
+author: No Content Found
+comments: true
+date: 2015-03-27 04:00:00+00:00
+layout: post
+link: http://blog.alexbezuska.com/560/
+slug: '560'
+title: No Content Found
+wordpress_id: 560
+post_format:
+- Image
+tags:
+- art
+- daily drawing
+- daily-draw
+- dailydraw
+- dailydrawing
+- dailydrawings
+- illustration
+- logo
+- logo design
+- overworld
+- overworld.io
+- vector
+---
+
+![](/images/2015/03/tumblr_nob27vBR9z1u11b0ro2_1280.png)![](/images/2015/03/tumblr_nob27vBR9z1u11b0ro1_1280.png)
+
+Daily Drawing 2015-03-27
+
+Overworld logo concepts and final logo design 
+
+Adobe Illustrator

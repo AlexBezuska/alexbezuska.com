@@ -1,0 +1,101 @@
+{
+  "about": ""
+  ,
+  "work":[
+    {
+      "title":"Lead Visual Designer",
+      "url":"http://twoscoopinteractive.com",
+      "name":"Two Scoop Interactive",
+      "from":"December 2017",
+      "to":"Present",
+      "description":"\"Let's create something fun!\" - Two Scoop Interactive is the client-facing part of my company Two Scoop Games. Under this name we create games, apps, and interactive experiences for our clients. What can we make for you or your business?",
+      "show": true
+    },
+    {
+      "title":"Creator/Designer/Artist ",
+      "url":"http://twoscoopgames.com",
+      "name":"Two Scoop Games",
+      "from":"November 2013",
+      "to":"Present",
+      "description":"Game development allows me combine my passion for art and technology to create games for all to enjoy. Since we met at a local programming meetup in nov 2013, Eric Lathrop and I have been working on making our own games. We have currently completed 3 full releases on online app stores, and 14 game prototypes.",
+      "show": true
+    },
+    {
+      "title":"UX Engineer",
+      "name":"Platform Q",
+      "from":"Jan 2016",
+      "to":"Jan 2018",
+      "description":"At Platform Q I worked to translate wireframes, mockups, and prototypes into intuitive user experiences. I worked remotely with a team of talented developers to implement designs and features for a highly profitable online video learning platform. I worked with two teams and maintained daily communication. I worked with technologies including Wordpress, Angular 4, JavaScript, and CSS / SASS.",
+      "show": true
+    },
+    {
+      "title":"Web Developer",
+      "name":"cafepress",
+      "from":"May 2014",
+      "to":"Dec 2015",
+      "description":"I started my career at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. Since then I have moved to the front end team on the main cafepress website, where I manage pages seen by tens of thousands of users a day. I primarily work in JavaScript, HTML and CSS.",
+      "show": true
+    },
+    {
+      "title":"Front End Web Developer",
+      "name":"Mortenson Dental Partners",
+      "from":"April 2013",
+      "to":"May 2014",
+      "description":"I designed and developed internal use web apps and internal/external websites. While I specialized in the design and UI/UX of each project, I also gained a lot of useful experience with C# and SQL. I was the UX watchdog on the team, and fought for the users in any way I could.",
+      "show": false
+    },
+    {
+      "title":"Independent Web Designer",
+      "name":"AlexBezuska.com",
+      "from":"January 2008",
+      "to":"April 2013",
+      "description":"I worked one-on-one with clients to bring their vision and purpose to life on each custom website. To do this I worked to balance the end user’s needs and the client’s requests.",
+      "show": false
+    }
+  ],
+  "community":[
+    {
+      "title":"Co-Founder/Director",
+      "url":"http://louisvillemakesgames.org",
+      "name":"Louisville Makes Games, Inc.",
+      "from":"August 2015",
+      "to":"Present",
+      "description":"In 2015 I co-founded a 501-(c)(3) non-profit organization called Louisville Makes Games, Inc. The goal of LMG is to provide educational courses and promote game development careers in the city of Louisville, KY. In February 2016, we had the grand opening for Warp Zone Louisville, the first and only game development-centric co-working space in Lousiville (and Kentucky!). We run meetups, classes, and events out of Warp Zone as well as providing the ammenities of a co-working space on Main Street in downtown Louisville."
+    },
+    {
+      "title":"Co - Founder / Organizer / Host ",
+      "url":"https://www.meetup.com/LouisvilleMakesGames/",
+      "name":"Lousville Game Creator's Meetup",
+      "from":"February 2014",
+      "to":"Present",
+      "description":"The independent game developer community in Louisville is a huge passion of mine. The Lousville Game Creator's Meetup (formerly Game Dev Lou) is a twice-monthly meetup and support group for local game developers. I have facilitated nearly every meeting, and to date I have helped to organize 3-4 game jam events per year."
+    },
+    {
+      "title":"Founder / Organizer / Host ",
+      "url":"http://jslou.org",
+      "name":"JSLou - Louisville's JavaScript Community",
+      "from":"August 2013",
+      "to":"June 2018",
+      "description":"In order to grow and challenge myself as a developer, I founded and hosted JSLou; a local group focused on all things JavaScript. I have learned a great deal from the many experienced developers I have met through JSLou. I enjoyed facilitating an environment where others can learn and expand their skills. After maintaining the group for nearly 5 years I passed the torch to new passionate developers to continue facilitating the community."
+    }
+  ],
+  "speaking":[
+    {
+      "description":"I have been given the opportunity along with my Two Scoop Games partner Eric to speak at venues in both Lexington and Louisville about game development. At our local developer conference Code PaLOUsa we had the privilege of running a half-day workshop where we taught participants to create a game using HTML5 and JavaScript 2 years in a row.",
+      "img":"/images/2018/06.teaching.jpg",
+      "imgalt":"Alex Bezuska and Eric Lathrop of Two Scoop Games speaking in Lexington at Run Jump Dev"
+    }
+  ],
+  "teaching":[
+    {
+      "description":"In 2017 I had a major role in the development and teaching of a free 6-week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including; coding, story, art & animation, music & sound, and game design. In 2014 I taught a monthly game development workshop at Velocity Indiana, a co-working space, for youth ages 11-18 as part of their code education program.",
+      "img":"images/2018/06/lmg-logo-2015.png",
+      "imgalt":"Louisville Makes Games! a non profit game development career and education advocate group"
+    }
+  ],
+  "advocating":[
+    {
+      "description":"In summer 2015 I helped to found the 501(c)(3) non-profit 'Louisville Makes Games, Inc.'. As a director of LMG, I strive to continue the momentum of Louisville's growing game development career opportunities."
+    }
+  ]
+}

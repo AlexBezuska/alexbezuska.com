@@ -1,0 +1,38 @@
+---
+author: admin
+comments: true
+date: 2015-01-08 02:37:26+00:00
+layout: post
+link: http://blog.alexbezuska.com/daily-drawing-004365/
+slug: daily-drawing-004365
+title: 'Daily Drawing:  004/365'
+wordpress_id: 412
+categories:
+- Daily Drawings
+tags:
+- '356'
+- '365'
+- art
+- artwork
+- character design
+- creatures
+- daily-draw
+- daily-drawings
+- drawing
+- drawing-a-day
+- flash
+- game design
+- gamedev
+- illustration
+- illustrator
+- indie game dev
+- monsters
+- project 365
+- thing a day
+- thingaday
+- vector
+---
+
+01-07-15
+
+![Daily Drawing 365 - vector monsters by Alex Bezuska](/images/2015/01/Screen-Shot-2015-01-07-at-9.17.03-PM.png)Vector - Flash

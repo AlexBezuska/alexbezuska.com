@@ -1,0 +1,29 @@
+---
+author: No Content Found
+comments: true
+date: 2015-01-30 21:15:01+00:00
+layout: post
+link: http://blog.alexbezuska.com/478/
+slug: '478'
+title: No Content Found
+wordpress_id: 478
+post_format:
+- Image
+tags:
+- '365'
+- art
+- artwork
+- dailydraw
+- dailydrawing
+- gamedev
+- pencil
+- project365
+- sketch
+- sketchbook
+- sketches
+- thingaday
+---
+
+![](/images/2015/01/tumblr_nj0dp1BRGp1u11b0ro1_1280.jpg)
+
+Some @StanleySqueaks concept art for today's daily drawing 024/365 #365 #project365 #dailydraw #dailydrawing #thingaday #art #artwork #sketch #sketchbook #pencil #gamedev #sketches

@@ -1,0 +1,12 @@
+---
+date: 2018-05-29 00:00:00+00:00
+title: Test Post With New Blog Engine!
+category: Web Development
+coverPhoto: /images/2018/05/new-blog.png
+coverPhotoAlt: New Blog Engine
+---
+
+
+Started working on a new static blog with Node.js and Markdown for the purpose of making something really simple and clean, and also for learning.
+
+This is some **markdown**, *yay*

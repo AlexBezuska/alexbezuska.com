@@ -1,24 +1,21 @@
 {
-  "name": "alexbezuska.com",
-  "version": "6.0.0",
+  "name": "blog",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build":"npm run clean && npm run copy-fonts && npm run copy-images && npm run build-css && npm run build-pages && npm run mac-open",
-    "mac-open": "Open ./build/index.html",
-    "clean": "rm -rf build/*",
-    "copy-fonts": "rsync -avP source/fonts/ build/fonts/",
-    "copy-images": "rsync -avP source/img/ build/img/",
-
-    "build-css": "node-sass --include-path scss source/scss/main.scss build/css/main.css",
-
-    "build-pages": "node build.js"
-  },
-  "author": "Alex Bezuska",
-  "repository": "https://github.com/AlexBezuska/alexbezuska.com",
-  "license":"MIT",
+  "main": "blog.js",
   "dependencies": {
-    "handlebars": "^4.0.6",
-    "node-sass": "^4.5.0"
-  }
+    "copy-dir": "^0.3.0",
+    "handlebars": "^4.0.11",
+    "markdown": "^0.5.0",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.0",
+    "showdown": "^1.8.6",
+    "yaml-front-matter": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node blog"
+  },
+  "author": "",
+  "license": "ISC"
 }

@@ -1,0 +1,26 @@
+---
+author: No Content Found
+comments: true
+date: 2015-04-25 04:00:00+00:00
+layout: post
+link: http://blog.alexbezuska.com/565/
+slug: '565'
+title: No Content Found
+wordpress_id: 565
+post_format:
+- Image
+tags:
+- Game
+- indie game
+- indie game dev
+- indiedev
+- indiegame
+- indiegames
+- presskit
+---
+
+![](/images/2015/04/tumblr_nob1m2AnNs1u11b0ro1_1280.png)
+
+Daily Drawing 2015-04-25
+
+New banner I created for the Two Scoop Games Press kit, check it out here: [http://twoscoopgames.com/press](http://twoscoopgames.com/press)

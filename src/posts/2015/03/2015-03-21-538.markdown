@@ -1,0 +1,18 @@
+---
+author: No Content Found
+comments: true
+date: 2015-03-21 18:19:59+00:00
+layout: post
+link: http://blog.alexbezuska.com/538/
+slug: '538'
+title: No Content Found
+wordpress_id: 538
+post_format:
+- Image
+tags:
+- gamedev
+---
+
+![](/images/2015/03/tumblr_nlkqxcvGrj1u11b0ro1_1280.jpg)
+
+My Intro to Game Programming class at @VelocityIN this morning went great! Lots of very bright kids. #gamedev

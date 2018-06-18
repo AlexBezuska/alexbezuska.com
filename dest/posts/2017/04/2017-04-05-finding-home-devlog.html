@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+
+  <title>Alex Bezuska</title>
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="/css/hover-min.css"> -->
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="logo-container" href="/">
+          <img  class="logo" src="/images/site/logo.svg" alt="Alex Bezuska - ">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blog</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<div style="height: 150px;"></div>
+
+
+<main role="main" class="container">
+  <div class="row">
+
+    <div class="col-md-8 blog-main">
+      <div class="post-page">
+
+        <nav class="blog-pagination">
+          <a class="btn btn-primary hvr-grow" href="/posts/2016/12/2016-12-12-703-2.html" title="No Content Found">Older</a>
+
+          <a class="btn btn-primary float-right hvr-grow" href="/posts/2017/04/2017-04-25-fog-and-glass-ludum-dare-entry.html" title="&#x27;Fog and Glass&#x27; Ludum Dare entry">Newer</a>
+        </nav>
+
+        <main role="main" class="container blog-post">
+          <h2 class="blog-post-title">Finding Home Devlog - Game animation with Spriter</h2>
+          <p class="blog-post-meta">April 5th, 2017  9:52 am</p>
+          <p>I originally set out to re-create my ld37 game Finding Home in Unity under the assumption that the code would be my largest hurdle and I should take that on first. The first couple sessions of working on the project went well and I had a game mostly up-to-par with the jam version, then disaster... It seemed like the more I worked on the game, the more things starting breaking and I didn&#39;t fully understand the example code in the utility I was using for my dialogue so trying to fix things or make changes was really hit-or-miss. I basically have come to the conclusion that I will create my own branching dialogue system and start simple as I did for the Superpowers version of the game. I have not started on that yet but I might this week.</p>
+
+<p>Having been a bit frustrated the last couple programming sessions I took some advice from a trusted source and switched to working on art and animation. I recently worked on a sample game to impress a client during a contract proposal and the team I was on used <a href="https://brashmonkey.com/">Spriter</a>, a 2d sprite animation tool. Spriter, while it has it&#39;s quirks, reminds me of the best parts of Flash and I really think it is my new go-to for creating game animations.</p>
+
+<p>I started off by doing some planning, the goal is to have a game that looks and plays well on iPad, that is my target for sure. I took some notes on iPad and a few other tablet&#39;s screen resolutions and figured out max sizes for my sprites and avatars. I began working on the main character, the kid snail, and redrew the avatar art basically the same but around 16 times as large. I painted in Photoshop using the pencil tool at various sizes just as I did during the jam, this produces a really nice &quot;blob paint&quot; look which I like a lot. When crating the artwork I considered the layers carefully as they would later be exported individually for use in Spriter.</p>
+
+<p><img alt="Finding Home snail avatar spriter" src="/images/2017/04/avatar-snail-spriter.gif"/></p>
+
+<p>Once in Spriter I started on 2 animations, an &quot;idle&quot;, and a &quot;talking&quot; state for the player&#39;s avatar. I recently found out there is a Spriter importer  called <a href="https://github.com/loodakrawa/SpriterDotNet">SpriterDotNet</a> that will let you use the .scml files that Spriter creates along with the original images so the animation is done live in Unity - no spritesheets! The importer even allows you to transition smoothly between animations which is impressive to look at.</p>
+
+<p><img alt="Finding Home snail avatar spriter" src="/images/2017/04/avatar-snail-idle.gif"/></p>
+
+<p><img alt="Finding Home snail avatar spriter" src="/images/2017/04/avatar-snail-talk.gif"/></p>
+
+<p>Overall I am content with the progress I made on the first avatar, and I am looking forward to redoing the others.</p>
+
+<p>-Alex Bezuska
+Follow Alex on twitter: <a href="http://twitter.com/alexbezuska">@alexbezuska</a></p>
+
+<p>About Finding Home
+Finding Home is an upcoming interactive storybook game that children can play along with their parents. Coming soon to the iOS and Android.
+<a href="http://findinghomegame.com">http://findinghomegame.com</a></p>
+        </main>
+
+        <nav class="blog-pagination">
+          <a class="btn btn-primary hvr-grow" href="/posts/2016/12/2016-12-12-703-2.html" title="No Content Found">Older</a>
+
+          <a class="btn btn-primary float-right hvr-grow" href="/posts/2017/04/2017-04-25-fog-and-glass-ludum-dare-entry.html" title="&#x27;Fog and Glass&#x27; Ludum Dare entry">Newer</a>
+        </nav>
+
+      </div>
+    </div>
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-3 mb-3">
+  <h4 class="font-italic">About</h4>
+  <p class="mb-0"></p>
+</div>
+
+      <div class="p-3">
+
+
+<h4 class="font-italic">Recent Posts</h4>
+<ul class="list-unstyled">
+</ul>
+
+
+</div>
+
+      <div class="p-3">
+
+
+<h4 class="font-italic">Archive</h4>
+<ol class="list-unstyled mb-0">
+</ol>
+
+
+</div>
+
+    </aside>
+
+  </div>
+
+</main>
+
+
+</div>
+</div>
+<footer class="blog-footer">
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-16421229-1', 'auto'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+
+</body>
+</html>
+

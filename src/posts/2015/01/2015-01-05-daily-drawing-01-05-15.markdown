@@ -1,0 +1,27 @@
+---
+author: admin
+comments: true
+date: 2015-01-05 05:31:22+00:00
+layout: post
+link: http://blog.alexbezuska.com/daily-drawing-01-05-15/
+slug: daily-drawing-01-05-15
+title: 'Daily Drawings: day 1'
+wordpress_id: 387
+categories:
+- Daily Drawings
+tags:
+- '365'
+- art
+- daily drawing
+- dailydraw
+- dailydrawing
+- drawing
+- gamedev
+- pixel art
+- thing a day
+- thingaday
+---
+
+01-04-15
+
+![Thing A Day - Pixel art deer by Alex Bezuska](/images/2015/01/thing-a-day-01-05-15.png)

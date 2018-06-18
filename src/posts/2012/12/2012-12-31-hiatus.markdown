@@ -1,0 +1,30 @@
+---
+author: admin
+comments: true
+date: 2012-12-31 23:19:49+00:00
+layout: post
+link: http://blog.alexbezuska.com/hiatus/
+slug: hiatus
+title: '''Hiatus'''
+wordpress_id: 246
+categories:
+- Indie Game Dev
+- Squid Game
+tags:
+- Hardware
+- SD2SNES
+- Stone Age Gamers
+- Super Nintendo
+---
+
+I took a break from the squid game, for a couple of reasons, including having the flu pretty bad, but I will be starting up the dev log again soon.
+
+I also found this device called the SD2SNES, and I am blown away. It's a a board that can be used like a SNES/ SFC cart that allows you to store roms/saves/home-brew etc on an SD card and run them directly on native SNES or SFC hardware. The price is quite high, $195 for the board alone (you would need to salvage an old cart to give it some 'clothes' or $260 for the deluxe with custom painted cart/case/ SD card/stickers etc.
+
+[![](/images/2012/12/SAG004534_front02.2.jpg)](/images/2012/12/SAG004534_front02.2.jpg)The work that went into getting the multiple add-on chips many games had inside them alone is incredible, and I totally understand the cost, but I probably can't afford one just yet. This makes me dream of creating my own games to run on a real SNES... wow I have no idea where to even begin on that one! If anyone if working an a home-brew SNES /SFC project and needs someone to work on art, contact me for sure! I will be very interested.
+
+**Mentioned Links:**
+[Stone Age Gamers - home of the SD2SNES](http://stoneagegamer.com/sd2snes_deluxe.aspx)
+
+Until next time,
+**-Alex**

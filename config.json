@@ -1,0 +1,19 @@
+{
+  "src" : "src",
+  "dest" : "dest",
+  "templatesDirectory": "pages",
+  "postTemplate": "post",
+  "templates": [
+    "home"
+  ],
+  "partialsDirectory": "partials",
+  "partials": [
+  "header",
+  "footer",
+  "archive",
+  "recent-posts",
+  "recent-links",
+  "featured-posts",
+  "about"
+  ]
+}

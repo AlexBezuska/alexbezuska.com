@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+
+  <title>Alex Bezuska</title>
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="/css/hover-min.css"> -->
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="logo-container" href="/">
+          <img  class="logo" src="/images/site/logo.svg" alt="Alex Bezuska - ">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blog</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<div style="height: 150px;"></div>
+
+
+<main role="main" class="container">
+  <div class="row">
+
+    <div class="col-md-8 blog-main">
+      <div class="post-page">
+
+        <nav class="blog-pagination">
+          <a class="btn btn-primary hvr-grow" href="/posts/2013/07/2013-07-22-balloon-chase-vehicle-dev-log-week-4.html" title="Balloon Chase Vehicle - Dev Log Week 4">Older</a>
+
+          <a class="btn btn-primary float-right hvr-grow" href="/posts/2013/08/2013-08-08-what-is-ajax.html" title="What is AJAX?">Newer</a>
+        </nav>
+
+        <main role="main" class="container blog-post">
+          <h2 class="blog-post-title">jQuery and CSS &#x27;Wildcard&#x27; element selection</h2>
+          <p class="blog-post-meta">July 23rd, 2013  11:33 am</p>
+          <p>UPDATE 08-26-2013
+No need for any quotes on either unless it is a number example [class$=&#39;23&#39;], CSS and jQuery syntax is the same.</p>
+
+<p>&lt;blockquote&gt;<strong>Quick Start Guide:
+</strong>CSS and jQuery &#39;WIldcard&#39; Syntax(&#39;type&#39; = class or id):
+<strong>Starts with: [type^=keyword]  Ends with: [type$=keyword] contains: [type*=keyword]</strong>&lt;/blockquote&gt;</p>
+
+<p><a href="http://codepen.io/AlexBezuska/pen/EtDJe"> Try it yourself on CodePen!</a></p>
+
+<p>This is a really awesome trick I found that you can do, comes in handy for dynamically incremented IDs :</p>
+
+<p>To get all the elements starting with &quot;awesomeSauce&quot; you should use:</p>
+
+<pre><code>&lt;code&gt;$(&quot;[id^=awesomeSauce]&quot;)&lt;/code&gt;</code></pre>
+
+<p>To get those that end with &quot;awesomeSauce&quot;</p>
+
+<pre><code>&lt;code&gt;$(&quot;[id$=awesomeSauce]&quot;)&lt;/code&gt;</code></pre>
+
+<p>Also words for classes that start start with &quot;awesomeSauce&quot;  ex: &quot;awesomeSauce123&quot;</p>
+
+<pre><code>&lt;code&gt;$(&#39;[class^=awesomeSauce]&#39;)
+&lt;/code&gt;</code></pre>
+
+<p>Or if you have multiple classes on an object, like &quot; best awesomeSauce123&quot; or you want to find an id or class that <em>contains</em> the keyword.</p>
+
+<pre><code>&lt;code&gt;$(&#39;[class*=awesomeSauce]&#39;)&lt;/code&gt;</code></pre>
+
+<p>Giving Credit where credit is due:</p>
+
+<p><a href="http://stackoverflow.com/questions/5376431/wildcards-in-jquery-selectors">http://stackoverflow.com/questions/5376431/wildcards-in-jquery-selectors</a></p>
+        </main>
+
+        <nav class="blog-pagination">
+          <a class="btn btn-primary hvr-grow" href="/posts/2013/07/2013-07-22-balloon-chase-vehicle-dev-log-week-4.html" title="Balloon Chase Vehicle - Dev Log Week 4">Older</a>
+
+          <a class="btn btn-primary float-right hvr-grow" href="/posts/2013/08/2013-08-08-what-is-ajax.html" title="What is AJAX?">Newer</a>
+        </nav>
+
+      </div>
+    </div>
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-3 mb-3">
+  <h4 class="font-italic">About</h4>
+  <p class="mb-0"></p>
+</div>
+
+      <div class="p-3">
+
+
+<h4 class="font-italic">Recent Posts</h4>
+<ul class="list-unstyled">
+</ul>
+
+
+</div>
+
+      <div class="p-3">
+
+
+<h4 class="font-italic">Archive</h4>
+<ol class="list-unstyled mb-0">
+</ol>
+
+
+</div>
+
+    </aside>
+
+  </div>
+
+</main>
+
+
+</div>
+</div>
+<footer class="blog-footer">
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-16421229-1', 'auto'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+
+</body>
+</html>
+

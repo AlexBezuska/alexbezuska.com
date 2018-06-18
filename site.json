@@ -1,0 +1,29 @@
+{
+  "title": "Alex Bezuska",
+  "subtitle": "Game Artist and Developer",
+  "description": "",
+  "google-analytics-id": "UA-16421229-1",
+  "pages":[
+    {
+      "name": "Home",
+      "file": "index.html",
+      "showInNav": true
+    },
+    {
+      "name": "Portfolio",
+      "file": "portfolio.html"
+    },
+    {
+      "name": "Blog",
+      "file": "blog.html",
+      "showInNav": true
+    }
+  ],
+  "categories": [
+    "Game Development",
+    "Web Development",
+    "Art",
+    "Events",
+    "Community"
+  ]
+}

@@ -1,0 +1,16 @@
+---
+author: No Content Found
+comments: false
+date: 2015-05-29 21:15:19+00:00
+layout: post
+link: http://blog.alexbezuska.com/597/
+slug: '597'
+title: No Content Found
+wordpress_id: 597
+post_format:
+- Video
+tags:
+- gamedev
+---
+
+So maybe crouching doesn't work just yet… #gamedev

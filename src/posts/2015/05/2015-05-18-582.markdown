@@ -1,0 +1,52 @@
+---
+author: No Content Found
+comments: false
+date: 2015-05-18 21:01:43+00:00
+layout: post
+link: http://blog.alexbezuska.com/582/
+slug: '582'
+title: No Content Found
+wordpress_id: 582
+post_format:
+- Image
+tags:
+- codepen
+- codepen.io
+- controll pad
+- controller
+- css
+- css3
+- daily drawing
+- daily-draw
+- dailydraw
+- dailydrawing
+- dailydrawings
+- game design
+- game dev
+- game editor
+- game pad
+- gamedev
+- html
+- html5
+- indie game
+- indiegames
+- svg
+- vector
+- xbox
+- xbox360
+---
+
+![](/images/2015/05/tumblr_nokd2v07711u11b0ro3_1280.png)![](/images/2015/05/tumblr_nokd2v07711u11b0ro2_1280.png)![](/images/2015/05/tumblr_nokd2v07711u11b0ro1_1280.png)
+
+Work in progress controller layout created with HTML/CSS/SVG
+
+Yellow screen - SVG
+
+Red screen - HTML button tags with CSS
+
+Blue screen - both combined
+
+  
+
+
+View it live & the code on CodePen.io: [http://codepen.io/AlexBezuska/pen/MwemEv?editors=110](http://codepen.io/AlexBezuska/pen/MwemEv?editors=110)

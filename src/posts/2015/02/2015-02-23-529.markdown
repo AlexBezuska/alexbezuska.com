@@ -1,0 +1,27 @@
+---
+author: No Content Found
+comments: true
+date: 2015-02-23 05:47:03+00:00
+layout: post
+link: http://blog.alexbezuska.com/529/
+slug: '529'
+title: No Content Found
+wordpress_id: 529
+post_format:
+- Image
+tags:
+- art
+- artwork
+- dailydraw
+- dailydrawing
+- gamedev
+- pencil
+- sketch
+- sketchbook
+- sketches
+- thingaday
+---
+
+![](/images/2015/02/tumblr_nk7mqf1jIR1u11b0ro1_1280.jpg)
+
+Daily Drawing Day 40 #dailydraw #dailydrawing #thingaday #art #artwork #sketch #sketchbook #pencil #gamedev #sketches

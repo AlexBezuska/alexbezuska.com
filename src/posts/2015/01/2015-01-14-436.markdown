@@ -1,0 +1,28 @@
+---
+author: No Content Found
+comments: true
+date: 2015-01-14 23:30:08+00:00
+layout: post
+link: http://blog.alexbezuska.com/436/
+slug: '436'
+title: No Content Found
+wordpress_id: 436
+post_format:
+- Image
+tags:
+- '365'
+- dailydraw
+- dailydrawing
+- designaday
+- drawing
+- drawingaday
+- gamedev
+- illustrator
+- project365
+- thingaday
+- vector
+---
+
+![](/images/2015/01/tumblr_ni6xa9HKGS1u11b0ro1_1280.jpg)
+
+010/356 #365 #project365 #designaday #thingaday #drawing #drawingaday #vector #illustrator #gamedev #dailydraw #dailydrawing

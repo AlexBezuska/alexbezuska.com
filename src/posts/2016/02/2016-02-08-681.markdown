@@ -1,0 +1,33 @@
+---
+author: No Content Found
+comments: false
+date: 2016-02-08 17:21:49+00:00
+layout: post
+link: http://blog.alexbezuska.com/681/
+slug: '681'
+title: No Content Found
+wordpress_id: 681
+post_format:
+- Image
+tags:
+- browser
+- Game Development
+- gamedev
+- ggj16
+- global game jam
+- html5
+- indie game
+- indiedev
+- ios
+- ipad
+- iphone
+- javascript
+- morning ritual
+- splat
+- splat ecs
+- web
+---
+
+![](/images/2016/02/tumblr_o28o8dSZI11u11b0ro1_1280.png)![](/images/2016/02/tumblr_o28o8dSZI11u11b0ro2_1280.png)
+
+I created a new promo video for the game project I am working on at @TwoSoopGames called Morning Ritual. Check it out here: [https://www.youtube.com/watch?v=EfONONJ7GLU&feature=youtu.be](https://www.youtube.com/watch?v=EfONONJ7GLU&feature=youtu.be)

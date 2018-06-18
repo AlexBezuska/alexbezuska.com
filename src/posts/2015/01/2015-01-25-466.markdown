@@ -1,0 +1,26 @@
+---
+author: No Content Found
+comments: true
+date: 2015-01-25 23:26:09+00:00
+layout: post
+link: http://blog.alexbezuska.com/466/
+slug: '466'
+title: No Content Found
+wordpress_id: 466
+post_format:
+- Image
+tags:
+- '365'
+- dailydraw
+- dailydrawing
+- drawingaday
+- gamedev
+- GGJ15
+- illustrator
+- project365
+- vector
+---
+
+![](/images/2015/01/tumblr_niraflYTgQ1u11b0ro1_1280.jpg)
+
+Daily drawing 020/365 #365 #project365 #illustrator #vector #dailydraw #dailydrawing #drawingaday #gamedev #ggj15

@@ -1,0 +1,28 @@
+
+{{#each recent}}
+<div class="blog-post-blurb row xs-colrev">
+  <div class="col-md-9 col-sm-6 col-xs-12">
+    <h2 class="blog-post-title hvr-underline-from-center"><a href="{{url}}">{{title}}</a></h2>
+    <p class="blog-post-meta">{{date}}</p>
+    <div>
+      {{{blurb}}}
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    {{#if coverPhoto}}
+    <a href="{{url}}"><img class="img-fluid rounded" src="{{coverPhoto}}" alt="{{coverPhotoAlt}}"></a>
+    {{/if}}
+  </div>
+</div>
+
+<div class="blog-post-btn-row row pt-15">
+  <div class="col-sm-12 ">
+    <a href="{{url}}" class="read-more-link  pull-right">Continue reading...</a>
+  </div>
+</div>
+
+{{/each}}
+
+<nav class="blog-pagination">
+  <a class="btn btn-primary " href="{{recentNext.url}}" title="{{recentNext.title}}">Older</a>
+</nav>

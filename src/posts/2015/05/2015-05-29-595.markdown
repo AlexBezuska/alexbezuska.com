@@ -1,0 +1,17 @@
+---
+author: No Content Found
+comments: false
+date: 2015-05-29 03:19:09+00:00
+layout: post
+link: http://blog.alexbezuska.com/595/
+slug: '595'
+title: No Content Found
+wordpress_id: 595
+post_format:
+- Video
+tags:
+- gamedev
+- pixelart
+---
+
+I feel like I'm creating a world. #gamedev #pixelart
