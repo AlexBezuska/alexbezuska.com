@@ -1,16 +1,19 @@
 .sass-cache
 .DS_Store
+._*
+
 
 node_modules
 npm-debug.log
 
 
 # exclude everything
-build/*
+dest/*
 
 # exception to the rule
-!build/.gitkeep
+!dest/.gitkeep
 
 
 upload.sh
 old
+data.json

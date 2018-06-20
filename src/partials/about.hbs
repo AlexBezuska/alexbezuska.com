@@ -1,4 +1,11 @@
 <div class="p-3 mb-3">
-  <h4 class="font-italic">About</h4>
-  <p class="mb-0">{{site.about-short}}</p>
+  <h4 class="font-italic">{{site.about.name}}</h4>
+  <div class="row">
+    <div class="col-sm-5">
+      <img src="{{site.about.img.url}}" alt="{{site.about.img.alt}}"/>
+    </div>
+    <div class="col-sm-7">
+        <p>{{{site.about.short}}}</p>
+    </div>
+  </div>
 </div>

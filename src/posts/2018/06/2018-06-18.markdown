@@ -1,0 +1,12 @@
+---
+date: 2018-06-18 00:00:00+00:00
+title: Cartoon Map Concept Game Art
+category: Game Development
+featured: false
+coverPhoto: /images/2018/06/cartoon-game-map.png
+coverPhotoAlt: Cartoon Map Concept Game Art
+---
+
+Worked on this early concept art for the map view in a game project I am working on with [Two Scoop Games](http://twoscoopgames.com).
+
+We have not decided on an art style yet but it was helpful to lay elements out on a phone mockup and see how it felt. If we don't end up going in this direction I might refine the buildings and add more color variants to make a cartoon building sprites Unity asset pack.

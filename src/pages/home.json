@@ -81,21 +81,21 @@
   ],
   "speaking":[
     {
-      "description":"I have been given the opportunity along with my Two Scoop Games partner Eric to speak at venues in both Lexington and Louisville about game development. At our local developer conference Code PaLOUsa we had the privilege of running a half-day workshop where we taught participants to create a game using HTML5 and JavaScript 2 years in a row.",
+      "description":"In 2018 at Vector game devlopers conference I did a talk about what I have learned from doing over 20 game prototypes. At Code PaLOUsa, a local developer conference, I had the privilege of running workshops on 3 seperate occasions (2015, 2016, and 2018) where I taught participants to create games using Unity, and HTML5/JavaScript. I have spoken several times at Game Development and JavaScript meetups about varous game and web development topics.",
       "img":"/images/2018/06.teaching.jpg",
       "imgalt":"Alex Bezuska and Eric Lathrop of Two Scoop Games speaking in Lexington at Run Jump Dev"
     }
   ],
   "teaching":[
     {
-      "description":"In 2017 I had a major role in the development and teaching of a free 6-week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including; coding, story, art & animation, music & sound, and game design. In 2014 I taught a monthly game development workshop at Velocity Indiana, a co-working space, for youth ages 11-18 as part of their code education program.",
+      "description":"In 2017 I had a major role in the development and teaching of a free 6-week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including; coding, story, art & animation, music & sound, and game design. In 2014 I taught a monthly game development workshop at Velocity Indiana for youth ages 11-18 as part of their code education program.",
       "img":"images/2018/06/lmg-logo-2015.png",
       "imgalt":"Louisville Makes Games! a non profit game development career and education advocate group"
     }
   ],
   "advocating":[
     {
-      "description":"In summer 2015 I helped to found the 501(c)(3) non-profit 'Louisville Makes Games, Inc.'. As a director of LMG, I strive to continue the momentum of Louisville's growing game development career opportunities."
+      "description":"In summer 2015 I helped to found the 501(c)(3) non-profit 'Louisville Makes Games, Inc.'. As a director of LMG, I strive to continue the momentum of Louisville's growing game development community and provide inclusive, encouraging, and beginner-friendly events. I founded and hosted Louisville's JavaScript Group JSLou with 2 regular meetings each month for almost 5 years."
     }
   ]
 }

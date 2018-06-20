@@ -24,10 +24,12 @@ var data = addPageData(createData());
 function addPageData(data) {
   var newData = data;
   newData.site.pages.forEach((page) => {
-    var pageName = page.name.toLowerCase();
-    var jsonPath = path.join(src, "pages", pageName + ".json");
-    if (fs.existsSync(jsonPath)){
-      newData[pageName] = require("./" + jsonPath);
+    if (page.showInNav){
+      var pageName = page.name.toLowerCase();
+      var jsonPath = path.join(src, "pages", pageName + ".json");
+      if (fs.existsSync(jsonPath)){
+        newData[pageName] = require("./" + jsonPath);
+      }
     }
   });
   return newData;
@@ -57,11 +59,13 @@ function compilePost(postObject){
   var post = getPostMeta(postObject.src);
   post.prev = postObject.prev;
   post.next = postObject.next;
+  var blogSignatureTemplate = fs.readFileSync(path.join(src, "partials", "blog-signature.hbs"), "utf-8");
+  var blogSignature = renderFromExternalTemplate(blogSignatureTemplate, site.about)
   var data = {
     site: site,
     post:{
       meta : post,
-      content: markdown.toHTML(post.__content).replace("<!--more-->", "")
+      content: markdown.toHTML(post.__content).replace("<!--more-->", "") + blogSignature
     }
   };
 
@@ -111,7 +115,7 @@ function createData (){
     data.categories[cat] = onlyCategory(posts, cat);
     console.log(data.categories[cat].length, cat, "Posts");
   });
-  var recentPosts = filterOutFeatured(addRecent(posts, 6));
+  var recentPosts = addRecent(posts, 6);
   data.recentNext = recentPosts[4];
   data.recent = recentPosts.slice(0,4);
   data.posts = posts;
@@ -135,11 +139,11 @@ function addRecent(posts, qty) {
   return posts.slice(0,qty);
 }
 
-function filterOutFeatured(posts) {
-  return posts.filter( (post) => {
-    return post.featured !== true;
-  });
-}
+// function filterOutFeatured(posts) {
+//   return posts.filter( (post) => {
+//     return post.featured !== true;
+//   });
+// }
 
 function addNextPrevToFlatPostList(posts) {
   var list = [];

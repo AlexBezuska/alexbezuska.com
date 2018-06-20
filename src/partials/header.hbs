@@ -29,10 +29,12 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             {{#each site.pages}}
-            <li class="nav-item">
-              <a class="nav-link" href="/{{file}}">{{name}}</a>
-            </li>
-                {{/each}}
+              {{#if showInNav}}
+                <li class="nav-item">
+                  <a class="nav-link" href="/{{file}}">{{name}}</a>
+                </li>
+              {{/if}}
+            {{/each}}
 
           </ul>
         </div>
@@ -40,4 +42,4 @@
     </nav>
 
 
-<div style="height: 150px;"></div>
+    <div style="height: 150px;"></div>

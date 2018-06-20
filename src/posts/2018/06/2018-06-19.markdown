@@ -1,5 +1,5 @@
 ---
-date: 2018-06-11 00:00:00+00:00
+date: 2018-06-19 00:00:00+00:00
 title: Are Your Strong Software Opinions Adding to GameDev Community Gatekeeping?
 category: Community
 featured: true
@@ -30,7 +30,7 @@ Join me in taking a couple of minutes to think of how these conversations and de
 
 #### Imagine this scenario
 
-A new person comes to a meeting where people will be working on and talking about game creation; their laptop runs operating system X and they have just barely started working on a game with game engine Y. During the meeting they overhear somebody trashing one of these things because of some "super important" strong opinion.
+A new person comes to a meeting where people will be working on and talking about game creation; their laptop runs operating system X and they have just barely started working on a game with game engine Y. During the meeting they overhear somebody trashing one of these things because of a strong opinion.
 
 #### Let’s think about some possible outcomes:
 The new person...

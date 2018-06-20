@@ -1,7 +1,7 @@
 {
   "title": "Alex Bezuska",
-  "subtitle": "Game Artist and Developer",
-  "description": "",
+  "subtitle": "Game artist and developer",
+  "description": "Game artist and developer at independent games studio Two Scoop Games. Serves on the board of 501(c)3 non-profit Louisville Makes Games! a community of game creators. Lover of ice cream.",
   "google-analytics-id": "UA-16421229-1",
   "pages":[
     {
@@ -17,6 +17,11 @@
       "name": "Blog",
       "file": "blog.html",
       "showInNav": true
+    },
+    {
+      "name": "Contact",
+      "file": "contact.html",
+      "showInNav": true
     }
   ],
   "categories": [
@@ -25,5 +30,14 @@
     "Art",
     "Events",
     "Community"
-  ]
-}
+    ],
+    "about": {
+      "name": "Alex Bezuska",
+      "long": "Alex is a game artist and developer at independent games studio <a href='http://twoscoopgames.com'>Two Scoop Games</a>. He is passionate about making art and technology work together for a purpose through games and interactive art.<br>Alex also serves on the board of 501(c)3 non-profit <a href='http://louisvillemakesgames.org'>Louisville Makes Games!</a> where he does his best to help further an inclusive and encouraging local game creation community in Louisville, Kentucky through meetups, events, and kids classes.<br>He is also an avid lover of ice cream.",
+      "short": "Game artist & developer <a href='http://twoscoopgames.com'>Two Scoop Games</a>. <br>Board member <a href='http://louisvillemakesgames.org'>Louisville Makes Games!</a>",
+      "img": {
+        "url":"/images/site/alex_bezuska_2018.png",
+        "alt": "About Game Artist and Devloper Alex Bezuska"
+      }
+    }
+  }
