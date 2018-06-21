@@ -1,6 +1,22 @@
 {
-  "about": ""
-  ,
+  "aboutMe": [
+    {
+      "icon": "/images/site/icon-games.svg",
+      "text": "I make games at <a href='http://twoscoopgames.com'>Two Scoop Games</a>"
+    },
+    {
+      "icon": "/images/site/icon-lmg.svg",
+      "text": "I help run an interactive art non-profit that provides free kids code education at <a href='http://louisvillemakesgames.org.com'>Louisville Makes Games!</a>"
+    },
+    {
+      "icon": "/images/site/icon-apps.svg",
+      "text": "Available for contract work game & app projects at <a href='http://twoscoopinteractive.com'>Two Scoop Interactive</a>"
+    },
+    {
+      "icon": "/images/site/icon-louisville.svg",
+      "text": "Based out of Louisville, Kentucky"
+    }
+  ],
   "work":[
     {
       "title":"Lead Visual Designer",
@@ -17,7 +33,7 @@
       "name":"Two Scoop Games",
       "from":"November 2013",
       "to":"Present",
-      "description":"Game development allows me combine my passion for art and technology to create games for all to enjoy. Since we met at a local programming meetup in nov 2013, Eric Lathrop and I have been working on making our own games. We have currently completed 3 full releases on online app stores, and 14 game prototypes.",
+      "description":"Game development allows me combine my passion for art and technology to create games for all to enjoy. Since we met at a local programming meetup in Nov 2013, Eric Lathrop and I have been working on making our own games. We have currently completed 3 full releases on online app stores, and 14 game prototypes.",
       "show": true
     },
     {
@@ -25,7 +41,7 @@
       "name":"Platform Q",
       "from":"Jan 2016",
       "to":"Jan 2018",
-      "description":"At Platform Q I worked to translate wireframes, mockups, and prototypes into intuitive user experiences. I worked remotely with a team of talented developers to implement designs and features for a highly profitable online video learning platform. I worked with two teams and maintained daily communication. I worked with technologies including Wordpress, Angular 4, JavaScript, and CSS / SASS.",
+      "description":"At Platform Q I worked to translate wireframes, mockups, and prototypes into intuitive user experiences. I worked fully remote with a team of talented developers to implement designs and features for a highly profitable online video learning platform. I worked with two teams and maintained daily communication. Technologies included Wordpress, Angular 4, JavaScript, and CSS / SASS.",
       "show": true
     },
     {
@@ -33,7 +49,7 @@
       "name":"cafepress",
       "from":"May 2014",
       "to":"Dec 2015",
-      "description":"I started my career at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. Since then I have moved to the front end team on the main cafepress website, where I manage pages seen by tens of thousands of users a day. I primarily work in JavaScript, HTML and CSS.",
+      "description":"I started at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. After that I moved to the front end team on the main cafepress website, where I managed pages seen by tens of thousands of users a day. I primarily worked in JavaScript, HTML, and CSS.",
       "show": true
     },
     {

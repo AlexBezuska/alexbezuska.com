@@ -8,54 +8,26 @@
     <div class="jumbotron rounded bg-dark row p-0">
 
       <div class="col-md-4 col-xs-12 pr-0 featured-image-container pl-0">
-        <img class="br-4-0-0-4 maxh-350" src="/images/2018/06/alex_bezuska_2018.png" alt="Alex Bezuska UX/UI Designer, Front End Developer, and Indie Game Developer Louisville Kentucky"/>
+        <img class="br-4-0-0-4 maxh-350" src="/images/site/alex_bezuska_2018.png" alt="Alex Bezuska UX/UI Designer, Front End Developer, and Indie Game Developer Louisville Kentucky"/>
       </div>
 
       <div class="col-md-8 col-xs-12 featured-pad">
         <h1> About me </h1>
         <div class="row">
+
+          {{#each home.aboutMe}}
           <div class="col-sm-6">
             <div class="row">
               <div class="col-sm-4">
-                <img class="icon" src="/images/site/icon-games.svg"/>
+                <img class="icon" src="{{icon}}"/>
               </div>
               <div class="col-sm-8 align-center">
-                <p>I make games at <a href="http://twoscoopgames.com">Two Scoop Games</a></p>
+                <p>{{{text}}}</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="row">
-              <div class="col-sm-4">
-                <img class="icon" src="/images/site/icon-lmg.svg"/>
-              </div>
-              <div class="col-sm-8 align-center">
-                <p>I help run an interactive art non-profit that provides free kids code education at <a href='http://louisvillemakesgames.org.com'>Louisville Makes Games!</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="row">
-              <div class="col-sm-4">
-                <img class="icon" src="/images/site/icon-apps.svg"/>
-              </div>
-              <div class="col-sm-8 align-center">
-                <p>Available for contract work game & app projects at <a href='http://twoscoopinteractive.com'>Two Scoop Interactive</a> </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="row">
-              <div class="col-sm-4">
-                <img class="icon" src="/images/site/icon-louisville.svg"/>
-              </div>
-              <div class="col-sm-8 align-center">
-                <p>Based out of Louisville, Kentucky</p>
-              </div>
-            </div>
-          </div>
+          {{/each}}
+
         </div>
       </div>
     </div>
