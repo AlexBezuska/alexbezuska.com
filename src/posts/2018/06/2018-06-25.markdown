@@ -1,0 +1,59 @@
+---
+date: 2018-06-25 00:00:00+00:00
+title: Kentucky Fried Pixels Kick Off Jam
+category: Game Development
+featured: false
+coverPhoto: /images/2018/06/kfp.png
+coverPhotoAlt: Kentucky Fried Pixels Kick Off Jam
+---
+
+
+Kentucky Fried Pixels is a game jam that my friends and in the Louisville Makes Games community started. This past weekend was the third annual "kick-off" to the month long series of events that make up Kentucky Fried Pixels. To find out more about the jam and all the events check out [kentuckyfriedpixels.com](http://kentuckyfriedpixels.com)!
+
+The goal of the event is for people to work on teams and either bring an existing project they want to continue working on or start a new game based on the theme, My team Two Scoop Games (myself and Eric Lathrop) decided to do the former and bring our existing project Kick Bot DX.
+
+
+### Having a goal
+
+Kick Bot DX, which is a remake of a game we created in 2014 for the Flappy Jam, is already (pretty much) a fully working game so this jam month is all about polish. More specifically the plan was to add an in-game shop where players can purchase various bot parts to use in customizing their character, add more backgrounds and new types of hazards to add variety to the game play, and make a lot of the transitions between different scenes and actions feel good.
+
+> > Flappy Jam (a game jam where you try to make a game that is as frustrating as Flappy Bird)
+
+![](/images/2018/06/random-bot-parts.gif)
+
+### Making progress
+
+
+The Kentucky Fried Pixels Kick-off jam started Friday night and we used that time to wire-frame the current and needed screens of the game and work on planning the paths the user will take to get between the screens to do various tasks.
+> > Wire-framing - The act of creating intentionally simple drawings of all of the screens in your game and mapping out the order the player will go to them and how they will navigate( ex. buttons, timed events etc.)
+
+
+
+
+### Being Flexible
+The next morning we decided to get to work on the Shop for the game. I created a new scene in Unity and began to grey-box out the UI for the shop including placeholder images, part titles, prices, and buy buttons. Grey-boxing is the process of creating UI, levels or anything in a game engine using primitive shapes (which are usually grey by default) for the purpose of testing. This method is great for anything that you plan to need to iterate on because the time cost of creating boxes and moving them around is much less than creating full artwork for the screen and find out you need to change it all later.
+
+We did end up changing the shop layout several times and in the end I think we came up with a really solid first pass. Eric wired up purchasing a bot part for the in-game currency Research Points, we will also allow for players to buy parts via in-app-purchases later.
+
+![](/images/2018/06/play-as-bot.png)
+
+### Other accomplishments
+
+- Improved the bot falling when you hit a hazard, now the bot bounces off the walls on it's way down
+- Created Cyber Eric bot for Eric's birthday which fell during the Jam
+- Countdown timer for time left to purchase the parts of the day in the store
+- Updated Bot Builder UI - much improved user experience, icons for part types
+- Added the ability for players to actually play as the bot they have created
+
+
+![](/images/2018/06/eric-parts.gif)
+
+### Kick Off comes to a close
+
+Like all the game jams we do at Warp Zone Louisville, at the end of the jam we have public presentations where all of the teams show off the result of all the hard work they have done over the weekend. Video of our presentation can be found here:
+
+[Watch Kick Bot DX - Kentucky Fried Pixels Kick Off Jam Presentation](https://youtu.be/ij7OKhcFBj0)
+
+See all of the teams presentations here:
+
+[Watch Louisville Makes Games - Kentucky Fried Pixels Kick Off Jam Presentations](https://www.youtube.com/watch?v=_WmgrhzSIfU)
