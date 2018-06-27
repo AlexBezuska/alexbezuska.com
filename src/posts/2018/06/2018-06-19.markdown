@@ -9,28 +9,27 @@ coverPhotoAlt: Cover photo by Annie Spratt on Unsplash
 
 I started writing this back in April and I was a little afraid to post it, but I still feel this is an issue worth talking about and I am going to post it now.
 
-It’s really hard for me to write an article criticizing something that both my friends and myself are totally guilty of, but I feel like it needs to be addressed.
-Walk into any tech related event or meetup and I guarantee you will hear someone’s opinion about how some OS/language/software is superior or inferior to something else.
+]It's really hard for me to write an article criticizing something that both my friends and myself are totally guilty of, but I feel like it needs to be addressed.Walk into any tech related event or meetup and I guarantee you will hear someone's opinion about how some OS/language/software is superior or inferior to something else.
 
+I want to take a second to define *gatekeeping*
+I really like this definition I found on Urban Dictionary
 
-I want to take a second to define **gatekeeping**
-I really like this definition of **gatekeeping** I found on Urban Dictionary
-
-**Gatekeeping**
+*Gatekeeping*
 
 "When someone takes it upon themselves to decide who does or does not have access or rights to a community or identity."
 
 source: [Urban Dictionary - Gatekeeping](https://www.urbandictionary.com/define.php?term=Gatekeeping)
 
+I feel strongly that the Impact is often greater than the intent when it comes to gatekeeping.
 
-Coming into the the tech community and meeting people who have been programming longer than I have means I have always been around these debates. I have never really understood them but I have also found myself slipping into picking teams. I’m guilty of this and I want to do better. I have things I like and things I don’t but here is why I am going to try to keep my sweeping statements and absolute opinions to myself: *I thought about how new people might interpret them.*
+Coming into the the game development community and meeting people who have been making games longer than I have means I have had the opportunity to meet some of the most creative, hard working, and inspiring people - It also means I have been around a fair amount of software and engine debates and casual remarks. I feel like in any community a bit of the existing culture rubs off on new members and I have also found myself slipping into picking teams and making my own casual and not-so-casual remarks. I have tools I like and tools I don't but here is why I am going to try to keep my sweeping statements and absolute opinions to myself: *I thought about how new people might interpret them.*
 
 Join me in taking a couple of minutes to think of how these conversations and debates might come off to someone new.
 
 
 #### Imagine this scenario
 
-A new person comes to a meeting where people will be working on and talking about game creation; their laptop runs operating system X and they have just barely started working on a game with game engine Y. During the meeting they overhear somebody trashing one of these things because of a strong opinion.
+A new person comes to a meeting where people will be working on and talking about game creation; their laptop runs operating system X and they have just started working on their first game with game engine Y. During the meeting they overhear somebody trashing one of these things because of a strong opinion.
 
 #### Let’s think about some possible outcomes:
 The new person...
@@ -47,25 +46,28 @@ Do you think this is creates a welcoming environment for new people or contribut
 
 What if the new person can only afford tool X or has invested a ton of time into learning it?
 
-When someone who isn’t a game developer plays a game do you think they care if it was made with unity, or game maker, RPG maker, flash or a completely custom engine?
+When someone who isn't a game developer plays a game do you think they care if it was made with Unity, or Game Maker, RPG maker, flash or a completely custom engine?
 
 ![Photo by Marvin Meyer on Unsplash](/images/2018/06/marvin-meyer-571072-unsplash.png)
 Photo by [Marvin Meyer](https://unsplash.com/@marvelous) on [Unsplash](https://unsplash.com/)
 
 
-#### Counterpoint
+#### Counterpoints
 
-One argument against this I can think of is a good-natured desire to help a new person with suggestions of a tool that might fit their needs, be easier for them, or better suited for the task at hand. This is fine, I am not suggesting we don't talk about what we enjoy using, but there are good and bad ways to offer these suggestions. Unsolicited advice can really make people feel small.
+One argument against this I can think of is a good-natured desire to help a new person with suggestions of a tool that might fit their needs, be easier for them, or better suited for the task at hand. This is fine, I am not suggesting we avoid talking about what we enjoy using, but there are good and bad ways to offer these suggestions. Unsolicited advice can really make people feel small.
 
-"I had a similar problem and I solved it using ..." comes off much better than "You should use..." or "Why are you doing it that way?"
+"I had a similar problem and I solved it using …" comes off much better that "You should/shouldn't use…" or the dreaded "Why are you doing it that way?!"
 
-#### Thoughts
+Another counterpoint is that "If everyone uses X, it's a monoculture!" I feel like I am very guilty of this kind of thinking but there are also a lot of positives to a community using the same tech. If a group uses the same game engine for example; knowledge sharing and even code sharing can really help overcome monotony allowing everyone to get to the creative part. I found this especially helpful when dealing with parts of games that aren't "the core game" such as app store requirements.
+
+#### ClosingThoughts
 
 In the game development community which I am a part of and specifically the local scene I help to organize and foster we already have a lot of stigmas to get over.
 
-While this issue is surely less important than creating a welcoming and inclusive community for people of all regardless of identity, background, or ability, I feel like it still can contribute to a similar dynamic of people being made to feel like there are “outsiders” and “insiders” within the group.
+While this issue is surely less important than creating a welcoming and inclusive community for people of all regardless of identity, background, or ability, I feel like it still can contribute to a similar dynamic of people being made to feel like there are "outsiders" and "insiders" within the group.
 
-I want to work toward a community where we can all be happy that people are making cool art. I want to work toward a community that cares less about weather or not the tool they used to create it was the "right one" because maybe it was the exactly the "right one" for them.
+I want to work toward a community where we can all be happy that people are making cool art. I want to work toward a community that cares less about whether or not the tool they used to create it was the "right one" because maybe it was the exactly the "right one" for them.
+
 We have agreed that we want to work toward diversity in the people who feel they can make games, let's also be accepting of a diversity in the tools and tech they use.
 
 
