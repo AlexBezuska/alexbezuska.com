@@ -261,6 +261,9 @@ function makeDirIfNotExist(filePath) {
 
 function onlyMarkdownFiles(files) {
   return files.filter( (file) => {
+    if(file.includes('._')){
+      return false;
+    }
     return file.includes('.markdown');
   });
 }
