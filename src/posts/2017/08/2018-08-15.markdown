@@ -1,0 +1,24 @@
+---
+date:  08-15-2017
+title: Yes we are artists, Yes we are running a business  
+category: Game Development
+featured: false
+coverPhotoAlt: Yes we are artists, Yes we are running a business
+---
+
+
+We recently had the pleasure of hearing from Jay Kidd of [Wraith Games](https://www.wraithgames.com/) based out of Cincinnati Ohio. We setup a remote video call with Jay and displayed it on our projector at [Warp Zone Louisville game dev space](http://louisvillemakesgames.org/warpzone/). I came away with a lot of great information.
+
+First I would like to say that Jay is an enthusiastic speaker and you can instantly tell he is passionate about both making games and healing others in the community. At Jay’s studio which he founded in high school he handles a lot of jobs including marketing, promotion, business plans all on top of actually making the games. His talk was broken down into two main parts: business and marketing/promotion with questions and thoughtful answers scattered throughout.
+
+The business portion was a refreshing contrast to what I continually hear about funding your game in that Jay suggests actually creating a traditional business plan and approaching a bank. it seems like crowdfunding through platforms such as kickstarter or Patreon, signing with a publisher at the cost of reduced creative control, or going out of your own pocket are the “indie” routes I hear about most often. Jay recommends coming up with market research, and presenting your case to the bank or credit union based on a 3-year plan.
+
+In the second half of Jay’s talk he shared his experience with what works when it comes to promotion and marketing. Promotion defined as: showing up and having a booth at conventions and expos complete with banners, branded table cloth, signs and giving away cards, flyers, stickers and other SWAG. The marketing portion dove deep into social media – what to post, who to post to, and most importantly how often. Jay discussed Twitter, Facebook, and Instagram as the main platforms they focus their efforts on.
+
+I feel like my studio, [Two Scoop Games](http://twoscoopgames.com/), can always benefit from thinking more and putting more focused effort into the business plan and marketing behind the games we are making. I have tended to stray from a lot of planning or even thinking of what we do from a business perspective because as indies we tend to want to cast aside the notion that what we are doing is a business or work, we usually want to ‘keep it fun’. I do believe you can think of your work as art while simultaneously making a living from what you do, and that balance is worth the hard work of achieving. I will leave you with a quote from Scott Benson (Night in the Woods):
+
+“Make art.
+
+Make rent.
+
+Help others do the same.”
