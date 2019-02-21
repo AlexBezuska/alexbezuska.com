@@ -1,6 +1,6 @@
 var fs = require("fs");
 var path = require("path");
-var markdown = require( "markdown" ).markdown;
+var marked = require("marked");
 var handlebars = require("handlebars");
 var copydir = require("copy-dir");
 var yamlFront = require("yaml-front-matter");
@@ -65,7 +65,7 @@ function compilePost(postObject){
     site: site,
     post:{
       meta : post,
-      content: markdown.toHTML(post.__content).replace("<!--more-->", "") + blogSignature
+      content: marked(post.__content).replace("<!--more-->", "") + blogSignature
     }
   };
 
@@ -201,7 +201,7 @@ function returnFlatPostList(tree) {
           src: path.join(src, "posts", postMarkdownFile),
           url : path.join("/posts", convertFilename(postMarkdownFile)),
           category: postMeta.category,
-          blurb: markdown.toHTML(blurb),
+          blurb: blurb,
           coverPhoto: postMeta.coverPhoto,
           coverPhotoAlt: postMeta.coverPhotoAlt,
           featured: postMeta.featured
