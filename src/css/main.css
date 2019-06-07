@@ -8,8 +8,8 @@
   font-style: normal;
 }
 
-*{
-//  border: 1px solid red;
+* {
+  //  border: 1px solid red;
 }
 
 body {
@@ -36,17 +36,18 @@ a:hover {
   text-decoration: underline;
 }
 
-.about-me-item{
+.about-me-item {
   margin: 20px 0;
   text-decoration: none;
 }
-.about-me-item:hover{
+
+.about-me-item:hover {
   text-decoration: none;
 }
-.about-me-item-text{
+
+.about-me-item-text {
   padding: 0;
 }
-
 
 p a, li a {
   color: white;
@@ -57,7 +58,7 @@ p a:hover, li a:hover {
   text-decoration: underline;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   font-family: "tofino", "helvetica Neue", helvetica, sans-serif;
   text-decoration: none !important;
   color: white !important;
@@ -78,11 +79,9 @@ h1 {
   letter-spacing: .1rem !important;
 }
 
-h1.funHeading::after{
-content: "";
-background-color: #E95DB0;
-
-
+h1.funHeading::after {
+  content: "";
+  background-color: #E95DB0;
 }
 
 h2 {
@@ -283,7 +282,6 @@ li:not(navbar li) {
   box-shadow: none;
 }
 
-
 .post-page {
   margin: 0 auto;
   max-width: 960px;
@@ -365,7 +363,7 @@ a.nav-link:hover {
   border-bottom: 2px solid white;
 }
 
-.resume-section-container{
+.resume-section-container {
   perspective: 1000px;
 }
 
@@ -375,24 +373,24 @@ a.nav-link:hover {
   transition: all 0.2s;
 }
 
-.resume-section:hover{
+.resume-section:hover {
   background-color: #E95DB0;
 }
 
-.resume-section.flip-right:hover{
+.resume-section.flip-right:hover {
   transform: rotateY(10deg);
 }
 
-.resume-section.flip-left:hover{
-
+.resume-section.flip-left:hover {
   transform: rotateY(-10deg);
 }
 
-.resume-section .date{
-font-size: .9rem;
+.resume-section .date {
+  font-size: .9rem;
 }
-.resume-section p{
-margin-top: 5px;
+
+.resume-section p {
+  margin-top: 5px;
 }
 
 .text-purple {
@@ -430,7 +428,13 @@ margin-top: 5px;
   display: flex;
 }
 
+.portfolio-item {
+  /* margin: 10px 0; */
+  padding: 10px;
+  border-radius: 3px;
+}
+
 .portfolio-item img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
