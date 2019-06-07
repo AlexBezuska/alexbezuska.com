@@ -11,9 +11,9 @@ More to come... when I feel like it.
 
 ## Bugs
 
-- logo missing on firefox
-- fonts are extremely thin in firefox/ubuntu
-- embedded youtube videos dont work
+
+- Needs favicon
+- Embedded youtube videos don't work
 ```
 Code for when I get around to fixing this:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iwpL5AaKIQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -13,10 +13,14 @@ var dest = "./" + config.dest;
 
 makeDirIfNotExist(dest);
 makeDirIfNotExist(path.join(dest, "posts"));
-makeDirIfNotExist(path.join(dest, "css"));
-copydir.sync(path.join(src, "css"), path.join(dest, "css"));
-makeDirIfNotExist(path.join(dest, "images"));
-copydir.sync(path.join(src, "images"), path.join(dest, "images"));
+copyFolder("css");
+copyFolder("images");
+copyFolder("fonts");
+
+function copyFolder(name){
+  makeDirIfNotExist(path.join(dest, name));
+  copydir.sync(path.join(src, name), path.join(dest, name));
+}
 
 
 var data = addPageData(createData());
@@ -65,7 +69,7 @@ function compilePost(postObject){
     site: site,
     post:{
       meta : post,
-      content: marked(post.__content).replace("<!--more-->", "") + blogSignature
+      content: marked(post.__content).replace("<!--more-->", "") //+ blogSignature
     }
   };
 
@@ -115,9 +119,9 @@ function createData (){
     data.categories[cat] = onlyCategory(posts, cat);
     console.log(data.categories[cat].length, cat, "Posts");
   });
-  var recentPosts = addRecent(posts, 6);
-  data.recentNext = recentPosts[4];
-  data.recent = recentPosts.slice(0,4);
+  //var recentPosts = addRecent(posts, 6);
+  //data.recentNext = recentPosts[4];
+  data.recent = posts;//recentPosts.slice(0,4);
   data.posts = posts;
   return data;
 }

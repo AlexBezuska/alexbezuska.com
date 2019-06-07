@@ -1,134 +1,155 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
-body{
-  background: #24282b;
+@font-face {
+  font-family: 'tofino';
+  src: url('../fonts/tofinopropersonalwide-black-webfont.woff2') format('woff2'),
+    url('../fonts/tofinopropersonalwide-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #4BDCEE;
   color: white;
   font-family: "Lato", "helvetica Neue", helvetica, sans-serif;
-  font-weight: 100;
   letter-spacing: 1px;
 }
 
 ::selection {
-  background: #00C1BC !important;
+  background: yellow !important;
 }
 
-
-
-a{
-color: white;
-
+a {
+  color: white;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
-
 }
 
-p a, li a{
-  font-weight: 300;
-  color: #00C1BC;
+p a, li a {
+  color: white;
 }
-p a:hover, li a:hover{
 
-  color: #00C1BC;
+p a:hover, li a:hover {
+  color: white;
   text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", "helvetica Neue", helvetica, sans-serif;
+  font-family: "tofino", "helvetica Neue", helvetica, sans-serif;
   text-decoration: none !important;
   margin-bottom: 15px !important;
   color: white !important;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none !important;
-    color: white !important;
-}
-a h1, a h2, a h3, a h4, a h5, a h6{
-  text-decoration: none !important;
-    color: white !important;
+  color: white !important;
 }
 
-h1{
-  font-size: 2.1rem!important;
-  font-weight: 100!important;
+a h1, a h2, a h3, a h4, a h5, a h6 {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+h1 {
+  font-size: 2rem !important;
   letter-spacing: .1rem !important;
 }
 
-h2{
-  font-size: 1.6rem!important;
-  font-weight: 300!important;
+h1.funHeading::after{
+content: "";
+background-color: #E95DB0;
+
+
+}
+
+h2 {
+  font-size: 1.5rem !important;
   letter-spacing: .1rem !important;
 }
 
+h3 {
+  font-size: 1rem !important;
+  letter-spacing: .1rem !important;
+}
+
+.navbar {
+  padding: 20px;
+  background: #4bdcee;
+  border-bottom: 3px solid white;
+}
 
 .blog-header {
   line-height: 1;
 }
 
-.logo-container{
-    text-decoration: none;
+.logo-container {
+  text-decoration: none;
 }
 
-.logo-container:hover{
+.logo-container:hover {
   color: white;
   text-decoration: none;
 }
-.logo{
- width: 80%;
- max-width: 300px;
- padding: 10px 0;
+
+.logo {
+  font-weight: bold;
 }
 
+.logo-subtitle {}
 
-
-.cover-photo{
+.cover-photo {
   margin-bottom: 15px;
 }
 
-.thumbnail{
+.thumbnail {
   display: block;
   margin: 0 auto;
 }
 
-.jumbotron{
+/* jumbotron stuff */
+.jumbotron {
+  background-color: #E95DB0;
   display: flex;
   padding: 0;
 }
 
-.featured-pad{
+.jumbotron a {
+  color: white;
+}
+
+.featured-pad {
   padding: 20px 40px;
 }
 
-.br-4{
+.br-4 {
   border-radius: 4px;
 }
 
-.blog-post-blurb img{
+.blog-post-blurb img {
   width: 100%;
   display: block;
   border-radius: 4px;
 }
 
-
-.jumbotron img, .row img{
+.jumbotron img, .row img {
   max-width: 100%;
   display: block;
 }
 
-.blog-main{
+.blog-main {
   padding-left: 0 !important;
 }
 
-.blog-post-blurb{
+.blog-post-blurb {
   margin: 0;
 }
 
-.blog-post-btn-row{
+.blog-post-btn-row {
   margin: 15px 0 115px 0;
 }
-
-
 
 .card-img-right {
   height: 100%;
@@ -140,246 +161,244 @@ h2{
   flex: 0 0 auto;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
 
 .blog-title {
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: 400;
 }
+
 .blog-description {
   font-size: 1.1rem;
-  color: #999;
+  color: white;
 }
-
-
 
 .blog-pagination {
   margin-bottom: 4rem;
 }
-.blog-pagination > .btn {
+
+.blog-pagination>.btn {
   border-radius: 2rem;
 }
 
 .blog-post {
   margin-bottom: 4rem;
 }
+
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
 }
+
 .blog-post-meta {
   margin-bottom: 1.25rem;
-  color: #999;
+  color: white;
 }
-
 
 .blog-footer {
   width: 100%;
   padding: 2.5rem 0;
   text-align: center;
-  background-color: #343a40!important;
-
+  background-color: #E95DB0 !important;
 }
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
 
-
-.featured .col-md-6 .card{
+.featured .col-md-6 .card {
   height: 100% !important;
 }
 
-.read-more-link{
+.read-more-link {
   background: transparent;
-  border: 1px solid #00C1BC;
+  border: 1px solid white;
   padding: 10px 20px;
   border-radius: 25px;
   float: right;
-  color: #00C1BC;
+  color: white;
   font-weight: 400;
   padding-top: 10px;
   text-decoration: none;
 }
 
-.read-more-link:hover{
-  border: 1px solid #00C1BC;
-  background: #00C1BC;
-  color: #24282b;
+.read-more-link:hover {
+  border: 1px solid white;
+  background: white;
+  color: #4BDCEE;
   text-decoration: none;
 }
 
-li{
+li:not(navbar li) {
   margin-bottom: 15px;
 }
-
-
 
 .btn {
   border: 0;
   text-decoration: none;
 }
 
-.btn-primary{
-  border: 1px solid  #00C1BC;
-  color: #00C1BC;
-  outline:none;
+.btn-primary {
+  border: 1px solid white;
+  color: white;
+  outline: none;
   background: transparent;
   box-shadow: none;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover{
-  border: 1px solid  #00C1BC;
-  background: #00C1BC !important;
-  color: #24282b;
-  outline:none;
-  background: #24282b;
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  border: 1px solid white;
+  background: white !important;
+  color: #4BDCEE;
+  outline: none;
+  background: #4BDCEE;
   box-shadow: none;
 }
 
-.hvr-underline-from-center{
+.hvr-underline-from-center {
   padding-bottom: 4px;
 }
 
-.hvr-underline-from-center:before{
-  background: #00C1BC;
+.hvr-underline-from-center:before {
+  background: white;
 }
 
-
-.post-page{
+.post-page {
   margin: 0 auto;
   max-width: 960px;
 }
 
-
-.hvr_forward, .hvr_backward{
+.hvr_forward, .hvr_backward {
   transition-duration: 0.1s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
 
-.hvr_forward:hover{
+.hvr_forward:hover {
   transform: translateX(5px);
 }
 
-
-.hvr_backward:hover{
+.hvr_backward:hover {
   transform: translateX(-5px);
 }
 
-
-.blog-main img{
+.blog-main img {
   max-width: 100%;
   display: block;
-  border-radius:4px;
+  border-radius: 4px;
   margin: 5px 0;
-  border: 1px solid #343a40;
+  border: 1px solid white;
 }
 
-
-.site-nav li{
+.site-nav li {
   display: inline-block;
   list-style-type: none;
 }
 
-a.nav-link{
+a.nav-link {
   border-radius: 25px;
   padding: 6px 30px !important;
   font-weight: 200 !important;
   text-decoration: none;
   font-weight: bold !important;
-
 }
 
-a.nav-link:hover{
-
-  background: #00C1BC;
-  color: #24282b;
+a.nav-link:hover {
+  background: white;
+  color: #4BDCEE;
 }
 
 @media (min-width: 1200px) {
-  .maxh-350{
+  .maxh-350 {
     max-height: 350px;
   }
 }
 
-
-
-
-@media (min-width: 768px) and  (max-width: 1199px){
-  .featured-image-contanter{
+@media (min-width: 768px) and (max-width: 1199px) {
+  .featured-image-contanter {
     padding: 20px;
   }
-
 }
 
 /* under tablet */
 @media (max-width: 767px) {
   .featured-pad {
-      padding: 20px 20px;
+    padding: 20px 20px;
   }
 
-h1{
-  font-size: 1.6rem!important;
-}
-  .xs-colrev{
+  h1 {
+    font-size: 1.6rem !important;
+  }
+
+  .xs-colrev {
     flex-direction: column-reverse !important;
   }
 
-.featured-image-container{
+  .featured-image-container {
     padding: 0 !important;
   }
-
 }
-.skewed-header{
+
+.skewed-header {
   padding: 10px 0;
-  border-bottom: 2px solid #00C1BC;
+  border-bottom: 2px solid white;
+}
+
+.resume-section-container{
+  perspective: 1000px;
+}
+
+.resume-section {
+  margin-bottom: 15px !important;
+  padding: 15px 20px 5px 20px;
+  transition: all 0.2s;
 }
 
 
-
-.resume-section{
-  margin-bottom: 25px !important;
+.resume-section:hover{
+  background-color: #E95DB0;
+  transform: rotateY(10deg);
 }
 
-.text-purple{
-  color: #00C1BC !important;
+.text-purple {
+  color: white !important;
 }
 
-.ml-20{
+.ml-20 {
   margin-left: 20px;
 }
 
-.mr-20{
+.mr-20 {
   margin-right: 20px;
 }
 
-.mt-20{
+.mt-20 {
   margin-top: 20px;
 }
 
-.br-4-0-0-4{
+.br-4-0-0-4 {
   border-radius: 4px 0 0 4px;
 }
-.br-0-4-4-0{
+
+.br-0-4-4-0 {
   border-radius: 0 4px 4px 0;
 }
 
-.icon{
+.icon {
   width: 100%;
   max-width: 150px !important;
+  fill: white !important;
 }
 
-
-
-.align-center{
+.align-center {
   align-items: center;
-display: flex;
+  display: flex;
 }
 
-
-
-.portfolio-item img{
+.portfolio-item img {
   width: 200px;
   height: 200px;
 }

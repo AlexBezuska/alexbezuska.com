@@ -5,7 +5,7 @@
 
   <div class="featured">
 
-    <div class="jumbotron rounded bg-dark row p-0">
+    <div class="jumbotron rounded row p-0">
 
       <div class="col-md-4 col-xs-12 pr-0 featured-image-container pl-0">
         <img class="br-4-0-0-4 maxh-350" src="/images/site/alex_bezuska_2018.png" alt="Alex Bezuska UX/UI Designer, Front End Developer, and Indie Game Developer Louisville Kentucky"/>
@@ -37,13 +37,15 @@
 
       <div class="col-sm-6 p-0">
         <div class="mr-20">
-          <h2 class="skewed-header">Work Experience</h2>
+          <h2 class="funHeading">Work Experience</h2>
           {{#each home.work}}
           {{#if show}}
-          <div class="resume-section">
-            <h3>{{title}} |  <a href="{{url}}" target="_blank">{{name}}</a></h3>
-            <em>{{from}} &ndash; {{to}}</em>
-            <p class="mb-15">{{description}}</p>
+          <div class="resume-section-container">
+            <div class="resume-section">
+              <h3>{{title}} |  <a href="{{url}}" target="_blank">{{name}}</a></h3>
+              <em>{{from}} &ndash; {{to}}</em>
+              <p class="mb-15">{{description}}</p>
+            </div>
           </div>
           {{/if}}
           {{/each}}
@@ -52,7 +54,7 @@
 
       <div class="col-sm-6 p-0">
         <div class="ml-20">
-          <h2 class="skewed-header">Community Development Experience</h2>
+          <h2 class="funHeading">Community Development Experience</h2>
           {{#each home.community}}
 
           <div class="resume-section">
@@ -71,7 +73,7 @@
 
       <div class="col-sm-4 p-0">
         <div class="mr-20">
-          <h2 class="skewed-header">Speaking</h2>
+          <h2 class="funHeading">Speaking</h2>
           {{#each home.speaking}}
           <div class="resume-section">
             <p class="mb-15">{{description}}</p>
@@ -83,7 +85,7 @@
       <div class="col-sm-4 p-0">
         <div class="mr-20 ml-20">
 
-          <h2 class="skewed-header">Teaching</h2>
+          <h2 class="funHeading">Teaching</h2>
           {{#each home.teaching}}
           <div class="resume-section">
             <p class="mb-15">{{description}}</p>
@@ -93,7 +95,7 @@
       </div>
       <div class="col-sm-4 p-0">
         <div class="ml-20">
-          <h2 class="skewed-header">Advocating</h2>
+          <h2 class="funHeading">Advocating</h2>
           {{#each home.advocating}}
           <div class="resume-section">
             <p class="mb-15">{{description}}</p>

@@ -53,18 +53,4 @@ If you would like to learn more about Smart Objects here are some great resource
   * [https://helpx.adobe.com/photoshop/using/create-smart-objects.html](https://helpx.adobe.com/photoshop/using/create-smart-objects.html)
 
 
-  * [https://design.tutsplus.com/tutorials/10-things-you-need-to-know-about-smart-objects-in-photoshop--cms-20268
-
-](https://design.tutsplus.com/tutorials/10-things-you-need-to-know-about-smart-objects-in-photoshop--cms-20268)_Who is Alex Bezuska?_
-
-Alex is a game artist and developer at independent games studio [Two Scoop Games](http://t.umblr.com/redirect?z=http%3A%2F%2Ftwoscoopgames.com&t=YmVmMjViMmEwMWZjZDAzNjhhMGQ5YjkxNTNlMzJmYTgzODQyOTM4Nix2TDIwcE5BNw%3D%3D). He is passionate about making art and technology work together for a purpose through games and other interactive art.
-Alex is also a director for the non-profit [Louisville Makes Games!](http://t.umblr.com/redirect?z=http%3A%2F%2Flouisvillemakesgames.org&t=YTgwM2ZmZmM4NTI5MWUyZDdkOWY1YmQ5ZjcwNjkwYmE4ZjJjOGJkYSxXTkxYN0p6Ug%3D%3D&b=t%3Augth9JiyY9YQHdzCbDKn_Q&p=https%3A%2F%2Ftwoscoopgames.tumblr.com%2Fpost%2F150318354866%2Fwhat-you-should-ask-yourself-after-showing-your-game-at&m=1) where he helps to further an inclusive and encouraging local game creation community in Louisville, Kentucky.
-He is also an avid lover of ice cream.
-
-**Kick Bot DX** is our current game project at Two Scoop Games, and we will be releasing a pay-what-you-want bundle of games called Kentucky Fried Pixels (KFP) on August 17th!
-
-[Sign up here to get an email when the KFP bundle is released
-
-](http://bit.ly/kfpmail)Keep up to date with all the latest news and updates from Two Scoop Games by [joining our mailing list!](http://eepurl.com/1j1_b)
-
-[Two Scoop games on Twitter: ](https://design.tutsplus.com/tutorials/10-things-you-need-to-know-about-smart-objects-in-photoshop--cms-20268)[@TwoScoopGames](http://twitter.com/@TwoScoopGames)
+  * [https://design.tutsplus.com/tutorials/10-things-you-need-to-know-about-smart-objects-in-photoshop--cms-20268](https://design.tutsplus.com/tutorials/10-things-you-need-to-know-about-smart-objects-in-photoshop--cms-20268)
