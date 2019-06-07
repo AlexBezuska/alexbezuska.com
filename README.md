@@ -5,11 +5,20 @@ Welcome to my website! ... well the git repo for it anyway! Wow you're a nerd ar
 More to come... when I feel like it.
 
 
-## How it works
+## Bugs
 
-This site uses a custom static site and blog generator(thats some nerdy shit isn't it?)
+- logo missing on firefox
+- fonts are extremely thin in firefox/ubuntu
+- embedded youtube videos dont work
+```
+Code for when I get around to fixing this:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iwpL5AaKIQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
 
-### To build:
+
+
+
+## To build:
 
 1. run `npm start` from the terminal, then files will magically appear in the `dest` folder.
 
