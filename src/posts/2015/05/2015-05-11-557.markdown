@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-05-11 14:29:46+00:00
 layout: post
 link: http://blog.alexbezuska.com/557/
 slug: '557'
-title: No Content Found
+title: Glazing Lazers recieved 4th place!
 wordpress_id: 557
 post_format:
 - Image

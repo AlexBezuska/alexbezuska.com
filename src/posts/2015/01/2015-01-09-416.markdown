@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Global Game Jam is this month!
 comments: true
 date: 2015-01-09 21:38:00+00:00
 layout: post
 link: http://blog.alexbezuska.com/416/
 slug: '416'
-title: No Content Found
+title: Global Game Jam is this month!
 wordpress_id: 416
 post_format:
 - Image
@@ -22,7 +22,6 @@ tags:
 - indiegames
 ---
 
-![](/images/2015/01/tumblr_nhxis36Fcp1u11b0ro1_1280.png)
 
 [Global Game Jam](http://globalgamejam.com) is this month!
 
@@ -35,21 +34,5 @@ I designed an image for custom #GGJ15 buttons! Feel free to use the image to mak
 
 
 We here at [Two Scoop Games](http://twoscoopgames.com) are excited to participate in our second Global Game Jam!  
-  
-You can also order the buttons from CafePress (my work) here: [http://www.cafepress.com/+global_game_jam_button_225_button_10_pack,1484318708](http://www.cafepress.com/+global_game_jam_button_225_button_10_pack,1484318708)
 
-![](/images/2015/01/tumblr_nhxis36Fcp1u11b0ro2_r1_500.png)
-
-[Global Game Jam](http://globalgamejam.com) is this month!
-
-
-
-
-I designed an image for custom #GGJ15 buttons! Feel free to use the image to make your own, let me know if you need a higher-res copy, or anything else.
-
-
-
-
-We here at [Two Scoop Games](http://twoscoopgames.com) are excited to participate in our second Global Game Jam!  
-  
 You can also order the buttons from CafePress (my work) here: [http://www.cafepress.com/+global_game_jam_button_225_button_10_pack,1484318708](http://www.cafepress.com/+global_game_jam_button_225_button_10_pack,1484318708)

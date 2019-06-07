@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-01-12 20:39:37+00:00
 layout: post
 link: http://blog.alexbezuska.com/430/
 slug: '430'
-title: No Content Found
+title: Global Game Jam 2015 Wallpaper
 wordpress_id: 430
 post_format:
 - Image

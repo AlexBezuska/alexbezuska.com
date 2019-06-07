@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-06-27 19:46:12+00:00
 layout: post
 link: http://blog.alexbezuska.com/617/
 slug: '617'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 617
 post_format:
 - Image
@@ -17,4 +17,5 @@ tags:
 - watercolor
 ---
 
+![](/images/2015/06/tumblr_nqmc90EYsR1u11b0ro1_1280.jpg)
 Happy birthday Eric! #dailydrawings #watercolor #gamedev #cookies #ergodox

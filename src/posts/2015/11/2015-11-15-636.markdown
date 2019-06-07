@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-11-15 01:33:59+00:00
 layout: post
 link: http://blog.alexbezuska.com/636/
 slug: '636'
-title: No Content Found
+title: Comic Idea
 wordpress_id: 636
 post_format:
 - Image
@@ -16,5 +16,7 @@ tags:
 - foxes
 - indie comics
 ---
-
+![](/images/2015/11/tumblr_nxu1r6eJi81u11b0ro1_1280.jpg)
+![](/images/2015/11/tumblr_nxu1pzpSMF1u11b0ro1_1280.jpg)
+![](/images/2015/11/tumblr_nxu1ooDCpR1u11b0ro1_1280.jpg)
 Sneak peak at my new comic coming soon!

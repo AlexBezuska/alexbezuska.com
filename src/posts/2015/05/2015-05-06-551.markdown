@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-05-06 00:09:20+00:00
 layout: post
 link: http://blog.alexbezuska.com/551/
 slug: '551'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 551
 post_format:
 - Image
@@ -21,4 +21,3 @@ tags:
 ![](/images/2015/05/tumblr_no3xrkDYr51u11b0ro1_540.gif)
 
 Daily Drawing 2015-05-07  
-

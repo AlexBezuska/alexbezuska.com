@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-02-23 05:47:03+00:00
 layout: post
 link: http://blog.alexbezuska.com/529/
 slug: '529'
-title: No Content Found
+title: Daily Drawing 040/365
 wordpress_id: 529
 post_format:
 - Image
@@ -24,4 +24,4 @@ tags:
 
 ![](/images/2015/02/tumblr_nk7mqf1jIR1u11b0ro1_1280.jpg)
 
-Daily Drawing Day 40 #dailydraw #dailydrawing #thingaday #art #artwork #sketch #sketchbook #pencil #gamedev #sketches
+Daily Drawing Day 040/365 #dailydraw #dailydrawing #thingaday #art #artwork #sketch #sketchbook #pencil #gamedev #sketches

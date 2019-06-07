@@ -39,11 +39,5 @@ I worked on some sketches but I was generally dried up creatively on the charact
 Kick Bot DX is being created for the Kentucky Fried Pixels (KFP) game jam which ends July 9th, we will be releasing a pay-what-you-want bundle of games on August 17th!
 [Sign up here to get an email when the KFP bundle is released](http://bit.ly/kfpmail)
 
-Who is Alex?
-
-Alex Bezuska is the cofounder/ artist for [Two Scoop Games](http://t.umblr.com/redirect?z=http%3A%2F%2Ftwoscoopgames.com&t=YmVmMjViMmEwMWZjZDAzNjhhMGQ5YjkxNTNlMzJmYTgzODQyOTM4Nix2TDIwcE5BNw%3D%3D) and Director at [Louisville Makes Games!](http://t.umblr.com/redirect?z=http%3A%2F%2Flouisvillemakesgames.org&t=YTgwM2ZmZmM4NTI5MWUyZDdkOWY1YmQ5ZjcwNjkwYmE4ZjJjOGJkYSxXTkxYN0p6Ug%3D%3D&b=t%3Augth9JiyY9YQHdzCbDKn_Q&p=https%3A%2F%2Ftwoscoopgames.tumblr.com%2Fpost%2F150318354866%2Fwhat-you-should-ask-yourself-after-showing-your-game-at&m=1) Alex is obsessively passionate about making games and building the local game development community. He is also an avid lover of ice cream.
-
 
 Keep up to date with all the latest news and updates from Two Scoop Games by [joining our mailing list!](http://eepurl.com/1j1_b)
-
-Two Scoop games on Twitter: [@TwoScoopGames](http://twitter.com/@TwoScoopGames)

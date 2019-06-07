@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-06-25 18:19:51+00:00
 layout: post
 link: http://blog.alexbezuska.com/608/
 slug: '608'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 608
 post_format:
 - Image
@@ -16,4 +16,5 @@ tags:
 - sketchbook
 ---
 
+![](/images/2015/06/tumblr_nqiix3t7Mt1u11b0ro1_1280.jpg)
 Face practice. #art #dailydrawings #sketchbook #gamedev

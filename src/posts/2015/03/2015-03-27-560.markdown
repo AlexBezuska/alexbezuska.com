@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-03-27 04:00:00+00:00
 layout: post
 link: http://blog.alexbezuska.com/560/
 slug: '560'
-title: No Content Found
+title: Overworld logo concepts
 wordpress_id: 560
 post_format:
 - Image

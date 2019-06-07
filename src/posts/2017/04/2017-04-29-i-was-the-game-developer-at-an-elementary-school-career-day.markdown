@@ -29,29 +29,24 @@ Feel free to use or show this presentation to classes. I am providing it under t
 
 I have a few insights below from the questions I asked them and the most common questions they asked me.
 
-** Questions the kids asked me: **
-How long have you been making games?
-What is your favorite game that you've made?
-Is programming hard?
-What is your most popular game?
-Are your games on the app store?
-What is the weirdest game you have made?
+### Questions the kids asked me:
+- How long have you been making games?
+- What is your favorite game that you've made?
+- Is programming hard?
+- What is your most popular game?
+- Are your games on the app store?
+- What is the weirdest game you have made?
 
-**
-"What games do you like to play?"**
+### Questions I asked the kids:
+
+- "What games do you like to play?"  
 (answers in order of most to least)
-
-
-
 
   1. Minecraft
 
-
   2. Call of Duty
 
-
   3. Grand Theft Auto
-
 
   4. Paper Mario: Color Splash
 
@@ -61,26 +56,18 @@ Five Nights at Freddy's, Crossy Road, Pac Man
 
 
 
-**"What do you play games on?"**
+- "What do you play games on?"
 (answers in order of most to least)
-
-
-
 
   1. Phone
 
-
   2. Xbox
-
 
   3. PS4
 
 
-**What game developers do you know of?**
+- What game developers do you know of?
 (answers in order of most to least)
-
-
-
 
   1. Mojang (Minecraft)
 
@@ -90,6 +77,7 @@ Five Nights at Freddy's, Crossy Road, Pac Man
 
 Mentioned once each:
 Activision, Jeb (Minecraft), Scott Cawthon (Five Nights at Freddy's), Gamestop, "My dad", "I made a game", "You", and "Alex"
+
 
 One of my favorite career day take-aways was seeing a kid's face light up when he saw Kick Bot in my Two Scoop Games demo reel video. He shouted, "You made kick bot, I've seen that! I saw a YouTuber play that game! You made that?!"
 

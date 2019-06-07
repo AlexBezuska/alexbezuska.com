@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-04-27 20:02:47+00:00
 layout: post
 link: http://blog.alexbezuska.com/574/
 slug: '574'
-title: No Content Found
+title: Pixel Art Tileset
 wordpress_id: 574
 post_format:
 - Image
@@ -34,4 +34,4 @@ tags:
 
 Daily Drawing 2015-04-27
 
-Spite tile set for a pixel art game
+Sprite tile set for a pixel art game

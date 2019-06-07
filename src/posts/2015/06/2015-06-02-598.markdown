@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-06-02 13:37:18+00:00
 layout: post
 link: http://blog.alexbezuska.com/598/
 slug: '598'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 598
 post_format:
 - Image
@@ -19,5 +19,5 @@ tags:
 - splatoon
 - vector
 ---
-
+![](/images/2015/06/tumblr_npbki6KVeq1u11b0ro1_1280.jpg)
 #splatoon language typeface #fanart #dailydrawing 2015-06-02 #gaming #DailyDraw #dailydrawings #vector #illustrator

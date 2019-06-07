@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-05-29 13:29:40+00:00
 layout: post
 link: http://blog.alexbezuska.com/592/
 slug: '592'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 592
 post_format:
 - Image
@@ -17,4 +17,5 @@ tags:
 - pixelart
 ---
 
+![](/images/2015/05/tumblr_np45hgFK3k1u11b0ro1_1280.jpg)
 Daily drawing 2015-05-28 #DailyDraw #dailydrawing #dailydrawings #pixelart #gamedev

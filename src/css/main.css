@@ -8,11 +8,16 @@
   font-style: normal;
 }
 
+*{
+//  border: 1px solid red;
+}
+
 body {
   background: #4BDCEE;
   color: white;
   font-family: "Lato", "helvetica Neue", helvetica, sans-serif;
   letter-spacing: 1px;
+  font-size: 1.1rem;
 }
 
 ::selection {
@@ -21,11 +26,27 @@ body {
 
 a {
   color: white;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 a:hover {
+  color: white;
+  font-weight: bold;
   text-decoration: underline;
 }
+
+.about-me-item{
+  margin: 20px 0;
+  text-decoration: none;
+}
+.about-me-item:hover{
+  text-decoration: none;
+}
+.about-me-item-text{
+  padding: 0;
+}
+
 
 p a, li a {
   color: white;
@@ -36,10 +57,9 @@ p a:hover, li a:hover {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3{
   font-family: "tofino", "helvetica Neue", helvetica, sans-serif;
   text-decoration: none !important;
-  margin-bottom: 15px !important;
   color: white !important;
 }
 
@@ -71,6 +91,11 @@ h2 {
 }
 
 h3 {
+  font-size: 1rem !important;
+  letter-spacing: .1rem !important;
+}
+
+h4 {
   font-size: 1rem !important;
   letter-spacing: .1rem !important;
 }
@@ -258,13 +283,6 @@ li:not(navbar li) {
   box-shadow: none;
 }
 
-.hvr-underline-from-center {
-  padding-bottom: 4px;
-}
-
-.hvr-underline-from-center:before {
-  background: white;
-}
 
 .post-page {
   margin: 0 auto;
@@ -353,14 +371,28 @@ a.nav-link:hover {
 
 .resume-section {
   margin-bottom: 15px !important;
-  padding: 15px 20px 5px 20px;
+  padding: 15px 20px 15px 20px;
   transition: all 0.2s;
 }
 
-
 .resume-section:hover{
   background-color: #E95DB0;
+}
+
+.resume-section.flip-right:hover{
   transform: rotateY(10deg);
+}
+
+.resume-section.flip-left:hover{
+
+  transform: rotateY(-10deg);
+}
+
+.resume-section .date{
+font-size: .9rem;
+}
+.resume-section p{
+margin-top: 5px;
 }
 
 .text-purple {

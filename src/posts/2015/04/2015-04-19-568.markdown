@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-04-19 04:00:00+00:00
 layout: post
 link: http://blog.alexbezuska.com/568/
 slug: '568'
-title: No Content Found
+title: Title Screen for Uprooted
 wordpress_id: 568
 post_format:
 - Image

@@ -1,0 +1,32 @@
+---
+date: 2018-1-28 00:00:00+00:00
+title: Our New game 'Fineage' Created for Global Game Jam 2018
+category: Game Development
+coverPhoto: /images/2018/01/fineage.png
+coverPhotoAlt: Fineage - an game by Two Scoop Games
+---
+
+
+We created a new game for Global Game Jam 2018!
+The theme was "Transmission" and we came up with a game based on transmission of genetics from one generation to another. I was inspired by Evo: Search for Eden on the Super Nintendo.  
+<br/>
+
+![](/images/2018/01/fineage-ss-0.png)
+
+
+In Fineage you transmit characteristics of your fish to your descendants on each play-through.
+
+![](/images/2018/01/fineage-ss-2.png)
+
+
+
+Alex Bezuska - Character Art  
+
+Cara Bezuska - Environment Art / Level Design  
+
+Eric Lathrop - Programming
+
+You can find links to the game jam entry page, and to play Fineage for yourself on the web at:
+[http://twoscoopgames.com/fineage/](http://twoscoopgames.com/fineage/)
+
+![](/images/2018/01/fineage-ss-3.png)

@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-05-18 21:01:43+00:00
 layout: post
 link: http://blog.alexbezuska.com/582/
 slug: '582'
-title: No Content Found
+title: Controller Layout HTML/CSS/SVG
 wordpress_id: 582
 post_format:
 - Image
@@ -36,7 +36,9 @@ tags:
 - xbox360
 ---
 
-![](/images/2015/05/tumblr_nokd2v07711u11b0ro3_1280.png)![](/images/2015/05/tumblr_nokd2v07711u11b0ro2_1280.png)![](/images/2015/05/tumblr_nokd2v07711u11b0ro1_1280.png)
+![](/images/2015/05/tumblr_nokd2v07711u11b0ro3_1280.png)
+![](/images/2015/05/tumblr_nokd2v07711u11b0ro2_1280.png)
+![](/images/2015/05/tumblr_nokd2v07711u11b0ro1_1280.png)
 
 Work in progress controller layout created with HTML/CSS/SVG
 
@@ -46,7 +48,6 @@ Red screen - HTML button tags with CSS
 
 Blue screen - both combined
 
-  
 
 
 View it live & the code on CodePen.io: [http://codepen.io/AlexBezuska/pen/MwemEv?editors=110](http://codepen.io/AlexBezuska/pen/MwemEv?editors=110)

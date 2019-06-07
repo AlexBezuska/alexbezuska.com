@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-06-22 15:34:23+00:00
 layout: post
 link: http://blog.alexbezuska.com/605/
 slug: '605'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 605
 post_format:
 - Image
@@ -14,4 +14,5 @@ tags:
 - sketchbook
 ---
 
+![](/images/2015/06/tumblr_nqcr9bPG1u1u11b0ro1_1280.jpg)
 Sketching some bees on my lunch break #dailydrawing #sketchbook

@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2016-08-19 20:21:31+00:00
 layout: post
 link: http://blog.alexbezuska.com/687/
 slug: '687'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 687
 post_format:
 - Image
@@ -19,5 +19,5 @@ tags:
 - gamedevelopment
 - louisville
 ---
-
+![]9/images/2016/08/tumblr_oc6b7vCT2n1u11b0ro1_1280-825x510.jpg)
 Some more little peeps!

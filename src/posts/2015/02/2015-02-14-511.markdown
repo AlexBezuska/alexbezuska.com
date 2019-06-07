@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-02-14 05:29:15+00:00
 layout: post
 link: http://blog.alexbezuska.com/511/
 slug: '511'
-title: No Content Found
+title: Daily Drawing 034/365
 wordpress_id: 511
 post_format:
 - Image
@@ -20,4 +20,6 @@ tags:
 
 ![](/images/2015/02/tumblr_njqxwrt2d01u11b0ro1_1280.jpg)
 
-Day 034/365  inspired by @nicterhorst #project365 #dailydraw #dailydrawing #drawingaday #gamedev  #indiegame
+Day 034/365  inspired by @nicterhorst  
+
+#project365 #dailydraw #dailydrawing #drawingaday #gamedev #indiegame

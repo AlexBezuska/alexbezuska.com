@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-04-25 04:00:00+00:00
 layout: post
 link: http://blog.alexbezuska.com/565/
 slug: '565'
-title: No Content Found
+title: New banner for the Two Scoop Games Presskit
 wordpress_id: 565
 post_format:
 - Image
@@ -23,4 +23,4 @@ tags:
 
 Daily Drawing 2015-04-25
 
-New banner I created for the Two Scoop Games Press kit, check it out here: [http://twoscoopgames.com/press](http://twoscoopgames.com/press)
+New banner I created for the Two Scoop Games Press kit.

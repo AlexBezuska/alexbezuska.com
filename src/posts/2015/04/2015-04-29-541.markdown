@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: true
 date: 2015-04-29 03:59:54+00:00
 layout: post
 link: http://blog.alexbezuska.com/541/
 slug: '541'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 541
 post_format:
 - Image

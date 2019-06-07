@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2015-06-25 18:19:29+00:00
 layout: post
 link: http://blog.alexbezuska.com/614/
 slug: '614'
-title: No Content Found
+title: Daily Drawing
 wordpress_id: 614
 post_format:
 - Image
@@ -15,5 +15,5 @@ tags:
 - gamedev
 - sketchbook
 ---
-
+![](/images/2015/06/tumblr_nqiiwhEfcr1u11b0ro1_1280.jpg)
 Drawing some characters for my new game idea. #gamedev #sketchbook #dailydrawings #art

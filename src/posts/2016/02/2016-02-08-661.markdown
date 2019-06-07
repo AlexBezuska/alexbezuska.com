@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2016-02-08 17:59:41+00:00
 layout: post
 link: http://blog.alexbezuska.com/661/
 slug: '661'
-title: No Content Found
+title: Boss Concept for Glazing Lazers
 wordpress_id: 661
 post_format:
 - Image
@@ -32,7 +32,7 @@ A donut-shooting robot bee boss I created for #GlazingLazers, a little top-down 
 
 The bee puts up honey shields what you must destroy before you can attack it. I have only created the artwork, I still need to add it into the game.
 
-  
+
 
 
 Try the jam version of the game here: [http://jams.gamejolt.io/letscookjam/games/glazing-lazers/64688](http://jams.gamejolt.io/letscookjam/games/glazing-lazers/64688)

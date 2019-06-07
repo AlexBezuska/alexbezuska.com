@@ -1,11 +1,11 @@
 ---
-author: No Content Found
+author: Alex Bezuska
 comments: false
 date: 2016-02-08 17:21:49+00:00
 layout: post
 link: http://blog.alexbezuska.com/681/
 slug: '681'
-title: No Content Found
+title: Morning Ritual Game Trailer
 wordpress_id: 681
 post_format:
 - Image
@@ -28,6 +28,16 @@ tags:
 - web
 ---
 
-![](/images/2016/02/tumblr_o28o8dSZI11u11b0ro1_1280.png)![](/images/2016/02/tumblr_o28o8dSZI11u11b0ro2_1280.png)
+![](/images/2016/02/tumblr_o28o8dSZI11u11b0ro1_1280.png)
+![](/images/2016/02/tumblr_o28o8dSZI11u11b0ro2_1280.png)
 
-I created a new promo video for the game project I am working on at @TwoSoopGames called Morning Ritual. Check it out here: [https://www.youtube.com/watch?v=EfONONJ7GLU&feature=youtu.be](https://www.youtube.com/watch?v=EfONONJ7GLU&feature=youtu.be)
+I created a new promo video for the game project I am working on at Two Scoop Games called Morning Ritual.
+<br/>
+
+Every morning we go through a delicate morning ritual to prepare ourselves for the onslaught of the day.   
+Art/ Animation by Alex Bezuska & [Cara Smith](http://howdycara.com)  
+Programming by [Eric Lathrop](http://ericlathrop.com)  
+Music/sound by [Chris Kincaid](http://chriskincaid.com/)  
+<br/>
+
+Check it out here: [https://www.youtube.com/watch?v=EfONONJ7GLU&feature=youtu.be](https://www.youtube.com/watch?v=EfONONJ7GLU&feature=youtu.be)
