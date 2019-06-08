@@ -1,6 +1,6 @@
 ---
 author: Alex Bezuska
-comments: false
+
 date: 2016-02-08 17:41:00-04:00
 layout: post
 link: http://blog.alexbezuska.com/666/

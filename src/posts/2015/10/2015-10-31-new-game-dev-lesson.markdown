@@ -1,6 +1,6 @@
 ---
 author: admin
-comments: false
+
 date: 2015-10-31 08:53:57-04:00
 layout: post
 link: http://blog.alexbezuska.com/new-game-dev-lesson/

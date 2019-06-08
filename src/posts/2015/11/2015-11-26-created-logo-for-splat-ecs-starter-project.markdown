@@ -1,6 +1,6 @@
 ---
 author: admin
-comments: false
+
 date: 2015-11-26 00:14:29-04:00
 layout: post
 link: http://blog.alexbezuska.com/created-logo-for-splat-ecs-starter-project/

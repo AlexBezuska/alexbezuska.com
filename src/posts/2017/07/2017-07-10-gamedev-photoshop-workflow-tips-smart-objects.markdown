@@ -1,6 +1,6 @@
 ---
 author: admin
-comments: false
+
 date: 2017-07-10 13:20:19-04:00
 layout: post
 link: http://blog.alexbezuska.com/gamedev-photoshop-workflow-tips-smart-objects/

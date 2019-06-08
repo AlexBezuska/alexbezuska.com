@@ -1,6 +1,6 @@
 ---
 author: admin
-comments: false
+
 date: 2017-04-05 13:52:49-04:00
 layout: post
 link: http://blog.alexbezuska.com/finding-home-devlog/

@@ -1,6 +1,6 @@
 ---
 author: Alex Bezuska
-comments: false
+
 date: 2015-06-25 18:19:29-04:00
 layout: post
 link: http://blog.alexbezuska.com/614/

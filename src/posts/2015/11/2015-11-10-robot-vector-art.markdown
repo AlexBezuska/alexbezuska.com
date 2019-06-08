@@ -1,6 +1,6 @@
 ---
 author: admin
-comments: false
+
 date: 2015-11-10 17:39:16-04:00
 layout: post
 link: http://blog.alexbezuska.com/robot-vector-art/

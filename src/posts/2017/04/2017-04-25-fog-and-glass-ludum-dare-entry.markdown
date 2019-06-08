@@ -1,6 +1,6 @@
 ---
 author: admin
-comments: false
+
 date: 2017-04-25 16:36:59-04:00
 layout: post
 link: http://blog.alexbezuska.com/fog-and-glass-ludum-dare-entry/

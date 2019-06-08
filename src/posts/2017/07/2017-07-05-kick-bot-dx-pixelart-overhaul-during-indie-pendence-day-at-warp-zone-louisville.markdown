@@ -1,6 +1,6 @@
 ---
 author: admin
-comments: false
+
 date: 2017-07-05 13:43:19-04:00
 layout: post
 link: http://blog.alexbezuska.com/kick-bot-dx-pixelart-overhaul-during-indie-pendence-day-at-warp-zone-louisville/
