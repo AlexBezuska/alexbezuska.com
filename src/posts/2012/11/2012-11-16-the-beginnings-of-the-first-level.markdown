@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-16 16:00:11+00:00
+date: 2012-11-16 16:00:11-04:00
 layout: post
 link: http://blog.alexbezuska.com/the-beginnings-of-the-first-level/
 slug: the-beginnings-of-the-first-level

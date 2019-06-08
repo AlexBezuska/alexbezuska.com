@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: false
-date: 2015-11-24 00:24:48+00:00
+date: 2015-11-24 00:24:48-04:00
 layout: post
 link: http://blog.alexbezuska.com/pixel-jars/
 slug: pixel-jars

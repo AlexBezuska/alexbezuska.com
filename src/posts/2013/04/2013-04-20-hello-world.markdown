@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-04-20 20:49:17+00:00
+date: 2013-04-20 20:49:17-04:00
 layout: post
 link: http://blog.alexbezuska.com/hello-world/
 slug: hello-world

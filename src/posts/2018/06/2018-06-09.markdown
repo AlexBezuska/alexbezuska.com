@@ -1,5 +1,5 @@
 ---
-date: 2018-06-09 00:00:00+00:00
+date: 2018-06-09 00:00:00-04:00
 title: Warp Zone Cleanup and Inventory Day
 category: Community
 coverPhoto: /images/2018/06/Warp-Zone-laptops.png

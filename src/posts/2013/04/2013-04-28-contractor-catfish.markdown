@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-04-28 22:06:54+00:00
+date: 2013-04-28 22:06:54-04:00
 layout: post
 link: http://blog.alexbezuska.com/contractor-catfish/
 slug: contractor-catfish

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-02-21 13:24:24+00:00
+date: 2014-02-21 13:24:24-04:00
 layout: post
 link: http://blog.alexbezuska.com/stuff-i-need-to-learn-this-week/
 slug: stuff-i-need-to-learn-this-week

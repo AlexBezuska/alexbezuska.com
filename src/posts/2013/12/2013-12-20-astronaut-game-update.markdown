@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-12-20 06:36:28+00:00
+date: 2013-12-20 06:36:28-04:00
 layout: post
 link: http://blog.alexbezuska.com/astronaut-game-update/
 slug: astronaut-game-update

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-18 23:35:47+00:00
+date: 2012-11-18 23:35:47-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-enemies-and-pain/
 slug: squid-game-dev-log-enemies-and-pain

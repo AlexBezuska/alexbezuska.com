@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-10-09 13:55:38+00:00
+date: 2014-10-09 13:55:38-04:00
 layout: post
 link: http://blog.alexbezuska.com/todays-code-goal-npm-run-build/
 published: false

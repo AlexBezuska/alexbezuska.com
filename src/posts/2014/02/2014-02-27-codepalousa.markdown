@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-02-27 14:32:16+00:00
+date: 2014-02-27 14:32:16-04:00
 layout: post
 link: http://blog.alexbezuska.com/codepalousa/
 slug: codepalousa

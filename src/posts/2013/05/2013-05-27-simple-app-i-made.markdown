@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-05-27 23:28:24+00:00
+date: 2013-05-27 23:28:24-04:00
 layout: post
 link: http://blog.alexbezuska.com/simple-app-i-made/
 slug: simple-app-i-made

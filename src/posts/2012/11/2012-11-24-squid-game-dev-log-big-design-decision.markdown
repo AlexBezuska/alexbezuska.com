@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-24 23:41:03+00:00
+date: 2012-11-24 23:41:03-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-big-design-decision/
 slug: squid-game-dev-log-big-design-decision

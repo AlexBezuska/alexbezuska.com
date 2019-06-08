@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-04-28 07:39:53+00:00
+date: 2013-04-28 07:39:53-04:00
 layout: post
 link: http://blog.alexbezuska.com/_s-underscores-a-completely-blank-starter-theme-for-wordpress/
 slug: _s-underscores-a-completely-blank-starter-theme-for-wordpress

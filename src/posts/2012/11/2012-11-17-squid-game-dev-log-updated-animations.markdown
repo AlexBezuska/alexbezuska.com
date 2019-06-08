@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-17 23:30:36+00:00
+date: 2012-11-17 23:30:36-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-updated-animations/
 slug: squid-game-dev-log-updated-animations

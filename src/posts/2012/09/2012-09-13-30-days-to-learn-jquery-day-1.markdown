@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-09-13 15:50:17+00:00
+date: 2012-09-13 15:50:17-04:00
 layout: post
 link: http://blog.alexbezuska.com/30-days-to-learn-jquery-day-1/
 slug: 30-days-to-learn-jquery-day-1

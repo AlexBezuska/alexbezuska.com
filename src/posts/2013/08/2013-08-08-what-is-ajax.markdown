@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-08-08 02:10:06+00:00
+date: 2013-08-08 02:10:06-04:00
 layout: post
 link: http://blog.alexbezuska.com/what-is-ajax/
 slug: what-is-ajax

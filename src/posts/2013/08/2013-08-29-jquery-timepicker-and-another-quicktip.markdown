@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-08-29 00:33:34+00:00
+date: 2013-08-29 00:33:34-04:00
 layout: post
 link: http://blog.alexbezuska.com/jquery-timepicker-and-another-quicktip/
 slug: jquery-timepicker-and-another-quicktip

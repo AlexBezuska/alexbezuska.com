@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-10-02 13:56:15+00:00
+date: 2014-10-02 13:56:15-04:00
 layout: post
 link: http://blog.alexbezuska.com/new-experiment-6hourgamejam-alchemy/
 slug: new-experiment-6hourgamejam-alchemy

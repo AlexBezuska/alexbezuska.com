@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-01-05 19:59:06+00:00
+date: 2015-01-05 19:59:06-04:00
 layout: post
 link: http://blog.alexbezuska.com/daily-drawings-day-2/
 slug: daily-drawings-day-2

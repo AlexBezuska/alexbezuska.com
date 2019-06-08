@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-07-23 15:33:26+00:00
+date: 2013-07-23 15:33:26-04:00
 layout: post
 link: http://blog.alexbezuska.com/wildcards-for-selectors-in-jquery/
 slug: wildcards-for-selectors-in-jquery

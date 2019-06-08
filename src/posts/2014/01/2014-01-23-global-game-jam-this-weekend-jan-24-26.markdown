@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-01-23 06:39:50+00:00
+date: 2014-01-23 06:39:50-04:00
 layout: post
 link: http://blog.alexbezuska.com/global-game-jam-this-weekend-jan-24-26/
 slug: global-game-jam-this-weekend-jan-24-26

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-07-05 21:33:46+00:00
+date: 2013-07-05 21:33:46-04:00
 layout: post
 link: http://blog.alexbezuska.com/balloon-chase-vehicle-dev-log-week-5/
 slug: balloon-chase-vehicle-dev-log-week-5

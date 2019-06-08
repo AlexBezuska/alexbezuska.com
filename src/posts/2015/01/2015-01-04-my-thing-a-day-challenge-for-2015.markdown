@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-01-04 18:41:38+00:00
+date: 2015-01-04 18:41:38-04:00
 layout: post
 link: http://blog.alexbezuska.com/my-thing-a-day-challenge-for-2015/
 slug: my-thing-a-day-challenge-for-2015

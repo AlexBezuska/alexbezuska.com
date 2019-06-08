@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-18 23:39:03+00:00
+date: 2012-11-18 23:39:03-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-coral-and-other-new-pixel-art/
 slug: squid-game-dev-log-coral-and-other-new-pixel-art

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-03-19 04:20:18+00:00
+date: 2014-03-19 04:20:18-04:00
 layout: post
 link: http://blog.alexbezuska.com/another-great-night-at-build-guild/
 slug: another-great-night-at-build-guild

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-06-14 04:34:30+00:00
+date: 2013-06-14 04:34:30-04:00
 layout: post
 link: http://blog.alexbezuska.com/this-site-is-really-clean/
 slug: this-site-is-really-clean

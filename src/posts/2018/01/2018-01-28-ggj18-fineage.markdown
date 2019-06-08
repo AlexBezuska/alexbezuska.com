@@ -1,5 +1,5 @@
 ---
-date: 2018-1-28 00:00:00+00:00
+date: 2018-1-28 00:00:00-04:00
 title: Our New game 'Fineage' Created for Global Game Jam 2018
 category: Game Development
 coverPhoto: /images/2018/01/fineage.png

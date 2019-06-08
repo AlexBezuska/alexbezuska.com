@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: false
-date: 2015-10-31 08:53:57+00:00
+date: 2015-10-31 08:53:57-04:00
 layout: post
 link: http://blog.alexbezuska.com/new-game-dev-lesson/
 slug: new-game-dev-lesson

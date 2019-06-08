@@ -1,5 +1,5 @@
 ---
-date: 2018-05-29 00:00:00+00:00
+date: 2018-05-29 00:00:00-04:00
 title: Test Post With New Blog Engine!
 category: Web Development
 coverPhoto: /images/2018/05/new-blog.png

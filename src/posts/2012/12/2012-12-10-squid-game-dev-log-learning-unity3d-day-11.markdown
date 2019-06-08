@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-12-10 23:24:05+00:00
+date: 2012-12-10 23:24:05-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-learning-unity3d-day-11/
 slug: squid-game-dev-log-learning-unity3d-day-11

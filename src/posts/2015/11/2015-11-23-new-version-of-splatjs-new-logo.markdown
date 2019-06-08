@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: false
-date: 2015-11-23 10:39:38+00:00
+date: 2015-11-23 10:39:38-04:00
 layout: post
 link: http://blog.alexbezuska.com/new-version-of-splatjs-new-logo/
 slug: new-version-of-splatjs-new-logo

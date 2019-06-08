@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-01-05 05:31:22+00:00
+date: 2015-01-05 05:31:22-04:00
 layout: post
 link: http://blog.alexbezuska.com/daily-drawing-01-05-15/
 slug: daily-drawing-01-05-15

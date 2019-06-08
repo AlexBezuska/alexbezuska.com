@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-01-01 05:37:39+00:00
+date: 2014-01-01 05:37:39-04:00
 layout: post
 link: http://blog.alexbezuska.com/astronaut-game-devlog-3-video-3-levels/
 slug: astronaut-game-devlog-3-video-3-levels

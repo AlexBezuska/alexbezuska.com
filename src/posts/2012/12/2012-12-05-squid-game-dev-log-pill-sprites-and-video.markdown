@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-12-05 23:58:36+00:00
+date: 2012-12-05 23:58:36-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-pill-sprites-and-video/
 slug: squid-game-dev-log-pill-sprites-and-video

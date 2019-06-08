@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-02-06 04:06:53+00:00
+date: 2014-02-06 04:06:53-04:00
 layout: post
 link: http://blog.alexbezuska.com/hickorystock/
 slug: hickorystock

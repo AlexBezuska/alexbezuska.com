@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-07-10 13:47:26+00:00
+date: 2014-07-10 13:47:26-04:00
 layout: post
 link: http://blog.alexbezuska.com/daily-drawing-07-10-14-bacon-coat-of-arms/
 slug: daily-drawing-07-10-14-bacon-coat-of-arms

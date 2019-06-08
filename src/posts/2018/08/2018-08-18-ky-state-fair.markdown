@@ -1,5 +1,5 @@
 ---
-date: 2018-08-18 00:00:00+00:00
+date: 2018-08-18 00:00:00-04:00
 title: My Game PullPals Won a Blue Ribbon at the Kentucky State Fair  
 category: Game Development
 featured: false

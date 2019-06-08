@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-12-12 18:53:56+00:00
+date: 2013-12-12 18:53:56-04:00
 layout: post
 link: http://blog.alexbezuska.com/new-game-started/
 slug: new-game-started

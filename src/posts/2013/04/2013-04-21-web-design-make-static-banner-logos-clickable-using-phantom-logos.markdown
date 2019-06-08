@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-04-21 03:50:11+00:00
+date: 2013-04-21 03:50:11-04:00
 layout: post
 link: http://blog.alexbezuska.com/web-design-make-static-banner-logos-clickable-using-phantom-logos/
 slug: web-design-make-static-banner-logos-clickable-using-phantom-logos

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-05-16 02:37:16+00:00
+date: 2013-05-16 02:37:16-04:00
 layout: post
 link: http://blog.alexbezuska.com/webfonts-why-hassle-when-you-can-use-fontsquirrel/
 slug: webfonts-why-hassle-when-you-can-use-fontsquirrel

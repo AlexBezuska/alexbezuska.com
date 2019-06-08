@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-04-28 19:51:28+00:00
+date: 2013-04-28 19:51:28-04:00
 layout: post
 link: http://blog.alexbezuska.com/what-software-do-i-use-part-one/
 slug: what-software-do-i-use-part-one

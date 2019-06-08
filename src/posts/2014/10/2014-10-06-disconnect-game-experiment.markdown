@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-10-06 15:21:10+00:00
+date: 2014-10-06 15:21:10-04:00
 layout: post
 link: http://blog.alexbezuska.com/disconnect-game-experiment/
 slug: disconnect-game-experiment

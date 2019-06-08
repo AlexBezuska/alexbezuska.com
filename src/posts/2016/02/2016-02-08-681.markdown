@@ -1,7 +1,7 @@
 ---
 author: Alex Bezuska
 comments: false
-date: 2016-02-08 17:21:49+00:00
+date: 2016-02-08 17:21:49-04:00
 layout: post
 link: http://blog.alexbezuska.com/681/
 slug: '681'

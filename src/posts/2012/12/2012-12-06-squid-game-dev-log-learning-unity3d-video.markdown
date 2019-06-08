@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-12-06 23:49:11+00:00
+date: 2012-12-06 23:49:11-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-learning-unity3d-video/
 slug: squid-game-dev-log-learning-unity3d-video

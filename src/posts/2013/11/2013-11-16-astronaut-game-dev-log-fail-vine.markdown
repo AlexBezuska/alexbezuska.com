@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-11-16 18:35:40+00:00
+date: 2013-11-16 18:35:40-04:00
 layout: post
 link: http://blog.alexbezuska.com/astronaut-game-dev-log-fail-vine/
 slug: astronaut-game-dev-log-fail-vine

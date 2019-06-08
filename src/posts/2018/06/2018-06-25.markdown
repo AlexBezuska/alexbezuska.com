@@ -1,5 +1,5 @@
 ---
-date: 2018-06-25 00:00:00+00:00
+date: 2018-06-25 00:00:00-04:00
 title: Kentucky Fried Pixels Kick Off Jam
 category: Game Development
 featured: false

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-02-04 06:29:15+00:00
+date: 2014-02-04 06:29:15-04:00
 layout: post
 link: http://blog.alexbezuska.com/scurry-game-update/
 slug: scurry-game-update

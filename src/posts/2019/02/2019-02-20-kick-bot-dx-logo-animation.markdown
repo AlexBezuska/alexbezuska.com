@@ -1,5 +1,5 @@
 ---
-date: 2019-02-19 00:00:00+00:00
+date: 2019-02-19 00:00:00-04:00
 title: Kick Bot DX Dev - New Logo Animation
 coverPhoto: /images/2019/02/kick-bot-dx-logo-2019.png
 ---

@@ -1,5 +1,5 @@
 ---
-date: 2019-06-07 23:43:40
+date: 2019-06-08 00:33:20-04:00
 title: Daily Drawings DnD Edition
 categories:
 tags:

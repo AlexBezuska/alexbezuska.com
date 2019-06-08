@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-02-05 04:22:49+00:00
+date: 2014-02-05 04:22:49-04:00
 layout: post
 link: http://blog.alexbezuska.com/scurry-update-motels-and-skeleton-beetle/
 slug: scurry-update-motels-and-skeleton-beetle

@@ -1,5 +1,5 @@
 ---
-date: 2018-04-20 00:00:00+00:00
+date: 2018-04-20 00:00:00-04:00
 title: Vector 2018 talk and pitch competition
 coverPhoto: /images/2018/04/2018-04-20-alex-talk.png
 ---

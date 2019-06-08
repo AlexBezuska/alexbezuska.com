@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-11 15:59:11+00:00
+date: 2012-11-11 15:59:11-04:00
 layout: post
 link: http://blog.alexbezuska.com/jquery-tip-different-keys-for-the-same-thing/
 slug: jquery-tip-different-keys-for-the-same-thing

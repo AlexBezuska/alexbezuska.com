@@ -1,5 +1,5 @@
 ---
-date: 2018-06-19 00:00:00+00:00
+date: 2018-06-19 00:00:00-04:00
 title: Are Your Strong Software Opinions Adding to GameDev Community Gatekeeping?
 category: Community
 featured: true

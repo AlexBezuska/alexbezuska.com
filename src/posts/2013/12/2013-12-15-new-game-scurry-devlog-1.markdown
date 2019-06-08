@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2013-12-15 03:12:27+00:00
+date: 2013-12-15 03:12:27-04:00
 layout: post
 link: http://blog.alexbezuska.com/new-game-scurry-devlog-1/
 slug: new-game-scurry-devlog-1

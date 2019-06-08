@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-11 15:53:34+00:00
+date: 2012-11-11 15:53:34-04:00
 layout: post
 link: http://blog.alexbezuska.com/indie-game/
 slug: indie-game

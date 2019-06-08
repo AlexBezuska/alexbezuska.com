@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-25 23:44:47+00:00
+date: 2012-11-25 23:44:47-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-re-done-sprites/
 slug: squid-game-dev-log-re-done-sprites

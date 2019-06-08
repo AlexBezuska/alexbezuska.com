@@ -1,5 +1,5 @@
 ---
-date: 2017-12-04 00:00:00+00:00
+date: 2017-12-04 00:00:00-04:00
 title: King's Gambit Character Portraits
 categories: game art
 tags:

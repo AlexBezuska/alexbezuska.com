@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-12-04 23:56:13+00:00
+date: 2012-12-04 23:56:13-04:00
 layout: post
 link: http://blog.alexbezuska.com/squid-game-dev-log-awake-meter-and-seaweed/
 slug: squid-game-dev-log-awake-meter-and-seaweed

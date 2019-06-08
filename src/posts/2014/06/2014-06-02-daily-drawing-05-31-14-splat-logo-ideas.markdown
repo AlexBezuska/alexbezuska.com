@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-06-02 02:07:00+00:00
+date: 2014-06-02 02:07:00-04:00
 layout: post
 link: http://blog.alexbezuska.com/daily-drawing-05-31-14-splat-logo-ideas/
 slug: daily-drawing-05-31-14-splat-logo-ideas

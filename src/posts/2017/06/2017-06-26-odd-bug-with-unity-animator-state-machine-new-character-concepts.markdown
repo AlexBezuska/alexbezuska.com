@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: false
-date: 2017-06-26 17:03:06+00:00
+date: 2017-06-26 17:03:06-04:00
 layout: post
 link: http://blog.alexbezuska.com/odd-bug-with-unity-animator-state-machine-new-character-concepts/
 slug: odd-bug-with-unity-animator-state-machine-new-character-concepts

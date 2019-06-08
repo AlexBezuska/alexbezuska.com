@@ -1,5 +1,5 @@
 ---
-date: 2018-06-18 00:00:00+00:00
+date: 2018-06-18 00:00:00-04:00
 title: Cartoon Map Concept Game Art
 category: Game Development
 featured: false

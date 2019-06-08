@@ -9,7 +9,7 @@ var time = moment(date).format('HH.mm.ss');
 
 const args = process.argv.slice(2);
 var postArgs = {};
-if (args[0] == "today"){
+if (args[0] == "today") {
   postArgs.year = moment(date).format("YYYY");
   postArgs.month = moment(date).format("MM");
   postArgs.day = moment(date).format("DD");
@@ -25,7 +25,7 @@ var defaults = {
   "year": postArgs.year,
   "month": postArgs.month,
   "day": postArgs.day,
-  "time": time.replace(/\./g, ':'),
+  "time": time.replace(/\./g, ':') + "-04:00",
   "title": postArgs.title || "new post",
   "categories": [],
   "tags": [],
@@ -34,23 +34,23 @@ var defaults = {
 
 var folder = `./src/posts/${postArgs.year}/${postArgs.month}/`;
 var titleJoined = defaults.title.replace(/\s+/g, '-').toLowerCase();
-var fileName =`${postArgs.year}-${postArgs.month}-${postArgs.day}-${time}-${titleJoined}.markdown`;
+var fileName = `${postArgs.year}-${postArgs.month}-${postArgs.day}-${time}-${titleJoined}.markdown`;
 
 
 
-var content = renderFromExternalTemplate(emptyPost,defaults);
+var content = renderFromExternalTemplate(emptyPost, defaults);
 makeDirIfNotExist(folder);
 fs.writeFileSync(folder + fileName, content);
 console.log("New post markdown file created in:", folder + fileName);
 
 
-function renderFromExternalTemplate(template, data){
+function renderFromExternalTemplate(template, data) {
   var template = handlebars.compile(template);
   return template(data);
 }
 
 function makeDirIfNotExist(filePath) {
-  if (!fs.existsSync(filePath)){
+  if (!fs.existsSync(filePath)) {
     fs.mkdirSync(filePath);
   }
 }

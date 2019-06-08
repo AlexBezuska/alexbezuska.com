@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-02-21 15:52:39+00:00
+date: 2014-02-21 15:52:39-04:00
 layout: post
 link: http://blog.alexbezuska.com/updated-my-portfolio/
 slug: updated-my-portfolio

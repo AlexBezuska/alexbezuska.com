@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-01-06 20:06:22+00:00
+date: 2015-01-06 20:06:22-04:00
 layout: post
 link: http://blog.alexbezuska.com/monument-valley-fan-art/
 slug: monument-valley-fan-art

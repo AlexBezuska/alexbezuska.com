@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-01-04 03:37:59+00:00
+date: 2014-01-04 03:37:59-04:00
 layout: post
 link: http://blog.alexbezuska.com/scurry-game-character-redo/
 slug: scurry-game-character-redo
