@@ -16,7 +16,8 @@
   "scripts": {
     "start": "node blog",
     "serve": "pyserv dest",
-    "upload": "sh upload.sh"
+    "upload": "sh upload.sh",
+    "add-post": "node addpost.js"
   },
   "author": "",
   "license": "ISC"

@@ -1,0 +1,14 @@
+---
+date: {{year}}-{{month}}-{{day}} {{time}}
+title: {{title}}
+categories:
+{{#each categories}}
+  - {{this}}
+{{/each}}
+tags:
+{{#each tags}}
+  - {{this}}
+{{/each}}
+---
+
+{{content}}
