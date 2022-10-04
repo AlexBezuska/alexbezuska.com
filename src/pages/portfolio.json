@@ -2,56 +2,56 @@
   {
     "title": "Kick Bot",
     "whatIDid": "Game Design / Art / Animation",
-    "img": "/images/portfolio/kickbot.png",
-    "gif": "/images/portfolio/kickbot.gif",
+    "img": "/img/portfolio/kickbot.png",
+    "gif": "/img/portfolio/kickbot.gif",
     "link": "http://twoscoopgames.com/kickbot",
     "show": true
   },
   {
     "title": "Duolastic",
     "whatIDid": "Game Design / Art / Code",
-    "img": "/images/portfolio/duolastic.png",
-    "gif": "/images/portfolio/duolastic.gif",
+    "img": "/img/portfolio/duolastic.png",
+    "gif": "/img/portfolio/duolastic.gif",
     "link": "http://twoscoopgames.com/duolastic/",
     "show": true
   },
   {
     "title": "Finding Home",
     "whatIDid": "Solo project",
-    "img": "/images/portfolio/findinghome.png",
-    "gif": "/images/portfolio/findinghome.gif",
+    "img": "/img/portfolio/findinghome.png",
+    "gif": "/img/portfolio/findinghome.gif",
     "link": "https://alexbezuska.itch.io/finding-home",
     "show": true
   },
   {
     "title": "Electropolis",
   "whatIDid": "Game Design / Art / Animation / Systems",
-    "img": "/images/portfolio/electropolis.png",
-    "gif": "/images/portfolio/electropolis.gif",
+    "img": "/img/portfolio/electropolis.png",
+    "gif": "/img/portfolio/electropolis.gif",
     "link": "https://two-scoop-games.itch.io/electropolis",
     "show": true
   },
   {
 		"title": "Morning Ritual",
 		"whatIDid": "",
-		"img": "/images/portfolio/morningritual.png",
-    "gif": "/images/portfolio/morningritual.gif",
+		"img": "/img/portfolio/morningritual.png",
+    "gif": "/img/portfolio/morningritual.gif",
 		"link": "http://twoscoopgames.com/morningritual/",
 		"show": true
 	},
 	{
 		"title": "Cluster Junk",
 		"whatIDid": "",
-		"img": "/images/portfolio/clusterjunk.png",
-    "gif": "/images/portfolio/clusterjunk.gif",
+		"img": "/img/portfolio/clusterjunk.png",
+    "gif": "/img/portfolio/clusterjunk.gif",
 		"link": "http://twoscoopgames.com/clusterjunk",
 		"show": true
 	},
 	{
 		"title": "Glazing Lasers",
 		"whatIDid": "I worked solor on this project to create a game for the 'Let's Cook Jam'. I am proud to have recieved 4th place.",
-		"img": "/images/portfolio/glazinglazers.png",
-    "gif": "/images/portfolio/glazinglazers.gif",
+		"img": "/img/portfolio/glazinglazers.png",
+    "gif": "/img/portfolio/glazinglazers.gif",
 		"link": "http://jams.gamejolt.io/letscookjam/games",
 		"show": true
 	},
@@ -60,24 +60,24 @@
 		"whatIDid": "",
     "date-start": "August 2015",
     "date-end": "August 2015",
-		"img": "/images/portfolio/treatmentandcontrol.png",
-    "gif": "/images/portfolio/treatmentandcontrol.gif",
+		"img": "/img/portfolio/treatmentandcontrol.png",
+    "gif": "/img/portfolio/treatmentandcontrol.gif",
 		"link": "http://twoscoopgames.com/http://twoscoopgames.com/treatmentandcontrol/",
 		"show": true
 	},
 	{
 		"title": "Stanley Squeaks",
 		"whatIDid": "I did all of the art and animation for this game.",
-		"img": "/images/portfolio/stanleysqueaks.png",
-    "gif": "/images/portfolio/stanleysqueaks.gif",
+		"img": "/img/portfolio/stanleysqueaks.png",
+    "gif": "/img/portfolio/stanleysqueaks.gif",
 		"link": "http://twoscoopgames.com/stanleysqueaks/",
 		"show": true
 	},
 	{
 		"title": "Uprooted",
 		"whatIDid": "I did all of the art and animation for this game jam game.",
-		"img": "/images/portfolio/uprooted.png",
-    "gif": "/images/portfolio/uprooted.gif",
+		"img": "/img/portfolio/uprooted.png",
+    "gif": "/img/portfolio/uprooted.gif",
 		"link": "http://twoscoopgames.com/uprooted/",
 		"show": true
 	},
@@ -85,32 +85,32 @@
 	{
 		"title": "The Day The World Changed",
 		"whatIDid": "",
-		"img": "/images/portfolio/thedaytheworldchanged.png",
-    "gif": "/images/portfolio/thedaytheworldchanged.gif",
+		"img": "/img/portfolio/thedaytheworldchanged.png",
+    "gif": "/img/portfolio/thedaytheworldchanged.gif",
 		"link": "http://twoscoopgames.com/thedaytheworldchanged/",
 		"show": true
 	},
 	{
 		"title": "SyRUSH",
 		"whatIDid": "For SyRUSH I did game design, artwork, and animation.",
-		"img": "/images/portfolio/syrush.png",
-    "gif": "/images/portfolio/syrush.gif",
+		"img": "/img/portfolio/syrush.png",
+    "gif": "/img/portfolio/syrush.gif",
 		"link": "http://twoscoopgames.com/syrush",
 		"show": true
 	},
 	{
 		"title": "Scurry",
 		"whatIDid": "I did all of the art and animation for the first Two Scoop Games title.",
-		"img": "/images/portfolio/scurry.png",
-    "gif": "/images/portfolio/scurry.gif",
+		"img": "/img/portfolio/scurry.png",
+    "gif": "/img/portfolio/scurry.gif",
 		"link": "http://twoscoopgames.com/scurry",
 		"show": true
 	},
 	{
 		"title": "Apartment 213",
 		"whatIDid": "For Apartment 213 I did all of the character design, art, and animation for this Global Game Jam 2014 entry. This was the result of my first game jam, and I have continued to participate in jams since.",
-		"img": "/images/portfolio/apartment213.png",
-    "gif": "/images/portfolio/apartment213.gif",
+		"img": "/img/portfolio/apartment213.png",
+    "gif": "/img/portfolio/apartment213.gif",
 		"link": "http://twoscoopgames.com/apartment213",
 		"show": true
 	}

@@ -3,42 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{site.description}}">
+
+
+
+  <title>{{site.title}} - {{site.subtitle}}</title>
   <meta name="author" content="{{site.author}}">
-  <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+  <meta name="description" content="{{site.description}}">
 
-  <title>{{site.title}}</title>
 
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="bg-blue-sm">
+  <div class="web-header">
 
-  <div class="container">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-grey">
+    <a class="navbar-brand" href="/"><div class="alex-icon" ></div> <span class="name">{{site.title}}</span> <span class="tagline">{{site.subtitle}}</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        {{#each site.pages}}
+        {{#if showInNav}}
+        <li class="nav-item">
+          <a class="nav-link" href="/{{file}}">{{name}}</a>
+        </li>
+        {{/if}}
+        {{/each}}
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="logo-container" href="/">
-          <img  class="logo" src="/images/site/logo.svg" alt="{{site.title}} - {{site.subTitle}}">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            {{#each site.pages}}
-              {{#if showInNav}}
-                <li class="nav-item">
-                  <a class="nav-link" href="/{{file}}">{{name}}</a>
-                </li>
-              {{/if}}
-            {{/each}}
+      </ul>
 
-          </ul>
-        </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
 
 
-    <div style="height: 150px;"></div>
+</div>

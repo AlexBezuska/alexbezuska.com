@@ -2,7 +2,7 @@
   "src" : "src",
   "dest" : "dest",
   "templatesDirectory": "pages",
-  "postTemplate": "post",
+
   "templates": [
     "home"
   ],
@@ -10,10 +10,6 @@
   "partials": [
   "header",
   "footer",
-  "archive",
-  "recent-posts",
-  "recent-links",
-  "featured-posts",
-  "about"
+  "print-header"
   ]
 }

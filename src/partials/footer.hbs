@@ -1,21 +1,55 @@
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <p>&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script>
+ {{site.title}}</p>
+    </div>
+  </footer>
 
-</div>
-</div>
-<footer class="blog-footer">
-  <p>
-    <a href="#">Back to top</a>
-  </p>
-</footer>
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', '{{site.google-analytics-id}}', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
-<script>
-  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-  ga('create', '{{site.google-analytics-id}}', 'auto'); ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script>
+  $(function(){
+
+    $('.navbar-nav>li>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+    });
+
+    $(window).scroll(function() {
+      if(scrolled('below','.bg-image-alex')){
+        $('body').removeClass('bg-blue-sm');
+        $('.navbar').addClass('bg-blue');
+        $('.navbar').removeClass('bg-grey');
+        $('.jumbotron').addClass('darken-jumbotron');
+      }
+      if(scrolled('above','.bg-image-alex')){
+        $('body').addClass('bg-blue-sm');
+        $('.navbar').removeClass('bg-blue');
+        $('.navbar').addClass('bg-grey');
+        $('.jumbotron').removeClass('darken-jumbotron');
+      }
+
+    });
+  });
+
+
+
+  function scrolled(direction, selector){
+    var scroll = $(window).scrollTop(); // how many pixels you've scrolled
+    var os = $(selector).offset().top; // pixels to the top of div1
+    var ht = $(selector).height(); // height of div1 in pixels
+    if (direction === "below") return scroll > os + ht;
+    if (direction === "above") return scroll < os + ht;
+
+  }
+
+  </script>
 
 </body>
 </html>

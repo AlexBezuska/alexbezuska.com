@@ -1,0 +1,144 @@
+{
+	"work": [
+    {
+			"title": "UX/UI Designer",
+			"url": "http://glennissolutions.com",
+			"company": "Glennis Solutions (Atria Senior Living)",
+			"location": "Louisville, KY (full-remote)",
+			"from": "January 2021",
+			"to": "October 2022",
+			"description": "I worked closely with several teams to create a unified and consistent design system for a suite of software-as-a-service web and mobile applications.",
+			"show": true
+		},
+    {
+      "title": "Lead Visual Designer",
+      "url": "http://twoscoopgames.com",
+      "company": "Two Scoop Games",
+      "location": "Louisville, KY (full-remote)",
+      "from": "December 2017",
+      "to": "Present",
+      "description": "\"Let's create something fun!\" - Two Scoop Interactive is the client-facing part of my company Two Scoop Games. Under this name we create games, apps, and interactive experiences for our clients. What can we make for you or your business?",
+      "show": true
+    },
+    {
+      "title": "UX Engineer",
+      "company": "Platform Q",
+      "location": "Boston, MA (full-remote)",
+      "from": "January 2016",
+      "to": "January 2018",
+      "description": "At Platform Q I worked to translate wireframes, mockups, and prototypes into intuitive user experiences. I worked fully remote with a team of talented developers to implement designs and features for a highly profitable online video learning platform. I worked with two teams and maintained daily communication. Technologies included Wordpress, Angular 4, JavaScript, and CSS / SASS.",
+      "show": true
+    },
+    {
+      "title": "Web Developer",
+      "company": "cafepress",
+      "location": "Louisville, KY (hybrid-remote)",
+      "from": "May 2014",
+      "to": "December 2015",
+      "description": "I started at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. After that I moved to the front end team on the main cafepress website, where I managed pages seen by tens of thousands of users a day. I primarily worked in JavaScript, HTML, and CSS.",
+      "show": true
+    },
+    {
+      "title": "Front End Web Developer",
+      "company": "Mortenson Dental Partners",
+      "location": "Louisville, KY",
+      "from": "April 2013",
+      "to": "May 2014",
+      "description": "I designed and developed internal use web apps and internal/external websites. While I specialized in the design and UI/UX of each project, I also gained a lot of useful experience with C# and SQL. I was the UX watchdog on the team, and fought for the users in any way I could.",
+      "show": false
+    },
+    {
+      "title": "Independent Web Designer",
+      "company": "AlexBezuska.com",
+      "from": "January 2008",
+      "to": "April 2013",
+      "description": "I worked one-on-one with clients to bring their vision and purpose to life on each custom website. To do this I worked to balance the end user’s needs and the client’s requests.",
+      "show": false
+    }
+  ],
+
+"hobbies": [
+
+		{
+			"title": "Game Designer, Artist, and Animator",
+			"url": "http://twoscoopgames.com",
+			"company": "Two Scoop Games",
+			"location": "Louisville, KY",
+			"from": "November 2013",
+			"to": "Present",
+			"description": "Game development allows me to combine my passion for art and technology to create games for all to enjoy. I have been creating video games with Two Scoop Game since Nov 2013. We have currently completed 3 full releases for online app stores, with our next game, Kick Bot coming to home game consoles and Steam early 2023.",
+			"show": true
+		}
+
+	],
+	"community": [{
+			"title": "Co-Founder/Director",
+			"url": "http://louisvillemakesgames.org",
+			"company": "Louisville Makes Games, Inc.",
+			"from": "August 2015",
+			"to": "Present",
+			"description": "In 2015 I co-founded a 501-(c)(3) non-profit organization called Louisville Makes Games, Inc. The goal of LMG is to provide educational courses and promote game development careers in the city of Louisville, KY. In February 2016, we had the grand opening for Warp Zone Louisville, the first and only game development-centric co-working space in Louisville (and Kentucky!). We run meetups, classes, and events out of Warp Zone Louisville as well as provides the amenities of a co-working space on Main Street in downtown Louisville."
+		},
+		{
+			"title": "Co - Founder / Organizer / Host ",
+			"url": "https://www.meetup.com/LouisvilleMakesGames/",
+			"company": "Lousville Game Creator's Meetup",
+			"from": "February 2014",
+			"to": "Present",
+			"description": "The independent game developer community in Louisville is a huge passion of mine. The Louisville Game Creator's Meetup (formerly Game Dev Lou) is a twice-monthly meetup and support group for local game developers. I have facilitated nearly every meeting, and to date I have helped to organize 3-4 game jam events per year."
+		},
+		{
+			"title": "Founder / Organizer / Host ",
+			"url": "http://jslou.org",
+			"company": "JSLou - Louisville's JavaScript Community",
+			"from": "August 2013",
+			"to": "June 2018",
+			"description": "In order to grow and challenge myself as a developer, I founded and hosted JSLou; a local group focused on all things JavaScript. I have learned a great deal from the many experienced developers I have met through JSLou. I enjoyed facilitating an environment where others can learn and expand their skills. After maintaining the group for nearly 5 years I passed the torch to new passionate developers to continue facilitating the community."
+		}
+	],
+	"speaking": [{
+			"title": "Code Louisville / Code Kentucky Talk 2022",
+			"description": "I spoke to a large group over video about the job market in Louisville for entry level web and software developers,gave advice on how to find your first job in tech,and spoke about my experience working on games."
+		},
+
+		{
+			"title": "Code PaLOUsa",
+			"description": "In 2020 I spoke on a panel hosted by Code Louisville as part of the Code PaLOUsa virtual conference, where I spoke about my experience as a self - taught web developer. I also had the privilege of running workshops on 3 separate occasions(2015, 2016, and 2018) where I taught participants to create games using Unity, and HTML5 / JavaScript."
+		},
+
+		{
+			"title": "Vector Talk 2018",
+			"description": "In 2018 at the Vector game developers conference I did a talk about what I have learned from doing over 20 game prototypes."
+		}
+
+
+	],
+	"teaching": [{
+			"title": "LMG Video Tutorials",
+			"description": "In 2020, due to the pandemic, I helped facilitate a new direction for Louisville Makes Games' education program – providing free online video tutorial content."
+		},
+
+
+		{
+			"title": "LMG Summer Classes",
+			"description": "In 2017 I had a major role in the development and teaching of a free 6 - week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including;coding, story, art & amp;animation, music & amp;sound, and game design."
+		},
+
+		{
+			"title": "Velocity Kids",
+			"description": "In 2014 I taught a monthly game development workshop at Velocity Indiana for youth ages 11 - 18 as part of their code education program."
+		}
+
+	],
+	"advocating": [{
+			"title": "Louisville Makes Games",
+			"description": "In summer 2015 I helped to found the 501(c)(3) non-profit 'Louisville Makes Games, Inc. As a director of LMG, I strive to continue the momentum of Louisville'''s growing game development community and provide inclusive, encouraging, and beginner-friendly events."
+		},
+
+		{
+			"title": "JSLou",
+			"description": "I founded and hosted Louisville's JavaScript Group JSLou with 2 regular meetings each month for almost 5 years."
+		}
+
+	]
+}

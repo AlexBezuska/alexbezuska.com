@@ -1,22 +1,18 @@
 {
   "title": "Alex Bezuska",
-  "subtitle": "Game artist and developer",
+  "subtitle": "UX Engineer, Front-End Developer, and Game Designer",
   "description": "Game artist and developer at independent games studio Two Scoop Games. Serves on the board of 501(c)3 non-profit Louisville Makes Games! a community of game creators. Lover of ice cream.",
   "google-analytics-id": "UA-16421229-1",
   "pages":[
     {
-      "name": "Home",
+      "name": "Resume",
       "file": "index.html",
       "showInNav": true
     },
     {
       "name": "Portfolio",
-      "file": "portfolio.html"
-    },
-    {
-      "name": "Blog",
-      "file": "blog.html",
-      "showInNav": true
+      "file": "portfolio.html",
+      "showInNav": false
     },
     {
       "name": "Contact",
@@ -24,20 +20,34 @@
       "showInNav": true
     }
   ],
-  "categories": [
-    "Game Development",
-    "Web Development",
-    "Art",
-    "Events",
-    "Community"
+  "about": {
+    "name": "Alex Bezuska",
+    "email": "alex@twoscoopgames.com",
+    "phone": "(502) 715-2710",
+    "greeting": "Hi there!",
+    "hello": "I'm Alex Bezuska, a UX Engineer, Front-End Developer, and Game Designer. Nice to meet you!",
+    "hello-extended":
+    [
+      "10+ years front-end web development experience, creating and refining beautiful, functional, and most importantly <em>usable</em> interfaces.",
+      "Excellent communication skills especially in connecting and translating between developers and non-technical staff.",
+      "25+ years of Adobe Software experience including Photoshop, Illustrator, and more.",
+      "Comfortable with Mac, Windows, and Linux - including command line.",
+      "8+ years Git version control experience.",
+      "Based in the Louisville, Kentucky area."
     ],
-    "about": {
-      "name": "Alex Bezuska",
-      "long": "Alex is a game artist and developer at independent games studio <a href='http://twoscoopgames.com'>Two Scoop Games</a>. He is passionate about making art and technology work together for a purpose through games and interactive art.<br>Alex also serves on the board of 501(c)3 non-profit <a href='http://louisvillemakesgames.org'>Louisville Makes Games!</a> where he does his best to help further an inclusive and encouraging local game creation community in Louisville, Kentucky through meetups, events, and kids classes.<br>He is also an avid lover of ice cream.",
-      "short": "Game artist & developer <a href='http://twoscoopgames.com'>Two Scoop Games</a>. <br>Board member <a href='http://louisvillemakesgames.org'>Louisville Makes Games!</a>",
-      "img": {
-        "url":"/images/site/alex_bezuska_2018.png",
-        "alt": "About Game Artist and Devloper Alex Bezuska"
-      }
+    "cover-letter":{
+      "title":"Intention",
+      "body":[
+        "I am seeking fulltime remote employment as a UX Designer and I feel my skills are a perfect fit for ",
+        "",
+        "I'm excited to work on a team with a great company culture.",
+        "Please feel free to take a look at my relevant work experience and let's setup a call if you want to learn more about what I can do for you."
+      ]
+    },
+
+    "img": {
+      "url":"/img/site/alex_bezuska_2022.png",
+      "alt": "About Game Artist and Devloper Alex Bezuska"
     }
   }
+}
