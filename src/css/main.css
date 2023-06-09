@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap');
 
 html, body{
-  background: #394240;
+  background: #252338 !important;
   color: white;
   margin: 0px !important;
   font-family: "Inter", "Lato", "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
@@ -15,7 +15,7 @@ html{
 body {
   margin: 0px !important;
   padding: 3.5rem 0 0 0 !important;
-  background: #242b2f;
+
 }
 
 body, nav, main{
@@ -285,7 +285,7 @@ hr.thin-centered{
 }
 
 .bg-grey{
-  background: #242b2f;
+  background: #252338;
 }
 
 .bg-blue{
@@ -529,7 +529,7 @@ main.portfolio .row{
     color: white;
 
     font-weight 200;
-    background: #242b2f;
+    background: #252338;
   }
 }
 
@@ -769,4 +769,11 @@ text-align: right;
 
 .print-cover h2{
   margin-bottom: 25px;
+}
+
+
+
+.bg-teal-gradient{
+  background: rgb(90,176,160);
+  background: linear-gradient(0deg, rgba(90,176,160,1) 0%, rgba(150,213,201,1) 100%); 
 }

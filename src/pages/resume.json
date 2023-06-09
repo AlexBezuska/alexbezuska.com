@@ -1,25 +1,27 @@
 {
 	"work": [
-    {
-			"title": "UX/UI Designer",
-			"url": "http://glennissolutions.com",
-			"company": "Glennis Solutions (Atria Senior Living)",
+		{
+			"title": "UX/UI Design, Development, and Project Management",
+			"url": "http://twoscoopgames.com",
+			"company": "Self-employed - Contract work for various companies",
 			"location": "Louisville, KY (full-remote)",
-			"from": "January 2021",
-			"to": "October 2022",
-			"description": "I worked closely with several teams to create a unified and consistent design system for a suite of software-as-a-service web and mobile applications.",
+			"from": "January 2018",
+			"to": "Present",
+			"description": "I managed several clients creating web and mobile apps, websites and interactive content along with a talented local developer. During this time I worked directly with clients such as Telerik, Blackstone Media, Amundsen Tech, ScholarRX, Horse Racing Nation, and more to create one-of-a-kind digital experiences. I also served as a project manager for a short term contract web development project.",
 			"show": true
-		},
+		  },
+
     {
-      "title": "UX/UI Design / Project Management",
-      "url": "http://twoscoopgames.com",
-      "company": "Self-employed - Contract work for various companies",
-      "location": "Louisville, KY (full-remote)",
-      "from": "January 2018",
-      "to": "January 2021",
-      "description": "I managed several clients creating web and mobile apps, websites and interactive content along with a talented local developer. During this time I worked directly with clients such as Blackstone Media, Amundsen Tech, ScholarRX, and more to create one-of-a-kind digital experiences. I also served as a project manager for a short term contract web development project.",
-      "show": true
-    },
+	"title": "UX/UI Designer",
+	"url": "https://atriaseniorliving.com",
+	"company": "Atria",
+	"location": "Louisville, KY (full-remote)",
+	"from": "January 2021",
+	"to": "October 2022",
+	"description": "I worked closely with several teams to create a unified and consistent design system for a suite of software-as-a-service web and mobile applications.",
+	"show": true
+	},
+ 
     {
       "title": "UX Engineer",
       "company": "Platform Q",
@@ -96,7 +98,12 @@
 			"description": "In order to grow and challenge myself as a developer, I founded and hosted JSLou; a local group focused on all things JavaScript. I have learned a great deal from the many experienced developers I have met through JSLou. I enjoyed facilitating an environment where others can learn and expand their skills. After maintaining the group for nearly 5 years I passed the torch to new passionate developers to continue facilitating the community."
 		}
 	],
-	"speaking": [{
+	"speaking": [
+		{
+			"title": "How to Get Started Making Video Games at the Louisville Public Library 2023",
+			"description": "I presented at the Bon Air Library in Louisville, Kentucky, representing Louisville Makes Games, discussing how to get started making video games. The event sparked curiosity and passion among enthusiastic teens and parents, highlighting the collaborative nature of game development and the diverse array of skills required."
+		  },
+		  {
 			"title": "Code Louisville / Code Kentucky Talk 2022",
 			"description": "I spoke to a large group over video about the job market in Louisville for entry level web and software developers,gave advice on how to find your first job in tech,and spoke about my experience working on games."
 		},
@@ -104,11 +111,6 @@
 		{
 			"title": "Code PaLOUsa",
 			"description": "In 2020 I spoke on a panel hosted by Code Louisville as part of the Code PaLOUsa virtual conference, where I spoke about my experience as a self - taught web developer. I also had the privilege of running workshops on 3 separate occasions(2015, 2016, and 2018) where I taught participants to create games using Unity, and HTML5 / JavaScript."
-		},
-
-		{
-			"title": "Vector Talk 2018",
-			"description": "In 2018 at the Vector game developers conference I did a talk about what I have learned from doing over 20 game prototypes."
 		}
 
 
@@ -121,7 +123,7 @@
 
 		{
 			"title": "LMG Summer Classes",
-			"description": "In 2017 I had a major role in the development and teaching of a free 6 - week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including;coding, story, art & amp;animation, music & amp;sound, and game design."
+			"description": "In 2017 I had a major role in the development and teaching of a free 6 - week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including;coding, story, art & animation, music & sound, and game design."
 		},
 
 		{
@@ -132,7 +134,7 @@
 	],
 	"advocating": [{
 			"title": "Louisville Makes Games",
-			"description": "In summer 2015 I helped to found the 501(c)(3) non-profit 'Louisville Makes Games, Inc. As a director of LMG, I strive to continue the momentum of Louisville'''s growing game development community and provide inclusive, encouraging, and beginner-friendly events."
+			"description": "In summer 2015 I helped to found the 501(c)(3) non-profit Louisville Makes Games, Inc. As a director of LMG, I strive to continue the momentum of Louisville's growing game development community and provide inclusive, encouraging, and beginner-friendly events."
 		},
 
 		{

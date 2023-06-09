@@ -20,7 +20,9 @@ Code for when I get around to fixing this:
 ```
 
 
+## Notes:
 
+data.json is a generated file, don't edit it directly.
 
 ## To build:
 
