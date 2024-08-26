@@ -1,0 +1,8 @@
+{
+    "server": {
+      "baseDir": "dest"
+    },
+    "files": [
+      "src/**/*"
+    ]
+  }

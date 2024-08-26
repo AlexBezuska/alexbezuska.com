@@ -1,53 +1,158 @@
 {
   "title": "Alex Bezuska",
   "subtitle": "UX Engineer and Front-End Developer",
-    "description": "10+ years front-end web development experience, creating and refining beautiful, functional, and most importantly user-friendly interfaces",
+  "description": "10+ years front-end web development experience, creating and refining beautiful, functional, and most importantly user-friendly interfaces",
   "google-analytics-id": "UA-16421229-1",
-  "pages":[
-    {
-      "name": "Resume",
-      "file": "index.html",
-      "showInNav": true
-    },
-    {
-      "name": "Portfolio",
-      "file": "portfolio.html",
-      "showInNav": true
-    },
-    {
-      "name": "Contact",
-      "file": "contact.html",
-      "showInNav": true
-    }
-  ],
   "about": {
-    "name": "Alex Bezuska",
-    "email": "alex@twoscoopgames.com",
-    "phone": "(502) 715-2710",
-    "greeting": "Hi there!",
-    "hello": "I'm Alex Bezuska, a UX Engineer and Front-End Developer, Nice to meet you!",
-    "hello-extended":
-    [
-      "10+ years front-end web development experience, creating and refining beautiful, functional, and most importantly <em>usable</em> interfaces.",
-      "Excellent communication skills especially in connecting and translating between developers and non-technical staff.",
-      "25+ years of Adobe Software experience including Photoshop, Illustrator, and more.",
-      "Comfortable with Mac, Windows, and Linux - including command line.",
-      "8+ years Git version control experience.",
-      "Based in the Louisville, Kentucky area."
-    ],
-    "cover-letter":{
-      "title":"Intention",
-      "body":[
-        "I am seeking a remote or hybrid position as UI/UX Enigineer or Front End Developer",
-        "I have nearly a decade of experience working on teams where I helped to translate ideas from product owners and marketing to developers to create functional and user-friendly designs. I am well versed in frontend technologies including JavaScript, CSS (Sass and Less preprocessors), Bootstrap, build tools, Node, NPM, and Git via command line. I have some experience with React / React Native, and Angular as well and can learn and adapt quickly.",
-        "My main skills are my ability to communicate ideas and concepts with anyone on the team regardless of technical knowledge while creating products that have the user in mind first and foremost.",
-        "Please feel free to take a look at my relevant work experience and let's setup a call if you want to learn more about what I can do for you."
-      ]
-    },
-
-    "img": {
-      "url":"/img/site/alex_bezuska_2022.png",
-      "alt": "UX Engineer and Front-End Developer Alex Bezuska"
+      "name": "Alex Bezuska",
+      "email": "abezuska@gmail.com",
+      "phone": "(502) 715-2710",
+      "greeting": "Hi there!",
+      "hello": "I'm Alex Bezuska, a UX Engineer and Front-End Developer, Nice to meet you!",
+ 
+      "cover-letter": {
+          "title": "Intention",
+          "body": [
+              "Cover letter stuff goes here"
+          ]
+      },
+      "img": {
+          "url": "/img/site/alex_bezuska_2022.png",
+          "alt": "UX Engineer and Front-End Developer Alex Bezuska"
+      }
+  },
+  "work": [
+      
+    {
+      "title": "Senior UX Engineer",
+      "company": "El Toro",
+      "location": "Louisville, KY",
+      "from": "July 2023",
+      "to": "Present",
+      "description": "At El Toro, I lead the development of a Design System using React Storybook. I conduct user testing and ensure that designs are consistent, intuitive, and optimized for both internal use and public-facing web applications.",
+      "show": true
     }
-  }
+    ,
+    
+{   
+          "title": "UX/UI Design, Development, and Project Management",
+          "url": "http://twoscoopgames.com",
+          "company": "Self-employed - Contract work for various companies",
+          "location": "Louisville, KY (full-remote)",
+          "from": "January 2018",
+          "to": "july 2023",
+          "description": "I managed several clients creating web and mobile apps, websites and interactive content along with a talented local developer. During this time I worked directly with clients such as Blackstone Media, Amundsen Tech, ScholarRX, Horse Racing Nation, and more to create one-of-a-kind digital experiences. I also served as a project manager for a short term contract web development project.",
+          "show": true
+      },
+      {
+          "title": "UX/UI Designer",
+          "url": "https://atriaseniorliving.com",
+          "company": "Atria",
+          "location": "Louisville, KY (full-remote)",
+          "from": "January 2021",
+          "to": "October 2022",
+          "description": "I worked closely with several teams to create a unified and consistent design system for a suite of software-as-a-service web and mobile applications.",
+          "show": true
+      },
+      {
+          "title": "UX Engineer",
+          "company": "Platform Q",
+          "location": "Boston, MA (full-remote)",
+          "from": "December 2015",
+          "to": "January 2018",
+          "description": "At Platform Q I worked to translate wireframes, mockups, and prototypes into intuitive user experiences. I worked fully remote with a team of talented developers to implement designs and features for a highly profitable online video learning platform. I worked with two teams and maintained daily communication. Technologies included Wordpress, Angular 4, JavaScript, and CSS / SASS.",
+          "show": true
+      },
+      {
+          "title": "Web Developer",
+          "company": "cafepress",
+          "location": "Louisville, KY (hybrid-remote)",
+          "from": "May 2014",
+          "to": "December 2015",
+          "description": "I started at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. After that I moved to the front end team on the main cafepress website, where I managed pages seen by tens of thousands of users a day. I primarily worked in JavaScript, HTML, and CSS.",
+          "show": true
+      },
+      {
+          "title": "Front End Web Developer",
+          "company": "Mortenson Dental Partners",
+          "location": "Louisville, KY",
+          "from": "April 2013",
+          "to": "May 2014",
+          "description": "I designed and developed internal use web apps and internal/external websites. While I specialized in the design and UI/UX of each project, I also gained a lot of useful experience with C# and SQL. I was the UX watchdog on the team, and fought for the users in any way I could.",
+          "show": false
+      },
+      {
+          "title": "Independent Web Designer",
+          "company": "AlexBezuska.com",
+          "from": "January 2008",
+          "to": "April 2013",
+          "description": "I worked one-on-one with clients to bring their vision and purpose to life on each custom website. To do this I worked to balance the end user’s needs and the client’s requests.",
+          "show": false
+      }
+  ],
+  "hobbies": [],
+  "community": [
+      {
+          "title": "Co-Founder/Director",
+          "url": "http://louisvillemakesgames.org",
+          "company": "Louisville Makes Games, Inc.",
+          "from": "August 2015",
+          "to": "Present",
+          "description": "In 2015 I co-founded a 501-(c)(3) non-profit organization called Louisville Makes Games, Inc. The goal of LMG is to provide educational courses and promote game development careers in the city of Louisville, KY. In February 2016, we had the grand opening for Warp Zone Louisville, the first and only game development-centric co-working space in Louisville (and Kentucky!). We run meetups, classes, and events out of Warp Zone Louisville as well as provides the amenities of a co-working space on Main Street in downtown Louisville."
+      },
+      {
+          "title": "Co - Founder / Organizer / Host ",
+          "url": "https://www.meetup.com/LouisvilleMakesGames/",
+          "company": "Lousville Game Creator's Meetup",
+          "from": "February 2014",
+          "to": "Present",
+          "description": "The independent game developer community in Louisville is a huge passion of mine. The Louisville Game Creator's Meetup (formerly Game Dev Lou) is a twice-monthly meetup and support group for local game developers. I have facilitated nearly every meeting, and to date I have helped to organize 3-4 game jam events per year."
+      },
+      {
+          "title": "Founder / Organizer / Host ",
+          "url": "http://jslou.org",
+          "company": "JSLou - Louisville's JavaScript Community",
+          "from": "August 2013",
+          "to": "June 2018",
+          "description": "In order to grow and challenge myself as a developer, I founded and hosted JSLou; a local group focused on all things JavaScript. I have learned a great deal from the many experienced developers I have met through JSLou. I enjoyed facilitating an environment where others can learn and expand their skills. After maintaining the group for nearly 5 years I passed the torch to new passionate developers to continue facilitating the community."
+      }
+  ],
+  "speaking": [
+      {
+          "title": "How to Get Started Making Video Games at the Louisville Public Library 2023",
+          "description": "I presented at the Bon Air Library in Louisville, Kentucky, representing Louisville Makes Games, discussing how to get started making video games. The event sparked curiosity and passion among enthusiastic teens and parents, highlighting the collaborative nature of game development and the diverse array of skills required."
+      },
+      {
+          "title": "Code Louisville / Code Kentucky Talk 2022",
+          "description": "I spoke to a large group over video about the job market in Louisville for entry level web and software developers, gave advice on how to find your first job in tech, and spoke about my experience working on games."
+      },
+      {
+          "title": "Code PaLOUsa",
+          "description": "In 2020 I spoke on a panel hosted by Code Louisville as part of the Code PaLOUsa virtual conference, where I spoke about my experience as a self-taught web developer. I also had the privilege of running workshops on 3 separate occasions (2015, 2016, and 2018) where I taught participants to create games using Unity, and HTML5 / JavaScript."
+      }
+  ],
+  "teaching": [
+      {
+          "title": "LMG Video Tutorials",
+          "description": "In 2020, due to the pandemic, I helped facilitate a new direction for Louisville Makes Games' education program – providing free online video tutorial content."
+      },
+      {
+          "title": "LMG Summer Classes",
+          "description": "In 2017 I had a major role in the development and teaching of a free 6-week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including: coding, story, art & animation, music & sound, and game design."
+      },
+      {
+          "title": "Velocity Kids",
+          "description": "In 2014 I taught a monthly game development workshop at Velocity Indiana for youth ages 11 - 18 as part of their code education program."
+      }
+  ],
+  "advocating": [
+      {
+          "title": "Louisville Makes Games",
+          "description": "In summer 2015 I helped to found the 501(c)(3) non-profit Louisville Makes Games, Inc. As a director of LMG, I strive to continue the momentum of Louisville's growing game development community and provide inclusive, encouraging, and beginner-friendly events."
+      },
+      {
+          "title": "JSLou",
+          "description": "I founded and hosted Louisville's JavaScript Group JSLou with 2 regular meetings each month for almost 5 years."
+      }
+  ]
 }

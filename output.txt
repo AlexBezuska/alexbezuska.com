@@ -1,0 +1,436 @@
+.
+├── README.md
+├── cat.sh
+├── notes
+│   └── cover-letter-el-toro.md
+├── output.txt
+├── package-lock.json
+├── package.json
+├── site.json
+├── src
+│   ├── css
+│   │   ├── bootstrap.min.css
+│   │   ├── hover-min.css
+│   │   └── main.css
+│   ├── img
+│   │   ├── alex_bezuska_2022.png
+│   │   ├── icon-apps.svg
+│   │   ├── icon-lmg.svg
+│   │   ├── icon-louisville.svg
+│   │   └── logo.svg
+│   ├── index.hbs
+│   └── js
+│       ├── bootstrap.bundle.min.js
+│       └── jquery-3.5.1.min.js
+└── static-site-generator.js
+
+6 directories, 19 files
+========== START OF ./site.json ==========
+{
+  "title": "Alex Bezuska",
+  "subtitle": "UX Engineer and Front-End Developer",
+  "description": "10+ years front-end web development experience, creating and refining beautiful, functional, and most importantly user-friendly interfaces",
+  "google-analytics-id": "UA-16421229-1",
+  "about": {
+      "name": "Alex Bezuska",
+      "email": "abezuska@gmail.com",
+      "phone": "(502) 715-2710",
+      "greeting": "Hi there!",
+      "hello": "I'm Alex Bezuska, a UX Engineer and Front-End Developer, Nice to meet you!",
+      "hello-extended": [
+          "10+ years front-end web development experience, creating and refining beautiful, functional, and most importantly <em>usable</em> interfaces.",
+          "Excellent communication skills especially in connecting and translating between developers and non-technical staff.",
+          "25+ years of Adobe Software experience including Photoshop, Illustrator, and more.",
+          "Comfortable with Mac, Windows, and Linux - including command line.",
+          "8+ years Git version control experience.",
+          "Based in the Louisville, Kentucky area."
+      ],
+      "cover-letter": {
+          "title": "Intention",
+          "body": [
+              "Cover letter stuff goes here"
+          ]
+      },
+      "img": {
+          "url": "/img/site/alex_bezuska_2022.png",
+          "alt": "UX Engineer and Front-End Developer Alex Bezuska"
+      }
+  },
+  "work": [
+      {
+          "title": "UX/UI Design, Development, and Project Management",
+          "url": "http://twoscoopgames.com",
+          "company": "Self-employed - Contract work for various companies",
+          "location": "Louisville, KY (full-remote)",
+          "from": "January 2018",
+          "to": "Present",
+          "description": "I managed several clients creating web and mobile apps, websites and interactive content along with a talented local developer. During this time I worked directly with clients such as Blackstone Media, Amundsen Tech, ScholarRX, Horse Racing Nation, and more to create one-of-a-kind digital experiences. I also served as a project manager for a short term contract web development project.",
+          "show": true
+      },
+      {
+          "title": "UX/UI Designer",
+          "url": "https://atriaseniorliving.com",
+          "company": "Atria",
+          "location": "Louisville, KY (full-remote)",
+          "from": "January 2021",
+          "to": "October 2022",
+          "description": "I worked closely with several teams to create a unified and consistent design system for a suite of software-as-a-service web and mobile applications.",
+          "show": true
+      },
+      {
+          "title": "UX Engineer",
+          "company": "Platform Q",
+          "location": "Boston, MA (full-remote)",
+          "from": "December 2015",
+          "to": "January 2018",
+          "description": "At Platform Q I worked to translate wireframes, mockups, and prototypes into intuitive user experiences. I worked fully remote with a team of talented developers to implement designs and features for a highly profitable online video learning platform. I worked with two teams and maintained daily communication. Technologies included Wordpress, Angular 4, JavaScript, and CSS / SASS.",
+          "show": true
+      },
+      {
+          "title": "Web Developer",
+          "company": "cafepress",
+          "location": "Louisville, KY (hybrid-remote)",
+          "from": "May 2014",
+          "to": "December 2015",
+          "description": "I started at cafepress on a small labs team focused on creating new and exciting products and the web experiences to get those products in front of customers. After that I moved to the front end team on the main cafepress website, where I managed pages seen by tens of thousands of users a day. I primarily worked in JavaScript, HTML, and CSS.",
+          "show": true
+      },
+      {
+          "title": "Front End Web Developer",
+          "company": "Mortenson Dental Partners",
+          "location": "Louisville, KY",
+          "from": "April 2013",
+          "to": "May 2014",
+          "description": "I designed and developed internal use web apps and internal/external websites. While I specialized in the design and UI/UX of each project, I also gained a lot of useful experience with C# and SQL. I was the UX watchdog on the team, and fought for the users in any way I could.",
+          "show": false
+      },
+      {
+          "title": "Independent Web Designer",
+          "company": "AlexBezuska.com",
+          "from": "January 2008",
+          "to": "April 2013",
+          "description": "I worked one-on-one with clients to bring their vision and purpose to life on each custom website. To do this I worked to balance the end user’s needs and the client’s requests.",
+          "show": false
+      }
+  ],
+  "hobbies": [],
+  "community": [
+      {
+          "title": "Co-Founder/Director",
+          "url": "http://louisvillemakesgames.org",
+          "company": "Louisville Makes Games, Inc.",
+          "from": "August 2015",
+          "to": "Present",
+          "description": "In 2015 I co-founded a 501-(c)(3) non-profit organization called Louisville Makes Games, Inc. The goal of LMG is to provide educational courses and promote game development careers in the city of Louisville, KY. In February 2016, we had the grand opening for Warp Zone Louisville, the first and only game development-centric co-working space in Louisville (and Kentucky!). We run meetups, classes, and events out of Warp Zone Louisville as well as provides the amenities of a co-working space on Main Street in downtown Louisville."
+      },
+      {
+          "title": "Co - Founder / Organizer / Host ",
+          "url": "https://www.meetup.com/LouisvilleMakesGames/",
+          "company": "Lousville Game Creator's Meetup",
+          "from": "February 2014",
+          "to": "Present",
+          "description": "The independent game developer community in Louisville is a huge passion of mine. The Louisville Game Creator's Meetup (formerly Game Dev Lou) is a twice-monthly meetup and support group for local game developers. I have facilitated nearly every meeting, and to date I have helped to organize 3-4 game jam events per year."
+      },
+      {
+          "title": "Founder / Organizer / Host ",
+          "url": "http://jslou.org",
+          "company": "JSLou - Louisville's JavaScript Community",
+          "from": "August 2013",
+          "to": "June 2018",
+          "description": "In order to grow and challenge myself as a developer, I founded and hosted JSLou; a local group focused on all things JavaScript. I have learned a great deal from the many experienced developers I have met through JSLou. I enjoyed facilitating an environment where others can learn and expand their skills. After maintaining the group for nearly 5 years I passed the torch to new passionate developers to continue facilitating the community."
+      }
+  ],
+  "speaking": [
+      {
+          "title": "How to Get Started Making Video Games at the Louisville Public Library 2023",
+          "description": "I presented at the Bon Air Library in Louisville, Kentucky, representing Louisville Makes Games, discussing how to get started making video games. The event sparked curiosity and passion among enthusiastic teens and parents, highlighting the collaborative nature of game development and the diverse array of skills required."
+      },
+      {
+          "title": "Code Louisville / Code Kentucky Talk 2022",
+          "description": "I spoke to a large group over video about the job market in Louisville for entry level web and software developers, gave advice on how to find your first job in tech, and spoke about my experience working on games."
+      },
+      {
+          "title": "Code PaLOUsa",
+          "description": "In 2020 I spoke on a panel hosted by Code Louisville as part of the Code PaLOUsa virtual conference, where I spoke about my experience as a self-taught web developer. I also had the privilege of running workshops on 3 separate occasions (2015, 2016, and 2018) where I taught participants to create games using Unity, and HTML5 / JavaScript."
+      }
+  ],
+  "teaching": [
+      {
+          "title": "LMG Video Tutorials",
+          "description": "In 2020, due to the pandemic, I helped facilitate a new direction for Louisville Makes Games' education program – providing free online video tutorial content."
+      },
+      {
+          "title": "LMG Summer Classes",
+          "description": "In 2017 I had a major role in the development and teaching of a free 6-week summer program at Warp Zone Louisville to give kids a taste of the many disciplines of game development including: coding, story, art & animation, music & sound, and game design."
+      },
+      {
+          "title": "Velocity Kids",
+          "description": "In 2014 I taught a monthly game development workshop at Velocity Indiana for youth ages 11 - 18 as part of their code education program."
+      }
+  ],
+  "advocating": [
+      {
+          "title": "Louisville Makes Games",
+          "description": "In summer 2015 I helped to found the 501(c)(3) non-profit Louisville Makes Games, Inc. As a director of LMG, I strive to continue the momentum of Louisville's growing game development community and provide inclusive, encouraging, and beginner-friendly events."
+      },
+      {
+          "title": "JSLou",
+          "description": "I founded and hosted Louisville's JavaScript Group JSLou with 2 regular meetings each month for almost 5 years."
+      }
+  ]
+}========== END OF ./site.json ==========
+========== START OF ./static-site-generator.js ==========
+var fs = require("fs");
+var path = require("path");
+var handlebars = require("handlebars");
+
+var site = require("./site.json");
+
+var src = "./src";
+var dest = "./dest";
+
+makeDirIfNotExist(dest);
+
+var template = fs.readFileSync(path.join(src, "index.hbs"), "utf8");
+var compiledTemplate = handlebars.compile(template);
+var html = compiledTemplate(site);
+
+fs.writeFileSync(path.join(dest, "index.html"), html);
+
+function makeDirIfNotExist(filePath) {
+  if (!fs.existsSync(filePath)) {
+    fs.mkdirSync(filePath, { recursive: true });
+  }
+}
+========== END OF ./static-site-generator.js ==========
+========== START OF ./package.json ==========
+{
+  "name": "alexbezuska.com",
+  "version": "1.0.0",
+  "description": "A single-page static site for Alex Bezuska",
+  "main": "static-site-generator.js",
+  "scripts": {
+    "build": "node static-site-generator.js",
+    "start": "npm run build && lite-server"
+  },
+  "dependencies": {
+    "handlebars": "^4.1.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "author": "Alex Bezuska",
+  "license": "MIT"
+}
+========== END OF ./package.json ==========
+========== START OF ./src/index.hbs ==========
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{site.title}} - {{site.subtitle}}</title>
+  <meta name="author" content="{{site.author}}">
+  <meta name="description" content="{{site.description}}">
+  <link href="css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-blue-sm">
+  <div class="web-header">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-grey">
+    <a class="navbar-brand" href="/"><div class="alex-icon" ></div> <span class="name">{{site.title}}</span> <span class="tagline">{{site.subtitle}}</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+<div class="container">
+   <div class="print-header">
+      <div class="print-header-side">
+         <span class="name">{{site.title}}</span><br>
+         <span class="tagline">{{site.subtitle}}</span>
+      </div>
+      <div class="print-header-side align-right">
+         {{site.about.email}}<br>
+         {{site.about.phone}}<br>
+         New Albany, Indiana
+      </div>
+   </div>
+   <div class="jumbotron no-padding-sm top-space bg-teal-gradient">
+      <div class="container no-padding-sm">
+         <div class="row no-margins">
+            <div class="col-sm-4 col-xs-12">
+               <img src="img/alex_bezuska_2022.png" class="alex-image" alt="{{site.title}} - {{site.subtitle}}"/>
+            </div>
+            <div class="col-sm-8 col-xs-12 pad1040">
+               <h1 class="intro-heading">{{site.about.greeting}}</h1>
+               <p class="hello-text">{{site.about.hello}}</p>
+               <div class="hello-extended">
+                  {{#each site.about.hello-extended}}
+                  <p>{{{this}}}</p>
+                  {{/each}}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="print-cover">
+      <div class="row main-resume">
+         <div class="col-md-12">
+            <h2 class="resume-title" >{{site.about.cover-letter.title}}</h2>
+            <div class="">
+               {{#each site.about.cover-letter.body}}
+               <p>{{{this}}}</p>
+               {{/each}}
+               <p>Thanks for your time,</p>
+               <strong>{{site.about.name}}</strong>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="container">
+   <div class="print-break"></div>
+   <div class="print-header">
+      <div class="print-header-side">
+         <span class="name">{{site.title}}</span><br>
+         <span class="tagline">{{site.subtitle}}</span>
+      </div>
+      <div class="print-header-side align-right">
+         {{site.about.email}}<br>
+         {{site.about.phone}}<br>
+         New Albany, Indiana
+      </div>
+   </div>
+   <div class="row main-resume">
+      <div class="col-md-12">
+         <h2 class="resume-title top-space" id="workExperience">Work Experience</h2>
+         {{#each resume.work}}
+         {{#if show}}
+         <div class="resume-section crunch-width">
+            <h3>{{title}}</h3>
+            <h4>{{company}}</h4>
+            <h5>{{location}}</h5>
+            <em class="date">({{from}} &ndash; {{to}})</em>
+            <p class="mb-15">{{description}}</p>
+         </div>
+         {{/if}}
+         {{/each}}
+      </div>
+   </div>
+</div>
+<div class="container">
+   <div class="print-break"></div>
+   <div class="print-header">
+      <div class="print-header-side">
+         <span class="name">{{site.title}}</span><br>
+         <span class="tagline">{{site.subtitle}}</span>
+      </div>
+      <div class="print-header-side align-right">
+         {{site.about.email}}<br>
+         {{site.about.phone}}<br>
+         New Albany, Indiana
+      </div>
+   </div>
+   <div class="row main-resume">
+      <div class="col-md-12">
+         <h2 class="resume-title top-space" id="workExperience">Community Development</h2>
+         {{#each resume.community}}
+         <div class="resume-section crunch-width">
+            <h3>{{title}}</h3>
+            <h4>{{company}}</h4>
+            <em class="date">({{from}} &ndash; {{to}})</em>
+            <p class="mb-15">{{description}}</p>
+         </div>
+         {{/each}}
+      </div>
+   </div>
+</div>
+<div class="container">
+   <div class="print-break"></div>
+   <div class="print-header">
+      <div class="print-header-side">
+         <span class="name">{{site.title}}</span><br>
+         <span class="tagline">{{site.subtitle}}</span>
+      </div>
+      <div class="print-header-side align-right">
+         {{site.about.email}}<br>
+         {{site.about.phone}}<br>
+         New Albany, Indiana
+      </div>
+   </div>
+   <div class="row bottom">
+      <div class="col-md-12">
+         <h2 class="resume-title top-space" id="speaking">Speaking</h2>
+         {{#each resume.speaking}}
+         <div class="resume-section crunch-width">
+            <h4>{{title}}</h4>
+            <p>{{description}}</p>
+         </div>
+         {{/each}}
+      </div>
+      <div class="col-md-12">
+         <h2 class="resume-title" id="teaching">Teaching</h2>
+         {{#each resume.teaching}}
+         <div class="resume-section crunch-width">
+            <h4>{{title}}</h4>
+            <p>{{description}}</p>
+         </div>
+         {{/each}}
+      </div>
+      <div class="col-md-12">
+         <h2 class="resume-title" id="advocating">Advocating</h2>
+         {{#each resume.advocating}}
+         <div class="resume-section crunch-width">
+            <h4>{{title}}</h4>
+            <p>{{description}}</p>
+         </div>
+         {{/each}}
+      </div>
+   </div>
+</div>
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <p>&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script>
+ {{site.title}}</p>
+    </div>
+  </footer>
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', '{{site.google-analytics-id}}', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+  $(function(){
+    $('.navbar-nav>li>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+    });
+    $(window).scroll(function() {
+      if(scrolled('below','.bg-image-alex')){
+        $('body').removeClass('bg-blue-sm');
+        $('.navbar').addClass('bg-blue');
+        $('.navbar').removeClass('bg-grey');
+        $('.jumbotron').addClass('darken-jumbotron');
+      }
+      if(scrolled('above','.bg-image-alex')){
+        $('body').addClass('bg-blue-sm');
+        $('.navbar').removeClass('bg-blue');
+        $('.navbar').addClass('bg-grey');
+        $('.jumbotron').removeClass('darken-jumbotron');
+      }
+    });
+  });
+  function scrolled(direction, selector){
+    var scroll = $(window).scrollTop(); // how many pixels you've scrolled
+    var os = $(selector).offset().top; // pixels to the top of div1
+    var ht = $(selector).height(); // height of div1 in pixels
+    if (direction === "below") return scroll > os + ht;
+    if (direction === "above") return scroll < os + ht;
+  }
+  </script>
+</body>
+</html>
+
+========== END OF ./src/index.hbs ==========
