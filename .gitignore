@@ -18,3 +18,5 @@ upload.sh
 old
 data.json
 cutting-room
+
+.env
