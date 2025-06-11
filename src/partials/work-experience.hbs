@@ -1,0 +1,14 @@
+<section id="workExperience">
+  <h2>Work Experience</h2>
+  {{#each work}}
+    {{#if show}}
+      <article class="hairline-bottom">
+        <h3>{{title}}</h3>
+        <h4>{{company}}</h4>
+        <h5>{{location}}</h5>
+        <p><time datetime="{{from}}">{{from}}</time> – <time datetime="{{to}}">{{to}}</time></p>
+        <p>{{description}}</p>
+      </article>
+    {{/if}}
+  {{/each}}
+</section>

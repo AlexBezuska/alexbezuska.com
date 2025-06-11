@@ -1,0 +1,25 @@
+{
+    "name": "Alex Bezuska",
+    "email": "abezuska@gmail.com",
+    "phone": "(502) 715-2710",
+    "greeting": "Hi there!",
+    "hello": "Let's build something great together!",
+    "img": {
+        "url": "/img/alex_bezuska_2022.png",
+        "alt": "UX Engineer and Front-End Developer Alex Bezuska"
+    },
+    "extended": [
+        "Front-end web development experience.",
+        "Excellent communication skills especially in connecting and translating between developers and non-technical staff.",
+        "Adobe Software experience.",
+        "Comfortable with Mac, Windows, and Linux - including command line.",
+        "Git version control experience.",
+        "Based in the Louisville, Kentucky area."
+    ],
+    "cover-letter": {
+        "title": "Intention",
+        "body": [
+            ""
+        ]
+    }
+}

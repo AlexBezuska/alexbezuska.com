@@ -1,0 +1,13 @@
+<section id="community">
+  <h2>Community Development</h2>
+  {{#each community}}
+    <article class="hairline-bottom">
+      <h3>{{title}}</h3>
+      <p><strong>{{company}}</strong></p>
+      <p>
+        <time datetime="{{from}}">{{from}}</time> – <time datetime="{{to}}">{{to}}</time>
+      </p>
+      <p>{{description}}</p>
+    </article>
+  {{/each}}
+</section>

@@ -1,0 +1,66 @@
+[
+      {
+        "title": "UX/UI Design, Development, and Project Management",
+        "url": "http://alexbezuska.com",
+        "company": "Self-employed – Contract Work for Various Companies",
+        "location": "Louisville, KY area",
+        "from": "January 2018",
+        "to": "present",
+        "description": "I’ve worked with a variety of clients — like Blackstone Media, Amundsen Tech, ScholarRX, and Horse Racing Nation — helping them build everything from web apps to mobile tools to interactive content. I’ve handled UX design, front-end development, and project management, often jumping between roles to keep the process moving. Most projects were B2B and focused on making complex stuff easier to use. I’ve teamed up with developers, clients, and users to make sure the final product looked good and worked even better.",
+        "show": true
+      },
+      {
+        "title": "Senior UX Engineer",
+        "company": "El Toro",
+        "location": "Louisville, KY (full-remote)",
+        "from": "July 2023",
+        "to": "January 2025",
+        "description": "At El Toro, I led the design and rollout of the company’s first design system using React Storybook, supporting both internal tools and public-facing products. I worked closely with engineers, stakeholders, and leadership to turn complex requirements into clear, usable interfaces. Along the way, I ran usability testing, helped prioritize design work, and built scalable UX patterns that sped up development and kept things consistent across teams.",
+        "show": true
+      },
+      {
+        "title": "UX/UI Designer",
+        "url": "https://atriaseniorliving.com",
+        "company": "Atria",
+        "location": "Louisville, KY (full-remote)",
+        "from": "January 2021",
+        "to": "October 2022",
+        "description": "At Atria, I helped put together a consistent design system for a many SaaS web and mobile tools used by staff and residents across the country. I worked with teams across different departments to clean up the user experience and make sure everything felt cohesive. A big part of the job was keeping things on track between the Louisville team and developers overseas — making sure everyone was on the same page. I focused on building clean, accessible UI components and keeping communication flowing smoothly between design and engineering.",
+        "show": true
+      },
+      {
+        "title": "UX Engineer",
+        "company": "Platform Q",
+        "location": "Boston, MA (full-remote)",
+        "from": "December 2015",
+        "to": "January 2018",
+        "description": "At Platform Q, I worked remotely with two cross-functional teams to bring wireframes and prototypes to life on a large-scale video learning platform. I focused on turning complex requirements into intuitive, polished user experiences that served thousands of learners. My role blended design and front-end implementation, and I stayed in close daily communication with developers and stakeholders to make sure the user experience stayed front and center. I also contributed to design system improvements and helped refine the handoff between design and development.",
+        "show": true
+      },
+      {
+        "title": "Web Developer",
+        "company": "cafepress",
+        "location": "Louisville, KY (hybrid-remote)",
+        "from": "May 2014",
+        "to": "December 2015",
+        "description": "I started on a small R&D-style team at CafePress building out new product ideas and the user-facing experiences that brought them to life. Later, I joined the main front-end team, where I worked on high-traffic pages seen by tens of thousands of users daily. I focused on delivering clean, user-friendly interfaces and collaborated closely with designers, marketers, and backend developers to keep projects running smoothly across teams.",
+        "show": true
+      },
+      {
+        "title": "Front End Web Developer",
+        "company": "Mortenson Dental Partners",
+        "location": "Louisville, KY",
+        "from": "April 2013",
+        "to": "May 2014",
+        "description": "At Mortenson, I designed and built internal tools and public-facing websites with a strong focus on usability and clear, accessible UI. I took the lead on UX decisions across projects, acting as the go-to advocate for user needs. I also introduced more modern front-end practices to the team, helping bring in industry standards and streamline development workflows. I worked closely with internal stakeholders and developers to ensure the tools we delivered made everyday tasks easier and more efficient for staff.",
+        "show": false
+      },
+      {
+        "title": "Independent Web Designer",
+        "company": "AlexBezuska.com",
+        "from": "January 2008",
+        "to": "April 2013",
+        "description": "I worked one-on-one with small business clients to design and build custom websites that reflected their brand and vision. I focused on balancing user experience with each client’s unique goals, often creating animated, visually engaging sites that helped them stand out and make a strong first impression online. Many of these businesses were launching their digital presence for the first time, and I guided them through that process from concept to launch.",
+        "show": false
+      }
+    ]

@@ -1,0 +1,43 @@
+ [
+      {
+        "title": "UX & Design",
+        "icon": "icons/ux.svg",
+        "skills": [
+          "Design Systems & Component Libraries (React Storybook)",
+          "Wireframing & Prototyping (Figma, Balsamiq)",
+          "B2B SaaS & Enterprise UX",
+          "Translating Requirements for Technical & Non-Technical Audiences"
+        ]
+      },
+      {
+        "title": "Front-End Development",
+        "icon": "icons/frontend.svg",
+        "skills": [
+          "HTML, CSS, Sass/Less, Bootstrap, JavaScript",
+          "Git (command line)",
+          "Cross-functional Team Collaboration",
+          "Scoping & Solution Architecture"
+        ]
+      },
+      {
+        "title": "Systems & Automation",
+        "icon": "icons/automation.svg",
+        "skills": [
+          "Command Line (macOS, Linux, Bash)",
+          "Shell Scripting for Filesystem Tasks",
+          "Basic Web Server Administration (Apache, NGINX, domains, SSL)",
+          "AI-Assisted Productivity (ChatGPT for summarization, scripting, OCR, and repetitive code generation)"
+        ]
+      },
+      {
+        "title": "Creative Tools & Game Dev",
+        "icon": "icons/game.svg",
+        "skills": [
+          "Adobe CC (Photoshop, Illustrator, Animate, Premiere Pro, After Effects)",
+          "2D Animation (Spine, Lottie, Unity Rigging)",
+          "Unity (PC, Mobile, AR/VR) – Full-stack: gameplay, systems, art, animation, sound"
+        ]
+      }
+    ]
+  
+  

@@ -1,0 +1,55 @@
+[
+
+  {
+    "title": "How can AR help in remote fieldwork?",
+    "company": "Amundsen Tech",
+    "problem": "Field teams needed a way to visualize underground drill data without reliable internet and in harsh outdoor conditions.",
+    "solution": "I designed an AR app with GPS-based overlays, offline support, and a high-contrast UI tailored for one-handed use outdoors.",
+    "tags": ["AR", "Mobile", "UX Design", "Field Tools"],
+    "images": ["/img/amundsen-minear-3.png",
+  "/img/amundsen-minear-2.png",
+"/img/amundsen-minear-1.png"]
+  },
+
+  {
+    "title": "How can mobile users easily personalize products?",
+    "company": "CaféPress",
+    "location": "Louisville, KY",
+    "problem": "Mobile shoppers struggled to upload and position images when customizing products.",
+    "solution": "I developed a responsive HTML5 Canvas tool for uploading, zooming, and previewing designs in real time on various products.",
+    "tags": ["HTML5", "Canvas", "E-commerce", "Mobile UX"],
+    "images": ["/img/cafepress-2.png",
+  "/img/cafepress-3.png",
+"/img/cafepress-1.png"]
+  },
+  {
+    "title": "How can we streamline course access for busy doctors?",
+    "company": "PlatformQ Health",
+    "problem": "Doctors using the platform during short breaks found navigation confusing and inefficient.",
+    "solution": "I redesigned the Angular UI with simplified navigation, familiar metaphors, and responsive layouts to improve speed and usability.",
+    "tags": ["Angular", "Medical UX", "Responsive Design", "Enterprise"],
+    "images": ["/img/platformq-1.png"]
+  },
+  {
+    "title": "How can we make software easier for senior care staff?",
+    "company": "Glennis Solutions / Atria",
+    "problem": "Staff at senior living communities found the software difficult to use across devices, slowing their workflow.",
+    "solution": "I conducted field interviews and usability tests, then simplified workflows and UI layouts for more intuitive use on desktop, tablet, and mobile.",
+    "tags": ["UX Research", "Accessibility", "Healthcare", "Multiplatform"],
+    "images": ["/img/atria-glennis-1.png",
+  "/img/atria-glennis-2.png",
+"/img/atria-glennis-3.png",
+"/img/atria-glennis-4.png"]
+  },
+  {
+    "title": "How can we make medical content more engaging?",
+    "company": "ScholarRx",
+    "problem": "Static learning materials made it hard for students to stay focused and retain information.",
+    "solution": "I created Lottie animations and illustrations to bring the content to life and improve learning on web and mobile platforms.",
+    "tags": ["Lottie", "Animation", "Medical Education", "Illustration"],
+    "images": ["/img/scholarrx-4.gif", 
+    "/img/scholarrx-3.gif",
+  "/img/scholarrx-2.gif",
+"/img/scholarrx-1.gif"]
+  }
+]
