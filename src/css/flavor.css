@@ -125,7 +125,26 @@ margin-top: 20px;
   perspective: 1000px;
   cursor: pointer;
   margin-top: 1rem;
+  transition: transform 0.3s ease;
 }
+
+.polaroid-stack:hover {
+  transform: scale(1.05);
+}
+
+.polaroid-stack:hover .polaroid:nth-child(1) {
+  --angle: -15deg;
+  --depth: 0px;
+}
+.polaroid-stack:hover .polaroid:nth-child(2) {
+  --angle: 0deg;
+  --depth: 15px;
+}
+.polaroid-stack:hover .polaroid:nth-child(3) {
+  --angle: 15deg;
+  --depth: 30px;
+}
+
 
 .polaroid-stack .polaroid {
   position: absolute;
@@ -175,4 +194,16 @@ margin-top: 20px;
 .caseStudy:nth-of-type(even) .caseStudy-images{
   position: relative;
   left: -60px !important;
+}
+
+.caseStudy-text p strong {
+  color: #444;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-right: 0.25em;
+}
+
+.caseStudy-text p:nth-of-type(2) {
+  font-size: 1.05em;
 }

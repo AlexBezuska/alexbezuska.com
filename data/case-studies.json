@@ -22,14 +22,7 @@
   "/img/cafepress-3.png",
 "/img/cafepress-1.png"]
   },
-  {
-    "title": "How can we streamline course access for busy doctors?",
-    "company": "PlatformQ Health",
-    "problem": "Doctors using the platform during short breaks found navigation confusing and inefficient.",
-    "solution": "I redesigned the Angular UI with simplified navigation, familiar metaphors, and responsive layouts to improve speed and usability.",
-    "tags": ["Angular", "Medical UX", "Responsive Design", "Enterprise"],
-    "images": ["/img/platformq-1.png"]
-  },
+
   {
     "title": "How can we make software easier for senior care staff?",
     "company": "Glennis Solutions / Atria",
