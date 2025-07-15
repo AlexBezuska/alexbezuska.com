@@ -1,5 +1,6 @@
 <section id="caseStudies">
   <h2>Case Studies</h2>
+
   {{#each caseStudies}}
     <article class="caseStudy">
       <div class="caseStudy-content {{#if (even @index)}}row-reverse{{/if}}">
@@ -17,8 +18,8 @@
           <h3>{{title}}</h3>
           <h4>{{company}}</h4>
 
-          <p><strong>Their Problem:</strong> {{problem}}</p>
-          <p><strong>My Solution:</strong> {{solution}}</p>
+          <p><strong>THEIR PROBLEM:</strong> {{problem}}</p>
+          <p><strong>MY SOLUTION:</strong> {{solution}}</p>
 
           {{#if tags}}
             <ul class="tag-list">
